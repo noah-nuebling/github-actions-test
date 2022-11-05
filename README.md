@@ -18,6 +18,7 @@
       - This can be any data in any format. These are the 2 conventionally used formats which can be specified in the header with key "Content-Type":
         - application/x-www-form-urlencoded
           - Data is encoded to look like the queryString (?key=value&key2=value2).
+          - This is the default and most commonly used.
         - multipart/form-data
           - Not very commonly used. Body can have several sections all with different headers and encodings. I often read "use this when your form has file uploads"
       - There are also more formats like "application/json", or plaintext. 

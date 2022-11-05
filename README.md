@@ -7,6 +7,7 @@
   - Abstraction stack is IP (Packets and routing) -> TCP ('Correct' streams or chunks of data (aka files?)) -> HTTP (Made for webbrowser<->server connection but now also used for other communication)
   - HTTP requests are basically a string of text following a certain format (aka protocol) and then transmitted via TCP.
   - HTTP requests seems to be built around "forms". But all the stuff with "form" in it's name is now also used for other stuff.
+    - See: https://eloquentjavascript.net/18_http.html
   - HTTP requests consist of
     - Request line containing METHOD, URI, and HTTP version
       - IIUC the server can map any METHOD to any action. METHODs don't 'do' anything. It's just convention that certain methods trigger certain types of actions.

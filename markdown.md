@@ -62,3 +62,13 @@ Inspiration / Apps I **stole** from:
 - [Calftrail Touch](https://github.com/calftrail/Touch) - Basis for reverse engineering work powering MMF touch simulation!
 - [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons) - Basis for early implementation of Back and Forward feature. Made me find Calftrail Touch?
 - [SmoothMouse](https://smoothmouse.com/) - It's creator answered some questions for me about Pointer Speed
+
+---
+
+# To build this
+
+- Dynamic readme: 
+  - https://github.com/marketplace/actions/dynamic-readme
+  - https://github.com/bitflight-devops/github-action-readme-generator
+  - https://github.com/marketplace/actions/generate-update-markdown-content
+  - https://github.com/marketplace/actions/github-readme-generator

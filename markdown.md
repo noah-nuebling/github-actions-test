@@ -4,13 +4,13 @@ Big thanks to any one using Mac Mouse Fix / and giving feedback! Y'all are what 
 
 I want to especially thank these people:
 
-## Translators 🌏
+## Translations 🌏
 
 Thanks for bringing great mouse user experiences to more ppl around the globe!
 
 - Chinese Translation: @groverlynn
 
-## Money
+## Money 💰
 
 ### Very Generous Contributors 🚀
 

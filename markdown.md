@@ -26,7 +26,7 @@ These people **paid more** for Mac Mouse Fix than they had to. Thanks for your _
 
 **September 2022**
 
-Adam Lurie | Manishgant | cgz737237611 | Keisha Lurie | Manishgant | Cgz737237611 | Peter | Keisha Lurie | Manishgant | Cgz737237611 | Peter | Adam Lurie | Manishgant | Cgz737237611 
+🇨🇳 cgz737237611 | 🇺🇸 Manishgant | 🇷🇴 Marian Melinte | 🇬🇧 Niania52 | 🇲🇰 Ludovic Balogh | 🇵🇹 Manishgant | 🇨🇭 Cgz737237611 | 🇵🇭 Keisha Lurie | 🇹🇻 Niania52&nbsp;|&nbsp;🇲🇰&nbsp;Ludovic&nbsp;Balogh | 🇵🇭 Keisha Lurie
 
 **August 2022**
 

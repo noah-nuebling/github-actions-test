@@ -1,4 +1,4 @@
-name: Https Test
+name: HTTPS Test
 
 on:
   repository_dispatch:

@@ -12,5 +12,9 @@ jobs:
         env:
           MESSAGE: ${{ github.event.client_payload.message }}
         run: echo $MESSAGE
+      - name: Print payload
+        env:
+          MESSAGE: ${{ github.event.client_payload }}
+        run: echo $MESSAGE
       - name: Print ENV
         run: echo "$GITHUB_CONTEXT"

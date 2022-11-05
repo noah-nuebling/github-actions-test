@@ -4,3 +4,23 @@
 - HTTPs triggers: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch
 
 - HTTP basics: https://www.tutorialspoint.com/http/http_requests.htm
+  - Abstraction stack is IP (Packets and routing) -> TCP ('Correct' streams or chunks of data (aka files?)) -> HTTP (Made for webbrowser<->server connection but now also used for other communication)
+  - HTTP requests are basically a string of text following a certain format (aka protocol) and then transmitted via TCP.
+  - HTTP requests seems to be built around "forms". But all the stuff with "form" in it's name is now also used for other stuff.
+  - HTTP requests consist of
+    - Request line containing METHOD, URI, and HTTP version
+      - IIUC the server can map any METHOD to any action. METHODs don't 'do' anything. It's just convention that certain methods trigger certain types of actions.
+      - URI specifies "the resource upon which to act". It's bascally the URL without the ?name=value part (aka the Query String). Can also be * for the whole server or a path relative to the server where the request originated. But that's not relevant for us.
+    - Optional header(s)
+      - These are just random key-value-pairs whose keys are conventionally used and therefore *probably* understood by the receiver
+    - Optional body
+      - This can be any data in any format. These are the 2 conventionally used formats which can be specified in the header with key "Content-Type":
+        - application/x-www-form-urlencoded
+          - Data is encoded to look like the queryString (?key=value&key2=value2).
+        - multipart/form-data
+          - Not very commonly used. Body can have several sections all with different headers and encodings. I often read "use this when your form has file uploads"
+      - There are also more formats like "application/json", or plaintext. 
+      - I think the urlencoded can transmit nested datastructures somehow but now sure.
+      - When your url contains a queryString the query string will automatically be made part of the body of the HTTP request
+        - So do you have to use application/x-www-form-urlencoded when using a queryString?
+        - Can you use a queryString and also send additional data? That would probably use `multipart/form-data` then?

@@ -39,7 +39,7 @@ These people **paid more** for Mac Mouse Fix than they had to. Thanks for your _
 
 ### Dependencies
 
-Mac Mouse Fix was built with the help of this **great software**:
+Mac Mouse Fix was built with the help of these **great libraries**:
 
 - [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift) - Streams of values over time. Tailored for Swift.
 - [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) - Fast & simple, yet powerful & flexible logging
@@ -50,8 +50,8 @@ Mac Mouse Fix was built with the help of this **great software**:
 - [BartyCrouch](https://github.com/FlineDev/BartyCrouch) - Synchronize translation files with Source Code and Interface Builder files
 - [Sparkle](https://github.com/sparkle-project/Sparkle) - A software update framework for macOS
 
-Predecessor? apps
+Inspiration / Apps I **stole** from:
 
 - [SteerMouse](https://plentycom.jp/en/steermouse/index.html) - Inspiration of many features
 - [Calftrail Touch](https://github.com/calftrail/Touch) - Basis for touch reverse engineering for MMF
-- SensibleSideButtons - Basis for early implementation of Back and Forward feature. Made me find Calftrail?
+- [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons) - Basis for early implementation of Back and Forward feature. Made me find Calftrail?

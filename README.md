@@ -23,6 +23,8 @@
           - Body can have several sections all with different headers and encodings. I often read "use this when your form has file uploads"
       - There are also more formats like "application/json", or plaintext. 
       - I think the urlencoded can transmit nested datastructures somehow but not sure.
-      - When your url contains a queryString the query string will automatically be made part of the body of the HTTP request
+      - When your url contains a queryString the query string will automatically be made part of the body of the HTTP request (True for POST, not true for GET. Not sure about other METHODS)
         - So do you have to use application/x-www-form-urlencoded when using a queryString?
         - Can you use a queryString and also send additional data? That would probably use `multipart/form-data`.
+
+- TCP ports seem to be pretty unnecessary. I think ports were originally made to allow for simultaneous connection sessions, but there can be several connection sessions on a single TCP port. Port numbers are conventionally used for specific higher level protocols (e.g. port 80 for HTTP). But I feel like everything would work fine if ports didn't exist.

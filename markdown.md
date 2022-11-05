@@ -39,13 +39,19 @@ These people **paid more** for Mac Mouse Fix than they had to. Thanks for your _
 
 ### Dependencies
 
-Mac Mouse Fix was built with the help of this great software
+Mac Mouse Fix was built with the help of this **great software**:
 
-- ReactiveSwift
-- CocoaLumberjack
-- Swift Markdown
-- SnapKit
-- MASShortcut
-- CGSInternal (/ CGSPrivate?)
-- Bartycrouch
-- Sparkle
+- [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift) - Streams of values over time. Tailored for Swift.
+- [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) - Fast & simple, yet powerful & flexible logging
+- [Swift Markdown](https://github.com/apple/swift-markdown) - Swift package for parsing, building, editing, and analyzing Markdown documents
+- [SnapKit](https://github.com/SnapKit/SnapKit) - Making Auto Layout easy on both iOS and OS X
+- [MASShortcut](https://github.com/shpakovski/MASShortcut) - Modern API and user interface for recording, storing and using system-wide keyboard shortcuts
+- [CGSInternal](https://github.com/NUIKit/CGSInternal) - A collection of private CoreGraphics routines
+- [BartyCrouch](https://github.com/FlineDev/BartyCrouch) - Synchronize translation files with Source Code and Interface Builder files
+- [Sparkle](https://github.com/sparkle-project/Sparkle) - A software update framework for macOS
+
+Predecessor? apps
+
+- [SteerMouse](https://plentycom.jp/en/steermouse/index.html) - Inspiration of many features
+- [Calftrail Touch](https://github.com/calftrail/Touch) - Basis for touch reverse engineering for MMF
+- SensibleSideButtons - Basis for early implementation of Back and Forward feature. Made me find Calftrail?

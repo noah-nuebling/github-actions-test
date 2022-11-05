@@ -1,0 +1,14 @@
+on:
+  repository_dispatch:
+    types: [test_result]
+
+jobs:
+  print_payload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message
+        env:
+          MESSAGE: ${{ github.event.client_payload.message }}
+        run: echo $MESSAGE
+      - name: Print ENV
+        run: echo "$GITHUB_CONTEXT"

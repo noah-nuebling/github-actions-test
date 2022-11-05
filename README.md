@@ -20,7 +20,7 @@
           - Data is encoded to look like the queryString (?key=value&key2=value2).
           - This is the default and most commonly used.
         - multipart/form-data
-          - Not very commonly used. Body can have several sections all with different headers and encodings. I often read "use this when your form has file uploads"
+          - Body can have several sections all with different headers and encodings. I often read "use this when your form has file uploads"
       - There are also more formats like "application/json", or plaintext. 
       - I think the urlencoded can transmit nested datastructures somehow but now sure.
       - When your url contains a queryString the query string will automatically be made part of the body of the HTTP request

@@ -52,6 +52,7 @@ Mac Mouse Fix was built with the help of these **great libraries**:
 
 Inspiration / Apps I **stole** from:
 
-- [SteerMouse](https://plentycom.jp/en/steermouse/index.html) - Inspiration of many features
+- [SteerMouse](https://plentycom.jp/en/steermouse/index.html) - The OG mouse software for Mac. Inspiration for implementation of many features.
 - [Calftrail Touch](https://github.com/calftrail/Touch) - Basis for touch reverse engineering for MMF
 - [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons) - Basis for early implementation of Back and Forward feature. Made me find Calftrail?
+- 

@@ -13,6 +13,6 @@ jobs:
           MESSAGE: ${{ github.event.client_payload.message }}
         run: echo $MESSAGE
       - name: Print payload
-        run: 'echo "payload: ${{ toJson(github.event.client_payload) }}"'
+        run: 'echo "payload: ${{ github.event.client_payload }}"'
       - name: Print ENV
         run: echo "$GITHUB_CONTEXT"

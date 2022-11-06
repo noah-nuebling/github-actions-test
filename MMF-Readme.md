@@ -6,7 +6,7 @@
     <br>
     <br>
         <table>
-        <th><a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a></td>
+        <th><a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a></th>
         <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/releases>Releases</a></td>
         <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Help</a></td>
         <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Feedback</a></td>

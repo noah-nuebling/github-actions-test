@@ -49,19 +49,19 @@ Mac Mouse Fix was built with the help of these **great libraries**:
 
 - [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift) - Streams of values over time. Tailored for Swift.
 - [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) - Fast & simple, yet powerful & flexible logging
-- [Swift Markdown](https://github.com/apple/swift-markdown) - Swift package for parsing, building, editing, and analyzing Markdown documents
-- [BartyCrouch](https://github.com/FlineDev/BartyCrouch) - Synchronize translation files with Source Code and Interface Builder files
+- [Swift Markdown](https://github.com/apple/swift-markdown) - Parse, build, edit, and analyze Markdown documents
+- [BartyCrouch](https://github.com/FlineDev/BartyCrouch) - Keep translation files in sync with Source Code and Interface Builder files
 - [Sparkle](https://github.com/sparkle-project/Sparkle) - The software update framework for macOS
 - [SnapKit](https://github.com/SnapKit/SnapKit) - Making Auto Layout easy on both iOS and OS X
-- [MASShortcut](https://github.com/shpakovski/MASShortcut) - Modern API and user interface for recording, storing and using system-wide keyboard shortcuts -> Using this to display keyboard keys in the UI.
+- [MASShortcut](https://github.com/shpakovski/MASShortcut) - API and user interface for recording, storing and using system-wide keyboard shortcuts -> Using this to display keyboard keys in the UI.
 - [CGSInternal](https://github.com/NUIKit/CGSInternal) - A collection of private CoreGraphics routines -> used for all sorts of stuff Mac Mouse Fix does.
 
 Inspiration / Apps I **stole** from:
 
 - [SteerMouse](https://plentycom.jp/en/steermouse/index.html) - The OG mouse software for Mac. Inspiration for many features. I often thought "this is is probably not possible" but then I saw "oh SteerMouse does it" and then 3 years later I figured out how to do it, too.
-- [Calftrail Touch](https://github.com/calftrail/Touch) - Basis for reverse engineering work powering MMF touch simulation!
+- [Calftrail Touch](https://github.com/calftrail/Touch) - Basis for "reverse engineering" work powering MMFs best-in-class and first-of-a-kind touch simulation!
 - [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons) - Basis for early implementation of Back and Forward feature. Made me find Calftrail Touch?
-- [SmoothMouse](https://smoothmouse.com/) - It's creator answered some questions for me about Pointer Speed
+- [SmoothMouse](https://smoothmouse.com/) - It's creator [Dae](https://dae.me/) answered some important questions for me about Pointer Speed 
 
 ---
 

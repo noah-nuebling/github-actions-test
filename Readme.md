@@ -1,4 +1,5 @@
 <table align="center"><td>You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></td></table>
+<br>
 
 <div align="center">
 	<a href="https://noah-nuebling.github.io/mac-mouse-fix-website">
@@ -22,6 +23,9 @@
 </div>
 
 <br>
+<br>
+
+Mac Mouse Fix I want to make the best mouse driver ever! I think it's pretty gewd already.
 
 <!-- <h3 align="center">
 <a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a> |
@@ -84,7 +88,7 @@ Mac Mouse Fix currently has no effect on the Apple Magic Mouse. Maybe I will add
 
 When you click, MMF will wait to see if you're going to double click. Delete the "Double Click" Action to remove the delay. More info here.
 
-## Press
+## What people say
 
 These cool articles were written about MMF
 
@@ -92,11 +96,11 @@ These cool articles were written about MMF
 - Blib blob (Japanese)
 - Not CNET review
 
-## What people say
+These are great compliments that I / Mac Mouse Fix have received from users. They made me smile and they made my crippling self esteem issues a little better:
 
-These are great compliments that Mac Mouse Fix has received from users and which made me smile:
+ (Not complete by any means! Thanks to everythingn who wrote something nice!!)
 
-- ""
+- "Living Legend" - Guy on Stackexchange
 
 ## Older versions
 
@@ -106,12 +110,11 @@ Last version compatible with 10.11 El Capitan and 10.12 Sierra: [2.2.3.](https:/
 
 ## License
 
-
+Mac Mouse Fix 3 and above are licensed under the MMF License. It says you can do whatever you want with Mac Mouse Fix and its source code except release a blatant copy!
 
 ## Acknowledgements
 
 Mac Mouse Fix wouldn't be the same without these [awesome contributions](google.com)
-
 
 ---
 

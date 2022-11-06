@@ -1,7 +1,6 @@
-<!-- ---
 <p align="center">You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></p>
 
---- -->
+---
 
 <div align="center">
 	<a href="https://noah-nuebling.github.io/mac-mouse-fix-website">

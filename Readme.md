@@ -2,7 +2,7 @@
 <div align="center">
 	<img src="MarkdownStuff/AppIconRound2.png" width="200" height="200">
 	<h1>Mac Mouse Fix</h1>  
-    <p><b>Make Your $10 Mouse Better Than an Apple Trackpad!<b></p>
+    <p><b>Make Your $10 Mouse Better Than an Apple Trackpad!</b></p>
     <br>
     <br>
     <table>

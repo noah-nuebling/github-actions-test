@@ -5,7 +5,7 @@
 		<img src="MarkdownStuff/AppIconRound3.png" width="200" height="auto">
 	</a>
 	<h1>Mac Mouse Fix</h1>  
-    <p><b>Make Your $10 Mouse Better Than an Apple Trackpad!</b></p>
+    <p>Make Your $10 Mouse Better Than an Apple Trackpad!</p>
 </div>
 
 <br>

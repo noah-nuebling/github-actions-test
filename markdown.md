@@ -6,9 +6,9 @@ I want to especially thank these people:
 
 ## Translations 🌏
 
-Thanks for bringing great mouse user experiences to more ppl around the globe!
+Thanks for bringing Mac Mouse Fix ppl **around the globe**!
 
-- Chinese Translation: @groverlynn
+- 🇨🇳 Chinese translation: [@groverlynn](https://github.com/groverlynn)
 
 ## Money 💰
 
@@ -72,3 +72,4 @@ Inspiration / Apps I **stole** from:
   - https://github.com/bitflight-devops/github-action-readme-generator
   - https://github.com/marketplace/actions/generate-update-markdown-content
   - https://github.com/marketplace/actions/github-readme-generator
+  -> F this I'll just write a simple pythin script that takes a template as format string and then generates this.

@@ -148,6 +148,20 @@ These are great compliments that I / Mac Mouse Fix have received from users. The
 - "Living Legend" - Guy on Stackexchange
 -  (Not complete by any means! Thanks to everythingn who wrote something nice!!)
 
+## Tips
+
+**Keyboard shortcuts right from your mouse!**
+
+MMF Let's you use any key on your keyboard directly from your mouse.
+Even keys only found on Apple keyboards like 'Increase Brightness', 'Decrease Volume' or 'Play-Pause'. 
+
+If you don't have Apple Keyboard at hand, hold Option (⌥) to reveal the Apple-Keyboard exclusive keys in a dropdown menu!
+
+You can also use this to do anything from your mouse by hooking into other stuff like Apple Shortcuts!
+
+P sick right?
+
+
 ## Older versions
 
 Requires macOS 10.13 High Sierra or later.

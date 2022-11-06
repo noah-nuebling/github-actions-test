@@ -4,13 +4,13 @@
     <p><b>Make Your $10 Mouse Better Than an Apple Trackpad!</b></p>
     <br>
     <br>
-	<p align="center"><img src="https://img.shields.io/github/downloads/noah-nuebling/mac-mouse-fix/total.svg"></p>
     <table>
         <th><a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a></th>
         <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/releases>Releases</a></td>
         <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Help</a></td>
         <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Feedback</a></td>
     </table>
+	<p align="center"><img src="https://img.shields.io/github/downloads/noah-nuebling/mac-mouse-fix/total.svg"></p>
     <br>
     <br>
 </div>

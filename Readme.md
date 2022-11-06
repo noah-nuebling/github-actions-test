@@ -145,7 +145,7 @@ These cool articles were written about MMF
 
 These are great compliments that I / Mac Mouse Fix have received from users. They made me smile and they made my crippling self esteem issues a little better:
 
-- "Living Legend" - Guy on Stackexchange
+- "God Among Men" - Guy on Stackexchange
 -  (Not complete by any means! Thanks to everythingn who wrote something nice!!)
 
 ## Tips

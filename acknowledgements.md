@@ -52,6 +52,9 @@ Inspiration / Apps I **stole** from:
 - [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons) - Basis for early implementation of Back and Forward feature. Made me find Calftrail Touch?
 - [SmoothMouse](https://smoothmouse.com/) - It's creator [Dae](https://dae.me/) answered some important questions for me about Pointer Speed 
 - [Gifski by sindresorhus](https://github.com/sindresorhus/Gifski) - Greatly inspired the Mac Mouse Fix README.md
+- MOS - Inertial Scrolling feel, App-Specific Settings Implementation and more were inspired by the MOS
+- 
+
 
 Mac Mouse Fix was built with the help of these **great libraries**:
 

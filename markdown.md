@@ -72,4 +72,4 @@ Inspiration / Apps I **stole** from:
   - https://github.com/bitflight-devops/github-action-readme-generator
   - https://github.com/marketplace/actions/generate-update-markdown-content
   - https://github.com/marketplace/actions/github-readme-generator
-  -> F this I'll just write a simple pythin script that takes a template as format string and then generates this.
+  - > F this I'll just write a simple pythin script that takes a template as format string and then generates this. Maybe run it periodically using github actions

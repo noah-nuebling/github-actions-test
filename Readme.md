@@ -1,5 +1,8 @@
 <div align="center">
-	<img src="MarkdownStuff/AppIconRound3.png" width="200" height="auto">
+	<p>You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></p>
+	<a href="https://noah-nuebling.github.io/mac-mouse-fix-website">
+		<img src="MarkdownStuff/AppIconRound3.png" width="200" height="auto">
+	</a>
 	<h1>Mac Mouse Fix</h1>  
     <p><b>Make Your $10 Mouse Better Than an Apple Trackpad!</b></p>
     <br>
@@ -20,64 +23,93 @@
 <a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Help &  Feedback</a>
 </h3> -->
 
-This is a macOS app for the [`gifski` encoder](https://gif.ski), which converts videos to GIF animations using [`pngquant`](https://pngquant.org)'s fancy features for efficient cross-frame palettes and temporal dithering. It produces animated GIFs that use thousands of colors per frame and up to 50 FPS (useful for showing off design work on Dribbble).
+
+<!-- This is a macOS app for the [`gifski` encoder](https://gif.ski), which converts videos to GIF animations using [`pngquant`](https://pngquant.org)'s fancy features for efficient cross-frame palettes and temporal dithering. It produces animated GIFs that use thousands of colors per frame and up to 50 FPS (useful for showing off design work on Dribbble).
 
 You can also produce smaller lower quality GIFs when needed with the “Quality” slider, thanks to [`gifsicle`](https://github.com/kohler/gifsicle).
 
 Gifski supports all the video formats that macOS supports (`.mp4` or `.mov` with H264, HEVC, ProRes, etc). The [QuickTime Animation format](https://en.wikipedia.org/wiki/QuickTime_Animation) is not supported. Use [ProRes 4444 XQ](https://en.wikipedia.org/wiki/Apple_ProRes) instead. It's more efficient, more widely supported, and like QuickTime Animation, it also supports alpha channel.
 
-Gifski has a bunch of settings like changing dimensions, speed, frame rate, quality, looping, and more.
-
-## Download
-
-[![](https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83&releaseDate=1615852800)](https://apps.apple.com/app/id1351639930)
-
-Requires macOS 11 or later.
-
-**Older versions**
-
-- [Last macOS 10.15 compatible version](https://github.com/sindresorhus/Gifski/releases/download/v2.20.2/Gifski.2.20.2.-.macOS.10.15.zip) *(2.20.2)*
-- [Last macOS 10.14 compatible version](https://github.com/sindresorhus/Gifski/releases/download/v2.16.0/Gifski.2.16.0.-.macOS.10.14.zip) *(2.16.0)*
-- [Last macOS 10.13 compatible version](https://github.com/sindresorhus/Gifski/files/3991913/Gifski.2.4.0.-.High.Sierra.zip) *(2.4.0)*
+Gifski has a bunch of settings like changing dimensions, speed, frame rate, quality, looping, and more. -->
 
 ## Features
 
-### Share extension
+### Do the things you do on a Trackpad, without a Trackpad!
 
-Gifski includes a share extension that lets you share videos to Gifski. Just select Gifski from the Share menu of any macOS app.
+- Default config lets you do everything you do on Trackpad!
+  - Move between Spaces, Open Mission Control or App Exposé, Open Launchpad, Show the desktop, Look up words, Quick Look files in the Finder, go back and forwards in apps like Safari, Zoom in and out on the Web and elsewhere, use smartzoom, 360 degree free scrolling for pro apps.
+  - All using 2 buttons in a simple and intuitive setup - just as easy and fun and responsive as trackpad!
+- Click and Drag Gestures + Click and Scroll Gestures - feels super great
+- (If you're using 3 button mouse won't be quite as powerful)
 
-> Tip: You can share a macOS screen recording with Gifski by clicking on the thumbnail that pops up once you are done recording and selecting “Share” from there.
+## Smooth, Responsive Scrolling
 
-### System service
+- Feels great. Easy to control.
+- "Inertial scrolling" makes scrolling as lucious and super smooth as a trackpad
+- No hard to control acceleration
+- No stuttery jumps that disorientate your eyes make you feel like you're still in the 90s
+- ^ Make this POSITIVE. Not what's bad about default
+- Super easy to setup and configure to your liking
 
-Gifski includes a [system service](https://www.computerworld.com/article/2476298/os-x-a-quick-guide-to-services-on-your-mac.html) that lets you quickly convert a video to GIF from the **Services** menu in any app that provides a compatible video file.
+### Unobtrusive, Lightweight, Polished, Easy to use - good software!
 
-### Bounce (yo-yo) GIF playback
+Mac Mouse Fix wil feel like natural extension of your Mac or sth.
 
-Gifski includes the option to create GIFs that bounce back and forth between forward and backward playback. This is a similar effect to the bounce effect in [iOS's Live Photo effects](https://support.apple.com/en-us/HT207310). This option doubles the number of frames in the GIF so the file size will double as well.
+### Endless customization - in seconds
 
-## Features
+Action Table gives infinte options in extremely fast and easy UI
 
-Mac Mouse Fix bla blub. Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. Mac Mouse Fix bla blub. Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently.
-Mac Mouse Fix bla blub. Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently.
+### Well-thought-out UI
 
-Mac Mouse Fix bla blub. Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. Mac Mouse Fix bla blub. Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently.
-Mac Mouse Fix bla blub. Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently.
+Just show pictures, don't explicitly say this
 
 ## FAQ
 
+**Does Mac Mouse Fix track your information?**
+
+I'm committed to your privacy. Mac Mouse Fix does not have ads and it doesn't track any information about you. 
+If you have automatic updates turned on, Mac Mouse Fix will ping Github's servers every time you launch the app to ask for an update. I can't retrieve any information about that however.
+
+**Is Mac Mouse Fix compatible with the Apple Magic Mouse?**
+
+Mac Mouse Fix currently has no effect on the Apple Magic Mouse. Maybe I will add features in the future which work with the Magic Mouse.
+
+**Click delay**
+
+When you click, MMF will wait to see if you're going to double click. Delete the "Double Click" Action to remove the delay. More info here.
+
 ## Press
+
+These cool articles were written about MMF
+
+- Lifehacker
+- Blib blob (Japanese)
+- Not CNET review
+
+## What people say
+
+These are great compliments that Mac Mouse Fix has received from users and which made me smile:
+
+- ""
+
+## Older versions
+
+Requires macOS 10.13 High Sierra or later.
+
+Last version compatible with 10.11 El Capitan and 10.12 Sierra: [2.2.3.](https://github.com/sindresorhus/Gifski/files/3991913/Gifski.2.4.0.-.High.Sierra.zip)
 
 ## License
 
+
+
 ## Acknowledgements
 
-Click [here](google.com)
+Mac Mouse Fix wouldn't be the same without these [awesome contributions](google.com)
 
 
 ---
 
- You can now test the [**Mac Mouse Fix 3**](https://github.com/noah-nuebling/mac-mouse-fix/releases/) Beta!
+
 
 
 

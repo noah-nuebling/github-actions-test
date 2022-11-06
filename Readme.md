@@ -1,3 +1,5 @@
+<!-- This README is greatly inspired by / stolen from sindresorhus/Gifski and sindresorhus/caprine -->
+
 <table align="center"><td>You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></td></table>
 <br>
 
@@ -23,9 +25,12 @@
 </div>
 
 <br>
+<!--Use this second br when theres text above the first header -->
 <br>
 
 Mac Mouse Fix I want to make the best mouse driver ever! I think it's pretty gewd already.
+
+<!-- <div align="center"><img src="MarkdownStuff/MMF-Buttons-Screenshot.png" width="600" height="auto"></div> -->
 
 <!-- <h3 align="center">
 <a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a> |
@@ -44,6 +49,8 @@ Gifski has a bunch of settings like changing dimensions, speed, frame rate, qual
 
 ## Features
 
+Header Ideas: Mouse Gestures done right, major boost to productivity, ??meunu bar item, ?trackpad-like scrolling
+
 ### Do the things you do on a Trackpad, without a Trackpad!
 
 - Default config lets you do everything you do on Trackpad!
@@ -52,7 +59,7 @@ Gifski has a bunch of settings like changing dimensions, speed, frame rate, qual
 - Click and Drag Gestures + Click and Scroll Gestures - feels super great
 - (If you're using 3 button mouse won't be quite as powerful)
 
-## Smooth, Responsive Scrolling
+### Smooth, Responsive Scrolling
 
 - Feels great. Easy to control.
 - "Inertial scrolling" makes scrolling as lucious and super smooth as a trackpad
@@ -73,9 +80,29 @@ Action Table gives infinte options in extremely fast and easy UI
 
 Just show pictures, don't explicitly say this
 
+### Details
+
+For all the features see Releases.
+
+Major features were introduced in these releases:
+
+- [0.9](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/0.9.0)
+- [1.0.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/1.0.0)
+- [2.0.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/2.0.0)
+- [2.1.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/2.1.0)
+- 3.0.0
+
+## Pricing
+
+- Mac Mouse Fix is free for 30 days and it costs $1.99 to own.
+
+- Days on which you don't use Mac Mouse Fix won't use up your free days.
+
+- You can pay in a few clicks using Apple Pay, PayPal, and more.
+
 ## FAQ
 
-**Does Mac Mouse Fix track your information?**
+**Does Mac Mouse Fix track my information?**
 
 I'm committed to your privacy. Mac Mouse Fix does not have ads and it doesn't track any information about you. 
 If you have automatic updates turned on, Mac Mouse Fix will ping Github's servers every time you launch the app to ask for an update. I can't retrieve any information about that however.
@@ -83,6 +110,22 @@ If you have automatic updates turned on, Mac Mouse Fix will ping Github's server
 **Is Mac Mouse Fix compatible with the Apple Magic Mouse?**
 
 Mac Mouse Fix currently has no effect on the Apple Magic Mouse. Maybe I will add features in the future which work with the Magic Mouse.
+
+**Is my Logitech / Razor Mouse compatible?**
+
+Yes but some buttons might not work properly because poopoo custom protocol + onboard memory.
+
+Same is true for Glorious, ?Steelseries
+
+I want to add this but it's not coming soon!!
+
+**Can I use tilting wheel for buttons?**
+
+No you dumbo
+
+**Pointer Speedd / Turn off acceleration??**
+
+Not yet, but here are alternatives <...>. Adding it soon and !! (I hope) (and better than everyone else hehe)
 
 **Click delay**
 
@@ -98,15 +141,44 @@ These cool articles were written about MMF
 
 These are great compliments that I / Mac Mouse Fix have received from users. They made me smile and they made my crippling self esteem issues a little better:
 
- (Not complete by any means! Thanks to everythingn who wrote something nice!!)
-
 - "Living Legend" - Guy on Stackexchange
+-  (Not complete by any means! Thanks to everythingn who wrote something nice!!)
 
 ## Older versions
 
 Requires macOS 10.13 High Sierra or later.
 
-Last version compatible with 10.11 El Capitan and 10.12 Sierra: [2.2.3.](https://github.com/sindresorhus/Gifski/files/3991913/Gifski.2.4.0.-.High.Sierra.zip)
+Last version compatible with 10.11 El Capitan and 10.12 Sierra is [2.2.3](https://github.com/sindresorhus/Gifski/files/3991913/Gifski.2.4.0.-.High.Sierra.zip)
+
+## Contributing
+
+If you have questions about building the app on your computer ask in this GH Discussion
+
+### Translations
+
+I'd love to have the app available in many languages.
+
+You'll also get rewards X Y and Z for translating
+
+?Here are the langs it's been translated to
+
+?Here are missing/incoplete translations ?And their bounties?
+
+?Note these things when translateing? (download barty crouch)
+
+?Here ar the basic steps?
+
+?Ask here / view this guide if you have questions about how to translate.
+
+### Bug Reports and Enhancement requests
+
+When you find a bug in MMF or have an idea how it could be even better use Feedback Assistant!
+
+(You can also start Discussion for ?open ended / quick feedback / idk??)
+
+### Pull requests
+
+I'll be happy about any pull requests! Hope my code isn't too terrible heh. 
 
 ## License
 
@@ -114,19 +186,10 @@ Mac Mouse Fix 3 and above are licensed under the MMF License. It says you can do
 
 ## Acknowledgements
 
-Mac Mouse Fix wouldn't be the same without these [awesome contributions](google.com)
-
----
+Mac Mouse Fix wouldn't be the same without these [awesome contributions](Acknowledgements.md)
 
 
-
-
-
- ---
- ---
-
-
-<div align="center">
+<!-- <div align="center">
 	<img src="MarkdownStuff/AppIconRound.png" width="200" height="200">
 	<h1>Mac Mouse Fix</h1>
 	<p>
@@ -149,4 +212,4 @@ Mac Mouse Fix wouldn't be the same without these [awesome contributions](google.
 	<br>
 	<br>
 	<br>
-</div>
+</div> -->

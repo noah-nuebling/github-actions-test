@@ -1,4 +1,4 @@
-<p align="center"><img src="https://img.shields.io/github/downloads/noah-nuebling/mac-mouse-fix/total.svg"></p>
+<p align="left"><img src="https://img.shields.io/github/downloads/noah-nuebling/mac-mouse-fix/total.svg"></p>
 <div align="center">
 	<img src="MarkdownStuff/AppIconRound3.png" width="200" height="auto">
 	<h1>Mac Mouse Fix</h1>  

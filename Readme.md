@@ -76,9 +76,11 @@ Mac Mouse Fix wil feel like natural extension of your Mac or sth.
 
 Action Table gives infinte options in extremely fast and easy UI
 
-### Well-thought-out UI
+### Well-thought-out, beautiful UI
 
-Just show pictures, don't explicitly say this
+? Just show pictures, don't explicitly say this ?
+
+<img src="MarkdownStuff/MMF-UI-Loop-4.gif" width="450">
 
 ### Details
 
@@ -95,9 +97,7 @@ Major features were introduced in these releases:
 ## Pricing
 
 - Mac Mouse Fix is free for 30 days and it costs $1.99 to own.
-
 - Days on which you don't use Mac Mouse Fix won't use up your free days.
-
 - You can pay in a few clicks using Apple Pay, PayPal, and more.
 
 ## FAQ

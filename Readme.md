@@ -1,6 +1,10 @@
 <!-- This README is greatly inspired by / stolen from sindresorhus/Gifski and sindresorhus/caprine -->
 
-<table align="center"><td>You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></td></table>
+<table align="center">
+	<tr>
+		<td>You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></td>
+	</tr>
+</table>
 <br>
 
 <div align="center">
@@ -21,7 +25,7 @@
         <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Help</a></td>
         <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Feedback</a></td>
     </table>
-	<p align="center"><img src="https://img.shields.io/github/downloads/noah-nuebling/mac-mouse-fix/total.svg"></p>
+	<img src="https://img.shields.io/github/downloads/noah-nuebling/mac-mouse-fix/total.svg">
 </div>
 
 <br>
@@ -78,7 +82,7 @@ Action Table gives infinte options in extremely fast and easy UI
 
 ### Well-thought-out, beautiful UI
 
-? Just show pictures, don't explicitly say this ?
+? Let people see this from other vids/screenshots, don't explicitly say this ?
 
 <img src="MarkdownStuff/MMF-UI-Loop-4.gif" width="450">
 
@@ -88,11 +92,11 @@ For all the features see Releases.
 
 Major features were introduced in these releases:
 
-- [0.9](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/0.9.0)
-- [1.0.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/1.0.0)
-- [2.0.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/2.0.0)
-- [2.1.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/2.1.0)
-- 3.0.0
+[0.9](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/0.9.0)
+| [1.0.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/1.0.0)
+| [2.0.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/2.0.0)
+| [2.1.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/2.1.0)
+| 3.0.0
 
 ## Pricing
 

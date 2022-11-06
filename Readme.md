@@ -1,7 +1,5 @@
 <table align="center"><td>You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></td></table>
 
----
-
 <div align="center">
 	<a href="https://noah-nuebling.github.io/mac-mouse-fix-website">
 		<img src="MarkdownStuff/AppIconRound3.png" width="200" height="auto">

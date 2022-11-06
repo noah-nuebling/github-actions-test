@@ -1,5 +1,4 @@
 <div align="center">
-	<p>You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></p>
 	<a href="https://noah-nuebling.github.io/mac-mouse-fix-website">
 		<img src="MarkdownStuff/AppIconRound3.png" width="200" height="auto">
 	</a>
@@ -17,6 +16,12 @@
     <br>
     <br>
 </div>
+
+---
+<p align="center">You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></p>
+
+---
+
 <!-- <h3 align="center">
 <a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a> |
 <a href=https://github.com/noah-nuebling/mac-mouse-fix/releases>Releases</a> |

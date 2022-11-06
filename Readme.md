@@ -20,7 +20,6 @@
 </div>
 
 <br>
-<br>
 
 <!-- <h3 align="center">
 <a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a> |

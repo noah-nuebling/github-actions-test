@@ -4,23 +4,23 @@
 	</a>
 	<h1>Mac Mouse Fix</h1>  
     <p><b>Make Your $10 Mouse Better Than an Apple Trackpad!</b></p>
-    <br>
-    <br>
-    <table>
+</div>
+
+<br>
+<br>
+
+<div align="center">
+	<table>
         <th><a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a></th>
         <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/releases>Releases</a></td>
         <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Help</a></td>
         <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Feedback</a></td>
     </table>
 	<p align="center"><img src="https://img.shields.io/github/downloads/noah-nuebling/mac-mouse-fix/total.svg"></p>
-    <br>
-    <br>
 </div>
 
----
-<p align="center">You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></p>
-
----
+<br>
+<br>
 
 <!-- <h3 align="center">
 <a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a> |

@@ -1,4 +1,4 @@
-<table><td>You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></td></table>
+<table align="center"><td>You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></td></table>
 
 ---
 

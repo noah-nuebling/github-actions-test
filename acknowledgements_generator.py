@@ -1,7 +1,9 @@
 
 #!/usr/bin/python
 
+#
 # Imports
+#
 import sys
 import argparse
 import requests
@@ -9,14 +11,18 @@ import json
 import pycountry
 import datetime
 
+#
 # Constants
+#
 template_path = "acknowledgements_template.md"
 destination_path = "acknowledgements_generated.md"
 gumroad_product_ids = ["FP8NisFw09uY8HWTvVMzvg=="]
 gumroad_api_base = "https://api.gumroad.com"
 gumroad_sales_api = "/v2/sales"
 
+#
 # Main
+#
 def main():
     
     # Parse args
@@ -61,6 +67,10 @@ def main():
                 break
             
             page += 1
+    
+    # Record all sales count
+    
+    all_sales_count = len(sales)
     
     # Log
     
@@ -133,7 +143,7 @@ def main():
         template = f.read()
     
     # Insert into template
-    template = template.format(generous = generous_string, very_generous = very_generous_string)
+    template = template.format(generous = generous_string, very_generous = very_generous_string, sales_count= all_sales_count)
     
     # print(lines)
     
@@ -146,7 +156,7 @@ def main():
     
     
 # 
-# Helper functions 
+# Helper 
 #
  
 def display_name(sale):
@@ -165,6 +175,8 @@ def display_name(sale):
         else:
             sys.exit(1)
         name = email.partition('@')[0]
+
+    name = name.title().replace('.', ' ')
 
     flag = emoji_flag(sale)
     if flag != '':
@@ -207,11 +219,13 @@ def is_very_generous(sale):
     return False
         
 def wants_display(sale):
-    if sale['has_custom_fields']:
+    if sale['has_custom_fields']: # !! Update this if you change UI string on Gumroad !!
         if sale['custom_fields'].get("Don't publicly display me as a 'Generous Contributor' under 'Acknowledgements'", False) == True:
             return False
     return True
 
+#
 # Call main
+#
 if __name__ == "__main__":
     main()

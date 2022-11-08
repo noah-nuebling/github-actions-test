@@ -12,39 +12,40 @@ Thanks for bringing Mac Mouse Fix ppl **around the globe**!
 
 ## Money 💰
 
+
 ### Very Generous Contributors 🚀
 
 These people bought me an **Incredible Milkshake**. Thanks for the _sugar rush_! 
 
 __November 2022__
 
-- 🇺🇸 gcshaw
-- 🇺🇸 johnnydangerously
+- 🇺🇸 Gcshaw
+- 🇺🇸 Johnnydangerously
 
 __October 2022__
 
-- 🇦🇹 frame
+- 🇦🇹 Frame
 - 🇫🇷 Damien Rajon
 - 🇨🇭 Ludovic Balogh
-- 🇳🇿 zacnoo
-- 🇺🇸 migueldominguez
-- 🇳🇱 emrecebi03
+- 🇳🇿 Zacnoo
+- 🇺🇸 Migueldominguez
+- 🇳🇱 Emrecebi03
 
 __September 2022__
 
-- 🇮🇱 rawad.aboud
+- 🇮🇱 Rawad Aboud
 - 🇷🇴 Marian Melinte
-- 🇬🇧 niania52
+- 🇬🇧 Niania52
 
 ### Generous Contributors ⭐️
 
 These people **paid more** for Mac Mouse Fix than the base price. Thanks for your _support_!
 
-🇫🇷 ybastide | 🇺🇸 corbinduncan | 🇪🇸 manugarciarodriguez | 🇵🇱 adriano100417 | 🇺🇸 Nikolaos Efthymiou | 🇺🇸 ixen | 🇬🇧 alexandros.doukas | 🇺🇸 banking | 🇺🇸 macmousefix | 🇯🇵 dyxushuai | 🇺🇸 kbrown | 🇩🇪 mhaeuser | 🇺🇸 Benjamin W Haas | 🇺🇸 wangdingwen32 | 🇿🇦 boschrick | 🇺🇸 manishgant | 🇺🇸 Adam Lurie | 🇺🇸 bradattaway | 🇧🇷 yves quadros
+🇫🇷 Ybastide | 🇺🇸 Corbinduncan | 🇪🇸 Manugarciarodriguez | 🇵🇱 Adriano100417 | 🇺🇸 Nikolaos Efthymiou | 🇺🇸 Ixen | 🇬🇧 Alexandros Doukas | 🇺🇸 Banking | 🇺🇸 Macmousefix | 🇯🇵 Dyxushuai | 🇺🇸 Kbrown | 🇩🇪 Mhaeuser | 🇺🇸 Benjamin W Haas | 🇺🇸 Wangdingwen32 | 🇿🇦 Boschrick | 🇺🇸 Manishgant | 🇺🇸 Adam Lurie | 🇺🇸 Bradattaway | 🇧🇷 Yves Quadros
 
-### Donations
+### Other
 
-Thanks also to everyone who bought me a milkshake! Ya'll are the bomb
+Thanks also to everyone else who bought me a milkshake and to all 114 people who bought Mac Mouse Fix! Ya'll are the bomb. Thanks to you I can spend lots of time on sth I love doing.
 
 ## Other software 👾
 

@@ -12,6 +12,7 @@ Thanks for bringing Mac Mouse Fix ppl **around the globe**!
 
 ## Money 💰
 
+
 ### Very Generous Contributors 🚀
 
 These people bought me an **Incredible Milkshake**. Thanks for the _sugar rush_! 
@@ -24,9 +25,9 @@ These people **paid more** for Mac Mouse Fix than the base price. Thanks for you
 
 {generous}
 
-### Donations
+### Other
 
-Thanks also to everyone who bought me a milkshake! Ya'll are the bomb
+Thanks also to everyone else who bought me a milkshake and to all {sales_count} people who bought Mac Mouse Fix! Ya'll are the bomb. Thanks to you I can spend lots of time on sth I love doing.
 
 ## Other software 👾
 

@@ -18,7 +18,6 @@ These people bought me an **Incredible Milkshake**. Thanks for the _sugar rush_!
 
 __November 2022__
 
-- 🇩🇪 Noah Nuebling
 - 🇺🇸 gcshaw
 - 🇺🇸 johnnydangerously
 

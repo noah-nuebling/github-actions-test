@@ -2,7 +2,7 @@
 
 <table align="center">
 	<tr>
-		<small><td align="center">You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></td></small>
+	    <td align="center">You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></td>
 	</tr>
 </table>
 <br>

@@ -104,7 +104,7 @@ Major features were introduced in these releases:
 - Days on which you don't use Mac Mouse Fix won't use up your free days.
 - You can pay in a few clicks from inside the app using Apple Pay, PayPal, and more.
 
-## FAQ
+## Questions
 
 **Does Mac Mouse Fix track my information?**
 
@@ -164,11 +164,11 @@ You can also use keyboard shorcuts to do anything from your mouse by hooking int
 P sick right?
 
 
-## Older versions
+## macOS Compatibility
 
-Requires macOS 10.13 High Sierra or later.
+The latest version of Mac Mouse Fix requires macOS **10.13 High Sierra** or later.
 
-Last version compatible with 10.11 El Capitan and 10.12 Sierra is [2.2.3](https://github.com/sindresorhus/Gifski/files/3991913/Gifski.2.4.0.-.High.Sierra.zip)
+If you're on macOS **10.11 El Capitan** and macOS **10.12 Sierra**, get [2.2.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/2.2.0) or below.
 
 ## Contributing
 
@@ -203,6 +203,8 @@ I'll be happy about any pull requests! Hope my code isn't too terrible heh.
 ## License
 
 Mac Mouse Fix 3 and above are licensed under the MMF License. It says you can do whatever you want with Mac Mouse Fix and its source code except release a blatant copy!
+
+More info in the [LICENSE](https://github.com/noah-nuebling/mac-mouse-fix/blob/master/LICENSE) file.
 
 ## Acknowledgements
 

@@ -146,6 +146,21 @@ When you click, MMF will wait to see if you're going to double click. Delete the
 
 If you have actions mapped to middle button, use Scroll and navigate (or Click and drag sim?) to still navigate in Blender. Or uncapture Middle button (maybe make this a guide on its own?)
 
+**Will Mac Mouse Fix still be Open Source now that it's monetized?**
+
+Yes. Mac Mouse Fix will still be open source, and I don't plan to change that at any point.
+
+This also means you can use Mac Mouse Fix for free by building it from source and disabling the licensing checks. That's perfectly fine, I just discourage sharing these cracked versions online.
+And of course, on the next update, you'll get a non-cracked version which means you'll have to do this again for every update. (Or just pay $1.99 for the greatest mouse driver ever! :)
+
+Anyone will also still be able to use source code from Mac Mouse Fix in their free and commercial products as long as they don't just sell a copy of Mac Mouse Fix without adding their own contribution.
+
+Learn about the details in the new MMF License which MMF 3 will be licensed under.
+
+**Can I get Mac Mouse Fix for free if I already donated?**
+
+Yes! If you bought me a milkshake before the 10th of September 2022, you can write an email to noah.n.public@gmail.com with "Milkshake Karma" in the subject and a screenshot as proof and then I'll send you a 100% off discount code or something!
+
 ## What people say
 
 These cool articles were written about MMF
@@ -181,9 +196,10 @@ The latest version of Mac Mouse Fix requires macOS **10.13 High Sierra** or late
 
 If you're on macOS **10.11 El Capitan** and macOS **10.12 Sierra**, get [2.2.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/2.2.0) or below.
 
-## Contributing
+## How you can help
 
 If you have questions about building the app on your computer ask in this GH Discussion
+**Thanks** for helping to make Mac Mouse Fix better! 🚀
 
 ### Translations
 
@@ -201,13 +217,29 @@ You'll also get rewards X Y and Z for translating
 
 ?Ask here / view this guide if you have questions about how to translate.
 
-### Bug Reports and Enhancement requests
+Copied from 3.0.0 Beta 1 Release notes
 
-When you find a bug in MMF or have an idea how it could be even better use Feedback Assistant!
+((I plan to write a more detailed guide on this in the future)), but if you want to give it a go, here's a small overview of the steps:
 
-(You can also start Discussion for ?open ended / quick feedback / idk??)
+- **Download** the source code & Xcode
+- [Add your language](https://developer.apple.com/documentation/xcode/adding-support-for-languages-and-regions) to the project
+- Put your translations into the `.strings` and `.stringsdict` files throughout the project
+- **Commit** your changes and create a pull request
 
-### Pull requests
+If your translation is added to the project you'll get **10 MMF copies for free**, and of course, you'll be **credited as a contributor**. I heard you can also leave your **personal message** by changing some of the (secret rare thank you messages) on the About tab.
+
+Maybe I'll add **more perks** in the future. Let me know if you have any **ideas** for that!
+
+### Give feedback
+
+You can help by sharing your **ideas**, **issues** and **feedback**!
+
+The best place to share your **ideas** and **issues** is the [Feedback Assistant](https://noah-nuebling.github.io/mac-mouse-fix-feedback-assistant/?type=bug-report).
+The best place to give **quick** unstructured feedback is the [Feedback Discussion](https://github.com/noah-nuebling/mac-mouse-fix/discussions/366).
+
+You can also access both these places from within the app on the "**ⓘ About**" tab.
+
+### Contribute code
 
 I'll be happy about any pull requests! Hope my code isn't too terrible heh. 
 
@@ -220,7 +252,6 @@ More info in the [LICENSE](https://github.com/noah-nuebling/mac-mouse-fix/blob/m
 ## Acknowledgements
 
 Mac Mouse Fix wouldn't be the same without these [awesome contributions](Acknowledgements.md)
-
 
 <!-- <div align="center">
 	<img src="MarkdownStuff/AppIconRound.png" width="200" height="200">

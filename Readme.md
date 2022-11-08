@@ -157,7 +157,7 @@ Even keys only found on Apple keyboards like 'Increase Brightness', 'Decrease Vo
 
 If you don't have Apple Keyboard at hand, hold Option (⌥) to reveal the Apple-Keyboard exclusive keys in a dropdown menu!
 
-<screenshot
+<img src="MarkdownStuff/Apple-Keys-Demo.gif" width="450">
 
 You can also use keyboard shorcuts to do anything from your mouse by hooking into other stuff like Apple Shortcuts!
 

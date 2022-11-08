@@ -2,7 +2,7 @@
 
 <table align="center">
 	<tr>
-		<td>You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></td>
+	    <td align="center">You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></td>
 	</tr>
 </table>
 <br>
@@ -31,6 +31,11 @@
 <br>
 <!--Use this second br when theres text above the first header -->
 <br>
+
+TODO: 
+- Add questions from 3.0.0 Monetization FAQ
+- Add ???
+- Center text in top Label for when it wraps on mobile -> DONE
 
 Mac Mouse Fix I want to make the best mouse driver ever! I think it's pretty gewd already.
 
@@ -123,6 +128,8 @@ Same is true for Glorious, ?Steelseries
 
 I want to add this but it's not coming soon!!
 
+You can use SteerMouse or proprietary driver like Logitech Options instead.
+
 **Can I use tilting wheel for buttons?**
 
 No you dumbo
@@ -134,6 +141,10 @@ Not yet, but here are alternatives <...>. Adding it soon and !! (I hope) (and be
 **Click delay**
 
 When you click, MMF will wait to see if you're going to double click. Delete the "Double Click" Action to remove the delay. More info here.
+
+**Blender Compatibility**
+
+If you have actions mapped to middle button, use Scroll and navigate (or Click and drag sim?) to still navigate in Blender. Or uncapture Middle button (maybe make this a guide on its own?)
 
 ## What people say
 

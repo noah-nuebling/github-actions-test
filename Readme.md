@@ -32,9 +32,6 @@
 <!--Use this second br when theres text above the first header -->
 <br>
 
-TODO: 
-- Add questions from 3.0.0 Monetization FAQ
-
 Mac Mouse Fix I want to make the best mouse driver ever! I think it's pretty gewd already.
 
 <!-- <div align="center"><img src="MarkdownStuff/MMF-Buttons-Screenshot.png" width="600" height="auto"></div> -->

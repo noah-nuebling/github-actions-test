@@ -34,7 +34,8 @@
 
 TODO: 
 - Add questions from 3.0.0 Monetization FAQ
-- Add 
+- Add ???
+- Center text in top Label for when it wraps on mobile
 
 Mac Mouse Fix I want to make the best mouse driver ever! I think it's pretty gewd already.
 

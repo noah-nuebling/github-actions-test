@@ -36,11 +36,12 @@ def main():
     # Load all sales of the gumroad product
     
     sales = []
-    api = gumroad_sales_api
-    page = 1
     
     for pid in gumroad_product_ids:
         
+        page = 1
+        api = gumroad_sales_api
+
         while True:
             
             print('Fetching sales for product {} page {}...'.format(pid, page))
@@ -143,7 +144,7 @@ def main():
         template = f.read()
     
     # Insert into template
-    template = template.format(generous = generous_string, very_generous = very_generous_string, sales_count= all_sales_count)
+    template = template.format(generous = generous_string, very_generous = very_generous_string, sales_count = all_sales_count)
     
     # Write template
     with open(destination_path, "w") as f:

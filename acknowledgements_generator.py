@@ -122,13 +122,13 @@ def main():
                 very_generous_string += '\n\n'
             first_iteration = False
             
-            very_generous_string += '__{}__\n'.format(date.strftime('%B %Y'))
+            very_generous_string += '__{}__\n'.format(date.strftime('%B %Y')) # %B -> Month %Y -> Year
         
         very_generous_string += '\n- ' + display_name(sale)
         
     # Log
     
-    print('Generous string:\n\n{}\n'.format(generous_string))
+    print('\nGenerous string:\n\n{}\n'.format(generous_string))
     print('Very Generous string:\n\n{}\n'.format(very_generous_string))
     
     # print(len(list(map(lambda sale: sale['email'], generous_sales))))
@@ -144,8 +144,6 @@ def main():
     
     # Insert into template
     template = template.format(generous = generous_string, very_generous = very_generous_string, sales_count= all_sales_count)
-    
-    # print(lines)
     
     # Write template
     with open(destination_path, "w") as f:

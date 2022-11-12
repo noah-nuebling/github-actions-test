@@ -213,6 +213,8 @@ If you're on macOS **10.11 El Capitan** and macOS **10.12 Sierra**, get [2.2.0](
 
 ## Supported languages
 
+<< Just link to Acknowledgements page >>
+	
 - English
 - German
 - Chinese Simplified (credits to groverlynn - but that's also on the Acknowledgements page, soooo)

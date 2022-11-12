@@ -276,7 +276,20 @@ More info in the [LICENSE](https://github.com/noah-nuebling/mac-mouse-fix/blob/m
 
 Mac Mouse Fix wouldn't be the same without these [awesome contributions](Acknowledgements.md)
 
-<!-- <div align="center">
+---
+
+
+# Steal from these READMEs
+
+- https://github.com/exelban/stats
+- sindresorhus/Gifski
+- sindresorhus/caprine
+
+
+
+<!-- 
+
+<div align="center">
 	<img src="MarkdownStuff/AppIconRound.png" width="200" height="200">
 	<h1>Mac Mouse Fix</h1>
 	<p>
@@ -288,13 +301,7 @@ Mac Mouse Fix wouldn't be the same without these [awesome contributions](Acknowl
 </div>
 
 
----
-
-# Steal from these READMEs
-
-- https://github.com/exelban/stats
-- sindresorhus/Gifski
-- sindresorhus/caprine
+--
 
 ![gh-header-v2](https://user-images.githubusercontent.com/40808343/112161606-9814af80-8beb-11eb-9d2e-3105b4486bab.png)
 <div align="center">
@@ -305,4 +312,7 @@ Mac Mouse Fix wouldn't be the same without these [awesome contributions](Acknowl
 	<br>
 	<br>
 	<br>
-</div> -->
+</div>
+ 
+
+-->

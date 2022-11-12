@@ -103,8 +103,16 @@ Major features were introduced in these releases:
 - Mac Mouse Fix is free for 30 days and it costs $1.99 to own.
 - Days on which you don't use Mac Mouse Fix won't use up your free days.
 - You can pay in a few clicks from inside the app using Apple Pay, PayPal, and more.
+	- Or buy it here
+- in China and Russia there's a different payment provider (does anybody care??)
 
 ## Questions
+
+**Native on Apple Silicon?**
+
+Yes. 
+
+(Lots of apps advertise with this but it's kind of an "of course" thing. This should also probs be under features or sth not questions?)
 
 **Does Mac Mouse Fix track my information?**
 
@@ -185,11 +193,31 @@ You can also use keyboard shorcuts to do anything from your mouse by hooking int
 P sick right?
 
 
+## Installation
+
+Download the latest on the [website](http://noah-nuebling.github.io/mac-mouse-fix-website/)
+
+To install using [Homebrew](https://brew.sh/) use
+
+```bash
+brew install mouse-fix
+```
+
+If you're on macOS **10.11 El Capitan** and macOS **10.12 Sierra**, get [2.2.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/2.2.0) or below.
+
 ## macOS Compatibility
 
 The latest version of Mac Mouse Fix requires macOS **10.13 High Sierra** or later.
 
 If you're on macOS **10.11 El Capitan** and macOS **10.12 Sierra**, get [2.2.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/2.2.0) or below.
+
+## Supported languages
+
+- English
+- German
+- Chinese Simplified (credits to groverlynn - but that's also on the Acknowledgements page, soooo)
+- Chinese Traditional
+- Chinese (Mandarin or sth)
 
 ## How you can help
 

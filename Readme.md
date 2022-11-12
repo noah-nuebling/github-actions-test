@@ -103,7 +103,7 @@ Major features were introduced in these releases:
 - Mac Mouse Fix is free for 30 days and it costs $1.99 to own.
 - Days on which you don't use Mac Mouse Fix won't use up your free days.
 - You can pay in a few clicks from inside the app using Apple Pay, PayPal, and more.
-	- Or buy it here
+	- Or buy it at <LINK>
 - in China and Russia there's a different payment provider (does anybody care??)
 
 ## Questions

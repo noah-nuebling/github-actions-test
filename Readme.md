@@ -290,6 +290,12 @@ Mac Mouse Fix wouldn't be the same without these [awesome contributions](Acknowl
 
 ---
 
+# Steal from these READMEs
+
+- https://github.com/exelban/stats
+- sindresorhus/Gifski
+- sindresorhus/caprine
+
 ![gh-header-v2](https://user-images.githubusercontent.com/40808343/112161606-9814af80-8beb-11eb-9d2e-3105b4486bab.png)
 <div align="center">
 	<hr>

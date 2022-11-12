@@ -276,7 +276,7 @@ More info in the [LICENSE](https://github.com/noah-nuebling/mac-mouse-fix/blob/m
 
 ## Acknowledgements
 
-Mac Mouse Fix wouldn't be the same without these [awesome contributions](Acknowledgements.md)
+Mac Mouse Fix wouldn't be the same without these [awesome contributions](acknowledgements-generated.md)
 
 ---
 

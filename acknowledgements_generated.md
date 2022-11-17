@@ -8,7 +8,7 @@ I want to especially thank these people:
 
 Thanks for bringing Mac Mouse Fix ppl **around the globe**!
 
-- 🇨🇳 Chinese translation: [@groverlynn](https://github.com/groverlynn)
+- 🇨🇳 Chinese translation (Simplified, traditional & ...): [@groverlynn](https://github.com/groverlynn)
 
 ## Money 💰
 

@@ -245,13 +245,7 @@ Get Mac Mouse Fix [2.2.0](https://github.com/noah-nuebling/mac-mouse-fix/release
 
 ## Supported languages
 
-<< Just link to Acknowledgements page >>
-	
-- English
-- German
-- Chinese Simplified (credits to groverlynn - but that's also on the Acknowledgements page, soooo)
-- Chinese Traditional
-- Chinese (Mandarin or sth)
+Mac Mouse Fix is available in English, German and the languages listed on the [[Acknowledgements Page]]
 
 ## How you can help
 

@@ -39,6 +39,8 @@
 
 ### Table of Contents
 
+<!-- Autogenerating the TOC might be nice but it's probably not worth it -->
+
 - [Features](#features)
 - [Pricing](#pricing)
 - [Questions](#questions)
@@ -190,13 +192,16 @@ Yes! If you bought me a milkshake before the 10th of September 2022, you can wri
 
 These cool articles were written about MMF
 
+- That YouTube video (so sick)
 - Lifehacker
 - Blib blob (Japanese)
 - Not CNET review
+- (?If you know about other coverage of MMF let me know?)
 
 These are great compliments that I / Mac Mouse Fix have received from users. They made me smile and they made my crippling self esteem issues a little better:
 
 - "God Among Men" - Guy on Stackexchange
+- ... Some comments about how people love it and how it's the best app of it's kind and so on!
 -  (Not complete by any means! Thanks to everythingn who wrote something nice!!)
 
 ## Tips
@@ -229,9 +234,14 @@ If you're on macOS **10.11 El Capitan** and macOS **10.12 Sierra**, get [2.2.0](
 
 ## macOS Compatibility
 
-The latest version of Mac Mouse Fix requires macOS **10.13 High Sierra** or later.
+The latest version of Mac Mouse Fix is made for **macOS 11 Big Sur** or later.
 
-If you're on macOS **10.11 El Capitan** and macOS **10.12 Sierra**, get [2.2.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/2.2.0) or below.
+If you're on macOS **10.13 High Sierra**, macOS **10.14** Mohave, or macOS **10.15 Catalina**:
+- Get Mac Mouse Fix [2.2.3](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/2.2.3) or below
+- Later versions of Mac Mouse Fix might still work but they have visual issues and some features might not work properly.
+	
+If you're on macOS **10.11 El Capitan** and macOS **10.12 Sierra**:
+Get Mac Mouse Fix [2.2.0](https://github.com/noah-nuebling/mac-mouse-fix/releases/tag/2.2.0) or below.
 
 ## Supported languages
 

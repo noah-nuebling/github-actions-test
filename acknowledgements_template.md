@@ -44,6 +44,7 @@ __People__ that inspired Mac Mouse Fix:
 
 - @DrJume for teaching me about debouncing and inspiring the UI for entering and displaying keyboard modifiers on the scroll tab
 - German guy for inspiring the tab-based layout in MMF 3
+- Guy who helped tune the fast scrolling in that pull request
 - So many others I can't think of right now. Thanks to everybody else who shared their thoughts!
 
 Mac Mouse Fix was built with the help of these **great libraries**:

@@ -219,6 +219,17 @@ You can also use keyboard shorcuts to do anything from your mouse by hooking int
 
 P sick right?
 
+**Use Swish to manage your windows**
+
+[Swish](https://highlyopinionated.co/swish/) is my favorite way to snap windows (/ get window snapping / manage windows on macOS). It lets you position any window so it takes up half, a quarter, or the whole screen with a single swipe on your trackpad, making it much easier to work with many windows at once. 
+
+It's designed for trackpad gestures, but with Mac Mouse Fix you can use it from any third-party mouse!
+
+Just set any button's Click & Drag action to Scroll & Navigate and you can snap windows with a simple click and drag
+
+In fact you can use any app or macOS system feature that works by swiping with two fingers using the "Scroll & Navigate" option! That
+
+You can also simulate 2 finger swipes from the scrollwheel by enabling "Trackpad Gestures" under the Scroll Tab (only visible if you set Smoothness to High).
 
 ## Installation
 

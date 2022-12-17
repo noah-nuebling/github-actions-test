@@ -16,7 +16,7 @@ import datetime
 #
 template_path = "acknowledgements_template.md"
 destination_path = "acknowledgements_generated.md"
-gumroad_product_ids = ["FP8NisFw09uY8HWTvVMzvg=="]
+gumroad_product_ids = ["FP8NisFw09uY8HWTvVMzvg==", "OBIdo8o1YTJm3lNvgpQJMQ=="] # 2nd product is mmfinappusd
 gumroad_api_base = "https://api.gumroad.com"
 gumroad_sales_api = "/v2/sales"
 
@@ -80,7 +80,9 @@ def main():
     
     # Filter people who don't want to be displayed
     
+    print('')
     sales = list(filter(wants_display, sales))
+    print('')
     
     # Filter generous and very generous
     
@@ -220,6 +222,7 @@ def is_very_generous(sale):
 def wants_display(sale):
     if sale['has_custom_fields']: # !! Update this if you change UI string on Gumroad !!
         if sale['custom_fields'].get("Don't publicly display me as a 'Generous Contributor' under 'Acknowledgements'", False) == True:
+            print("{} payed {} but does not want to be displayed".format(display_name(sale), sale['formatted_display_price']))
             return False
     return True
 

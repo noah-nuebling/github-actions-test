@@ -8,7 +8,7 @@ I want to especially thank these people:
 
 Thanks for bringing Mac Mouse Fix ppl **around the globe**!
 
-- 🇨🇳 Chinese translation (Simplified, traditional & ...): [@groverlynn](https://github.com/groverlynn)
+- 🇨🇳 Chinese translation: [@groverlynn](https://github.com/groverlynn)
 
 ## Money 💰
 
@@ -41,15 +41,15 @@ __September 2022__
 
 These people **paid more** for Mac Mouse Fix than the base price. Thanks for your _support_!
 
-🇫🇷 Ybastide | 🇺🇸 Corbinduncan | 🇪🇸 Manugarciarodriguez | 🇵🇱 Adriano100417 | 🇺🇸 Nikolaos Efthymiou | 🇺🇸 Ixen | 🇬🇧 Alexandros Doukas | 🇺🇸 Banking | 🇺🇸 Macmousefix | 🇯🇵 Dyxushuai | 🇺🇸 Kbrown | 🇩🇪 Mhaeuser | 🇺🇸 Benjamin W Haas | 🇺🇸 Wangdingwen32 | 🇿🇦 Boschrick | 🇺🇸 Manishgant | 🇺🇸 Adam Lurie | 🇺🇸 Bradattaway | 🇧🇷 Yves Quadros
+🇸🇰 Iam | 🇩🇪 Antoine Cotten | 🇳🇴 Matias | 🇨🇦 Kevin Ip | 🇫🇷 Ybastide | 🇺🇸 Corbinduncan | 🇪🇸 Manugarciarodriguez | 🇵🇱 Adriano100417 | 🇺🇸 Nikolaos Efthymiou | 🇺🇸 Ixen | 🇬🇧 Alexandros Doukas | 🇺🇸 Banking | 🇺🇸 Macmousefix | 🇯🇵 Dyxushuai | 🇺🇸 Kbrown | 🇩🇪 Mhaeuser | 🇺🇸 Benjamin W Haas | 🇺🇸 Wangdingwen32 | 🇿🇦 Boschrick | 🇺🇸 Manishgant | 🇺🇸 Adam Lurie | 🇺🇸 Bradattaway | 🇧🇷 Yves Quadros
 
 ### Other
 
-Thanks also to everyone else who bought me a milkshake and to all 114 people who bought Mac Mouse Fix! Ya'll are the bomb. Thanks to you I can spend lots of time on sth I love doing.
+Thanks also to everyone else who bought me a milkshake and to all 163 people who bought Mac Mouse Fix! Ya'll are the bomb. Thanks to you I can spend lots of time on sth I love doing.
 
 ## Other software 👾
 
-Inspiration / Apps I **stole** from:
+__Apps__ that inspired Mac Mouse Fix:
 
 - [SteerMouse](https://plentycom.jp/en/steermouse/index.html) - The OG mouse software for Mac. Inspiration for many features. I often thought "this is is probably not possible" but then I saw "oh SteerMouse does it" and then 3 years later I figured out how to do it, too.
 - [Calftrail Touch](https://github.com/calftrail/Touch) - Basis for "reverse engineering" work powering MMFs best-in-class and first-of-a-kind touch simulation!
@@ -57,8 +57,13 @@ Inspiration / Apps I **stole** from:
 - [SmoothMouse](https://smoothmouse.com/) - It's creator [Dae](https://dae.me/) answered some important questions for me about Pointer Speed 
 - [Gifski by sindresorhus](https://github.com/sindresorhus/Gifski) - Greatly inspired the Mac Mouse Fix README.md
 - MOS - Inertial Scrolling feel, App-Specific Settings Implementation and more were inspired by the MOS
-- 
 
+__People__ that inspired Mac Mouse Fix:
+
+- @DrJume for teaching me about debouncing and inspiring the UI for entering and displaying keyboard modifiers on the scroll tab
+- German guy for inspiring the tab-based layout in MMF 3
+- Guy who helped tune the fast scrolling in that pull request
+- So many others I can't think of right now. Thanks to everybody else who shared their thoughts!
 
 Mac Mouse Fix was built with the help of these **great libraries**:
 

@@ -11,13 +11,29 @@
 
 -->
 
-<details>
-  <summary>🏴󠁧󠁢󠁥󠁮󠁧󠁿 English</summary>
+<!--
 
-  **🏴󠁧󠁢󠁥󠁮󠁧󠁿 English**\
+<details>
+  <summary>󠁧󠁿🇬🇧 English</summary>
+
+  - **󠁿🇬🇧 English**
+  - [🇩🇪 Deutsch](Google.com)
+  - [🇨🇳 한국어](Google.com)
+  - [🇰🇷 中国人](Google.com)
+  - [Help to bring the app to more languages](Google.com)
+
+</details>
+
+-->
+
+<details>
+  <summary>󠁧󠁿🇬🇧 English</summary>
+
+  **󠁿🇬🇧 English**\
   [🇩🇪 Deutsch](Google.com)\
   [🇨🇳 한국어](Google.com)\
-  [🇰🇷 中国人](Google.com)
+  [🇰🇷 中国人](Google.com)\
+  [Learn more about translations of Mac Mouse Fix](Google.com)
 
 </details>
 

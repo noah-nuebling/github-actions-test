@@ -1,5 +1,26 @@
 <!-- This README is greatly inspired by / stolen from sindresorhus/Gifski and sindresorhus/caprine -->
 
+<!--
+**English** 👈\
+[한국어](Google.com)\
+[中国人](Google.com)\
+[Deutsch](Google.com)\
+
+
+---
+
+-->
+
+<details>
+  <summary>🏴󠁧󠁢󠁥󠁮󠁧󠁿 English</summary>
+
+  **🏴󠁧󠁢󠁥󠁮󠁧󠁿 English**\
+  [🇩🇪 Deutsch](Google.com)\
+  [🇨🇳 한국어](Google.com)\
+  [🇰🇷 中国人](Google.com)
+
+</details>
+
 <table align="center">
 	<tr>
 	    <td align="center">You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></td>

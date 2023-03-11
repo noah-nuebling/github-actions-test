@@ -69,10 +69,15 @@
 <!--Use this second br when theres text above the first header -->
 <br>
 
+Make Mouse Fix is the most powerful, streamlined, optimized ...
+
+Mac Mouse Fix is a driver for regular third party mice that aims to be at the same level of quality and integration with macOS as Apples native Trackpad drivers. 
+
+It also aims to bring very powerful customization options to your mouse while still being extremly easy to use. 
+
+My goal is to make Mac Mouse Fix the best mouse driver of all time. Currently it's still lacking some features, but I think it already offers the best implementation of the features which it does have. 
+
 ?? Mac Mouse Fix I want to make the best mouse driver ever! I think it's pretty gewd already. ?? Mac Mouse Fix I want to make the best mouse driver ever! I think it's pretty gewd already.?? Mac Mouse Fix I want to make the best mouse driver ever! I think it's pretty gewd already.?? Mac Mouse Fix I want to make the best mouse driver ever! I think it's pretty gewd already.?? Mac Mouse Fix I want to make the best mouse driver ever! I think it's pretty gewd already.?? Mac Mouse Fix I want to make the best mouse driver ever! I think it's pretty gewd already.?? Mac Mouse Fix I want to make the best mouse driver ever! I think it's pretty gewd already.
-
-
-
 
 ### Table of Contents
 
@@ -107,10 +112,6 @@ You can also produce smaller lower quality GIFs when needed with the â€œQualityâ
 Gifski supports all the video formats that macOS supports (`.mp4` or `.mov` with H264, HEVC, ProRes, etc). The [QuickTime Animation format](https://en.wikipedia.org/wiki/QuickTime_Animation) is not supported. Use [ProRes 4444 XQ](https://en.wikipedia.org/wiki/Apple_ProRes) instead. It's more efficient, more widely supported, and like QuickTime Animation, it also supports alpha channel.
 
 Gifski has a bunch of settings like changing dimensions, speed, frame rate, quality, looping, and more. -->
-
-
-
-
 
 ## Features
 

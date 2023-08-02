@@ -42,6 +42,7 @@ gumroad_api_base = "https://api.gumroad.com"
 gumroad_sales_api = "/v2/sales"
 gumroad_date_format = '%Y-%m-%dT%H:%M:%SZ' # T means nothing, Z means UTC+0 | The date strings that the gumroad sales api returns have this format
 name_blacklist = ['mail', 'paypal', 'banking', 'it-beratung', 'macmousefix'] # When gumroad doesn't provide a name we use part of the email as the display name. We use the part of the email before @, unless it contains one of these substrings, in which case we use the part of the email after @ but with the `.com`, `.de` etc. removed
+nbsp = '&nbsp;'  # Non-breaking space. &nbsp; doesn't seem to work on GitHub. See https://github.com/github/cmark-gfm/issues/346
 
 #
 # Main
@@ -127,7 +128,7 @@ def main():
     for sale in generous_sales:
         
         if not first_iteration:
-            generous_string += ' | '
+            generous_string += nbsp + '| '
         first_iteration = False
         
         generous_string += display_name(sale)
@@ -287,7 +288,7 @@ def display_name(sale):
         name = flag + ' ' + name
     
     # Replace all spaces with non-breaking spaces. '\xa0' works in vscode preview but seemingly not on GitHub
-    name = name.replace(' ', '&nbsp;')
+    name = name.replace(' ', nbsp)
     
     return name
  

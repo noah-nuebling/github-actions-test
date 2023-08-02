@@ -286,8 +286,8 @@ def display_name(sale):
     if flag != '':
         name = flag + ' ' + name
     
-    # Replace all spaces with non-breaking spaces
-    name = name.replace(' ', '\xa0')
+    # Replace all spaces with non-breaking spaces. '\xa0' works in vscode preview but seemingly not on GitHub
+    name = name.replace(' ', '&nbsp;')
     
     return name
  

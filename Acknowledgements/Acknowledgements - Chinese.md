@@ -1,3 +1,12 @@
+<details>
+  <summary>󠁧󠁿🇨🇳 한국어</summary>
+    [🇬🇧 English](Acknowledgements/Acknowledgements.md)\
+  [🇩🇪 Deutsch](Acknowledgements/Danksagungen.md)\
+  **🇨🇳 한국어**\
+
+  [?????](Google.com)
+</details>
+
 # Danksagungen
 
 Big thanks to any one using Mac Mouse Fix / and giving feedback! Y'all are what makes this fun / what keeps me going!

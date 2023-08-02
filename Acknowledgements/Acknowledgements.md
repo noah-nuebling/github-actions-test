@@ -1,8 +1,9 @@
 <details>
   <summary>󠁧󠁿🇬🇧 English</summary>
-    **🇬🇧 English**\
-  [🇩🇪 Deutsch](Acknowledgements/Danksagungen.md)\
-  [🇨🇳 한국어](Acknowledgements/Acknowledgements - Chinese.md)\
+  
+  **🇬🇧 English**\
+  [🇩🇪 Deutsch](**/**/Acknowledgements/Danksagungen.md)\
+  [🇨🇳 한국어](**/**/Acknowledgements/Acknowledgements - Chinese.md)\
 
   [Help translate Mac Mouse Fix to different languages!](Google.com)
 </details>

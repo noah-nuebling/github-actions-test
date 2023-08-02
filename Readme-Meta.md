@@ -27,6 +27,8 @@ You can freeze the currently activated env into a requrements.txt using
 pip freeze > MarkdownStuff/python_requirements.txt
 ```
 
+You can create a new venv and install the python_requirements.txt file like this: https://stackoverflow.com/a/41799834/10601702 (actually this uses virtualenv but I think you should be using venv ("python3 -m venv") instead)
+
 # Online GitHub Actions linting
 
 https://rhysd.github.io/actionlint/

@@ -16,9 +16,9 @@ import urllib.parse
 #
 # (We expect this script to be run from the root directory of the repo)
 
-locations = [
+languages = [
     {
-        "language_name": "🇬🇧 English", # Language name will be displayed in the locale picker
+        "language_name": "🇬🇧 English", # Language name will be displayed in the language picker
         "language_tag": "en-US", # Used to autogenerate some localized text (at time of writing only month names in the 'very generous' string). Find language tags here: https://www.techonthenet.com/js/language_tags.php
         "template_path": "MarkdownStuff/acknowledgements_template_en-US.md",
         "destination_path": "Acknowledgements/Acknowledgements.md"
@@ -36,6 +36,7 @@ locations = [
         "destination_path": "Acknowledgements/Acknowledgements - Chinese.md"
     },
 ]
+
 gumroad_product_ids = ["FP8NisFw09uY8HWTvVMzvg==", "OBIdo8o1YTJm3lNvgpQJMQ=="] # 2nd product is mmfinappusd
 gumroad_api_base = "https://api.gumroad.com"
 gumroad_sales_api = "/v2/sales"
@@ -135,11 +136,11 @@ def main():
     
     very_generous_strings = dict()
     
-    for loc in locations:
+    for l in languages:
         
         very_generous_string = ''
         
-        language_tag = loc['language_tag']
+        language_tag = l['language_tag']
         
         last_month = None
         first_iteration = True
@@ -176,21 +177,21 @@ def main():
     # Generate language lists
         
     language_lists = dict()
-    for loc in locations:
+    for l in languages:
         
-        current_lang = loc['language_name']
-        current_lang_tag = loc['language_tag']
+        current_lang = l['language_name']
+        current_lang_tag = l['language_tag']
         
         lang_list = ''
-        for i, loc2 in enumerate(locations):
+        for i, l2 in enumerate(languages):
             
-            is_last = i == len(locations) - 1
+            is_last = i == len(languages) - 1
             
-            lang = loc2['language_name']
+            lang = l2['language_name']
             
             # Create relative path from the location of the `current_lang` document to the `lang` document. This relative path works as a link. See https://github.blog/2013-01-31-relative-links-in-markup-files/
-            current_path = loc['destination_path']
-            path = loc2['destination_path']
+            current_path = l['destination_path']
+            path = l2['destination_path']
             current_parent_count = len(pathlib.Path(current_path).parents)
             relative_path = ('../' * (current_parent_count-1)) + path 
             link = urllib.parse.quote(relative_path) # This percent encodes spaces and others chars which is necessary
@@ -212,12 +213,12 @@ def main():
     
     # Insert generated strings into template
     
-    for loc in locations:
+    for l in languages:
         
-        current_language = loc['language_name']
-        language_tag = loc['language_tag']
-        template_path = loc['template_path']
-        destination_path = loc['destination_path']
+        current_language = l['language_name']
+        language_tag = l['language_tag']
+        template_path = l['template_path']
+        destination_path = l['destination_path']
 
         # Log
         print('Inserting generated strings into template at {}...'.format(template_path))

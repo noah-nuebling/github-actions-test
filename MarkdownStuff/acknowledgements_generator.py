@@ -55,6 +55,8 @@ def main():
             
             if response.status_code != 200:
                 print('HTTP request failed with code: {}'.format(response.status_code))
+                if response.status_code == 401:
+                    print('(The request failed because it is unauthorized (status 401). This might be because you are not providing a correct Access Token using the `--api_key` command line argument. You can retrieve an Access Token in the Gumroad Settings under Advanced.')
                 sys.exit(1)
 
             response_dict = response.json()

@@ -49,11 +49,17 @@ jobs:
     
     - name: Commit and push changes
       run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "GitHub Actions Workflow automatically regenerated Acknowledgements.md"
-          git push
+          if [[ $(git diff --stat) != '' ]]; then
+          
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add .
+            git commit -m "GitHub Actions Workflow automatically regenerated Acknowledgements.md"
+            git push
+            
+          else
+            echo 'No changes. Not commiting and pushing'
+          fi
       
       
     

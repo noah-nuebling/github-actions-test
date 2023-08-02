@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
 
   # Action runs periodically
-  # schedule:  
-    # - cron: '*/5 * * * *' # Every 5 minutes. See crontab.guru/
+  schedule:  
+    - cron: '*/5 * * * *' # Every 5 minutes. See crontab.guru/
   
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel

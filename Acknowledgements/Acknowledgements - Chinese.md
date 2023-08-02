@@ -1,10 +1,10 @@
 <details>
-  <summary>󠁧󠁿🇩🇪 Deutsch</summary>
+  <summary>󠁧󠁿🇨🇳 한국어</summary>
   
   [🇬🇧 English](../Acknowledgements/Acknowledgements.md)\
-  **🇩🇪 Deutsch**\
-  [🇨🇳 한국어](../Acknowledgements/Acknowledgements%20-%20Chinese.md)\
-  [Hilf Mac Mouse Fix in verschiedene Sprachen zu übersetzen!](https://google.com)
+  [🇩🇪 Deutsch](../Acknowledgements/Danksagungen.md)\
+  **🇨🇳 한국어**\
+  [?????](https://google.com)
 </details>
 
 # Danksagungen
@@ -26,55 +26,55 @@ Thanks for bringing Mac Mouse Fix ppl **around the globe**!
 
 These people bought me an **Incredible Milkshake**. Thanks for the _sugar rush_! 
 
-__August 2023__
+__八月 2023__
 
 - 🇩🇪 Gero
 
-__Juli 2023__
+__七月 2023__
 
 - 🇫🇮 Sami Syvertsen
 - 🇨🇦 Koby Jaroni
 - 🇫🇷 Bodysplash
 
-__Juni 2023__
+__六月 2023__
 
 - 🇩🇪 Factory Steals 0N
 - 🇹🇷 Daniil Petrov
 - 🇺🇸 Joe
 
-__Mai 2023__
+__五月 2023__
 
 - 🇨🇭 S Vonallmen
 - 🇺🇸 Develand
 - 🇦🇷 Fgilio
 - 🇭🇰 Johnlk0828
 
-__April 2023__
+__四月 2023__
 
 - 🇺🇸 Gavinbrown911
 - 🇺🇸 Mjsagert
 - 🇮🇹 Roccobot
 
-__März 2023__
+__三月 2023__
 
 - 🇺🇸 Rmateu
 
-__Februar 2023__
+__二月 2023__
 
 - 🇩🇪 Peter Gumball
 - 🇦🇺 Ljstary
 
-__Dezember 2022__
+__十二月 2022__
 
 - 🇦🇺 S Edwards3214
 - 🇺🇸 David
 
-__November 2022__
+__十一月 2022__
 
 - 🇺🇸 Gcshaw
 - 🇺🇸 Johnnydangerously
 
-__Oktober 2022__
+__十月 2022__
 
 - 🇦🇹 Frame
 - 🇫🇷 Damien Rajon
@@ -83,7 +83,7 @@ __Oktober 2022__
 - 🇺🇸 Migueldominguez
 - 🇳🇱 Emrecebi03
 
-__September 2022__
+__九月 2022__
 
 - 🇮🇱 Rawad Aboud
 - 🇷🇴 Marian Melinte

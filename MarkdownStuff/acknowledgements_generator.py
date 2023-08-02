@@ -16,16 +16,19 @@ import babel.dates
 
 locations = [
     {
-        "language_tag": "en-US",
+        "language_name": "🇬🇧 English", # Language name will be displayed in the locale picker
+        "language_tag": "en-US", # Used to autogenerate some localized text (at time of writing only month names in the 'very generous' string). Find language tags here: https://www.techonthenet.com/js/language_tags.php
         "template_path": "MarkdownStuff/acknowledgements_template_en-US.md",
         "destination_path": "Acknowledgements/Acknowledgements.md"
     },
     {
+        "language_name": "🇩🇪 Deutsch",
         "language_tag": "de-DE",
         "template_path": "MarkdownStuff/acknowledgements_template_de-DE.md",
         "destination_path": "Acknowledgements/Danksagungen.md"
     },
     {
+        "language_name": "🇨🇳 한국어",
         "language_tag": "zh-CN",
         "template_path": "MarkdownStuff/acknowledgements_template_zh-CN.md",
         "destination_path": "Acknowledgements/Acknowledgements - Chinese.md"
@@ -168,14 +171,38 @@ def main():
     # print(len(list(map(lambda sale: sale['email'], generous_sales))))
     # print(len(list(map(lambda sale: sale['email'], very_generous_sales))))
     
+    # Generate language lists
+        
+    language_lists = dict()
     for loc in locations:
         
+        current_lang = loc['language_name']
+        current_lang_tag = loc['language_tag']
+        
+        lang_list = ''
+        for loc2 in locations:
+            lang = loc2['language_name']
+            link = loc2['destination_path']
+            if current_lang == lang:
+                lang_list += f'  **{lang}**\\\n'
+            else:
+                lang_list += f'  [{lang}]({link})\\\n'
+        
+        language_lists[current_lang_tag] = lang_list
+    
+    print('\nLanguage lists:\n\n{}\n'.format(language_lists))
+    
+    # Insert generated strings into template
+    
+    for loc in locations:
+        
+        current_language = loc['language_name']
         language_tag = loc['language_tag']
         template_path = loc['template_path']
         destination_path = loc['destination_path']
-    
+
         # Log
-        print('Inserting generous contributor strings into template at {}...'.format(template_path))
+        print('Inserting generated strings into template at {}...'.format(template_path))
         
         # Load template
         template = ""
@@ -183,7 +210,7 @@ def main():
             template = f.read()
         
         # Insert into template
-        template = template.format(generous = generous_string, very_generous = very_generous_strings[language_tag], sales_count = all_sales_count)
+        template = template.format(current_language = current_language, language_list = language_lists[language_tag], generous = generous_string, very_generous = very_generous_strings[language_tag], sales_count = all_sales_count)
         
         # Write template
         with open(destination_path, mode="w") as f:

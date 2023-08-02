@@ -1,3 +1,9 @@
+<details>
+  <summary>󠁧󠁿{current_language}</summary>
+  {language_list}
+  [Hilf Mac Mouse Fix in verschiedene Sprachen zu übersetzen!](Google.com)
+</details>
+
 # Danksagungen
 
 Big thanks to any one using Mac Mouse Fix / and giving feedback! Y'all are what makes this fun / what keeps me going!

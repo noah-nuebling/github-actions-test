@@ -7,14 +7,30 @@ import requests
 import json
 import pycountry
 import datetime
+import babel.dates
 
 #
 # Constants
 #
 # (We expect this script to be run from the root directory of the repo)
 
-template_path = "MarkdownStuff/acknowledgements_template.md"
-destination_path = "Acknowledgements.md"
+locations = [
+    {
+        "language_tag": "en-US",
+        "template_path": "MarkdownStuff/acknowledgements_template_en-US.md",
+        "destination_path": "Acknowledgements/Acknowledgements.md"
+    },
+    {
+        "language_tag": "de-DE",
+        "template_path": "MarkdownStuff/acknowledgements_template_de-DE.md",
+        "destination_path": "Acknowledgements/Danksagungen.md"
+    },
+    {
+        "language_tag": "zh-CN",
+        "template_path": "MarkdownStuff/acknowledgements_template_zh-CN.md",
+        "destination_path": "Acknowledgements/Acknowledgements - Chinese.md"
+    },
+]
 gumroad_product_ids = ["FP8NisFw09uY8HWTvVMzvg==", "OBIdo8o1YTJm3lNvgpQJMQ=="] # 2nd product is mmfinappusd
 gumroad_api_base = "https://api.gumroad.com"
 gumroad_sales_api = "/v2/sales"
@@ -112,54 +128,69 @@ def main():
 
     # Generate very generous markdown
     
-    very_generous_string = ''
-    last_month = None
-    first_iteration = True
+    very_generous_strings = dict()
     
-    for sale in very_generous_sales:
-        date_string = sale['created_at']
-        date = datetime.datetime.strptime(date_string, gumroad_date_format)
-        if date == None:
-            print('Couldnt extract date from string {}'.format(date_string))
-            exit(1)
+    for loc in locations:
         
-        if date.month != last_month:
-            
-            last_month = date.month
-            
-            if not first_iteration:
-                very_generous_string += '\n\n'
-            first_iteration = False
-            
-            very_generous_string += '__{}__\n'.format(date.strftime('%B %Y')) # %B -> Month %Y -> Year
+        very_generous_string = ''
         
-        very_generous_string += '\n- ' + display_name(sale)
+        language_tag = loc['language_tag']
+        
+        last_month = None
+        first_iteration = True
+        
+        for sale in very_generous_sales:
+            date_string = sale['created_at']
+            date = datetime.datetime.strptime(date_string, gumroad_date_format)
+            if date == None:
+                print('Couldnt extract date from string {}'.format(date_string))
+                exit(1)
+            
+            if date.month != last_month:
+                
+                last_month = date.month
+                
+                if not first_iteration:
+                    very_generous_string += '\n\n'
+                first_iteration = False
+                
+                very_generous_string += '__{}__\n'.format(babel.dates.format_datetime(datetime=date, format='LLLL yyyy', locale=language_tag.replace('-', '_'))) # See https://babel.pocoo.org/en/latest/dates.html and https://babel.pocoo.org/en/latest/api/dates.html#babel.dates.format_datetime. For some reason, babel wants _ instead of - in the language tags, not sure why.
+            
+            very_generous_string += '\n- ' + display_name(sale)
+        
+        very_generous_strings[language_tag] = very_generous_string
         
     # Log
     
     print('\nGenerous string:\n\n{}\n'.format(generous_string))
-    print('Very Generous string:\n\n{}\n'.format(very_generous_string))
+    print('Very Generous strings:\n\n{}\n'.format(very_generous_strings))
     
     # print(len(list(map(lambda sale: sale['email'], generous_sales))))
     # print(len(list(map(lambda sale: sale['email'], very_generous_sales))))
     
-    # Log
-    print('Inserting generous contributor strings into template at {}...'.format(template_path))
+    for loc in locations:
+        
+        language_tag = loc['language_tag']
+        template_path = loc['template_path']
+        destination_path = loc['destination_path']
     
-    # Load template
-    template = ""
-    with open(template_path) as f:
-        template = f.read()
-    
-    # Insert into template
-    template = template.format(generous = generous_string, very_generous = very_generous_string, sales_count = all_sales_count)
-    
-    # Write template
-    with open(destination_path, "w") as f:
-        f.write(template)
-    
-    # Log
-    print('Wrote result to {}'.format(destination_path))
+        # Log
+        print('Inserting generous contributor strings into template at {}...'.format(template_path))
+        
+        # Load template
+        template = ""
+        with open(template_path) as f:
+            template = f.read()
+        
+        # Insert into template
+        template = template.format(generous = generous_string, very_generous = very_generous_string, sales_count = all_sales_count)
+        
+        # Write template
+        with open(destination_path, mode="w") as f:
+            f.write(template)
+        
+        # Log
+        print('Wrote result to {}'.format(destination_path))
     
     
 # 

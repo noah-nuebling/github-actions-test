@@ -2,7 +2,7 @@
 
 This repo github-actions-test is a playground for changes we want to make to the mac-mouse-fix repo for the MMF 3 release. Specifically, it deals with user changing updates. Currently it contains a new Readme.md file and a new Acknowledgements.md file as well as a template plus python script to generate Acknowledgements.md. 
 
-This repo also contains some experiements on using GitHub Actions. IIRC we planned to use GH Actions to run the Acknowledgements generation script every time a new copy of MMF was purchased. But we found it impossible for a Gumroad purchase to trigger a GitHub action, so we decided to just run the update script once a day or something like that.
+This repo also contains experiements on using GitHub Actions. IIRC we planned to use GH Actions to run the Acknowledgements generation script every time a new copy of MMF was purchased. But we found it impossible for a Gumroad purchase to trigger a GitHub action, so we decided to just run the update script periodically.
 
 # Python env
 
@@ -17,6 +17,23 @@ And deactivate with
 ```
 deactivate
 ```
+
+I just found out that venvs aren't portable at all! but we can create a requirements.txt file which is portable.
+In update-acknowledgements.yml we generate a new venv with the requirements for the python script based on the requirements.txt file.
+
+You can freeze the currently activated env into a requrements.txt using
+
+```
+pip freeze > MarkdownStuff/python_requirements.txt
+```
+
+# Online GitHub Actions linting
+
+https://rhysd.github.io/actionlint/
+
+# Localization
+
+https://www.techonthenet.com/js/language_tags.php
 
 # GitHub Actions Reference
 

@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
   # Action runs periodically
-  schedule: 
+  # schedule:  
     # - cron: '*/5 * * * *' # Every 5 minutes. See crontab.guru/
   
 

@@ -21,19 +21,19 @@ __August 2023__
 
 - 🇩🇪 Gero
 
-__Juli 2023__
+__July 2023__
 
 - 🇫🇮 Sami Syvertsen
 - 🇨🇦 Koby Jaroni
 - 🇫🇷 Bodysplash
 
-__Juni 2023__
+__June 2023__
 
 - 🇩🇪 Factory Steals 0N
 - 🇹🇷 Daniil Petrov
 - 🇺🇸 Joe
 
-__Mai 2023__
+__May 2023__
 
 - 🇨🇭 S Vonallmen
 - 🇺🇸 Develand
@@ -46,16 +46,16 @@ __April 2023__
 - 🇺🇸 Mjsagert
 - 🇮🇹 Roccobot
 
-__März 2023__
+__March 2023__
 
 - 🇺🇸 Rmateu
 
-__Februar 2023__
+__February 2023__
 
 - 🇩🇪 Peter Gumball
 - 🇦🇺 Ljstary
 
-__Dezember 2022__
+__December 2022__
 
 - 🇦🇺 S Edwards3214
 - 🇺🇸 David
@@ -65,7 +65,7 @@ __November 2022__
 - 🇺🇸 Gcshaw
 - 🇺🇸 Johnnydangerously
 
-__Oktober 2022__
+__October 2022__
 
 - 🇦🇹 Frame
 - 🇫🇷 Damien Rajon

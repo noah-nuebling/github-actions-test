@@ -183,7 +183,7 @@ def main():
             template = f.read()
         
         # Insert into template
-        template = template.format(generous = generous_string, very_generous = very_generous_string, sales_count = all_sales_count)
+        template = template.format(generous = generous_string, very_generous = very_generous_strings[language_tag], sales_count = all_sales_count)
         
         # Write template
         with open(destination_path, mode="w") as f:

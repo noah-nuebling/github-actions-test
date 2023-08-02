@@ -22,6 +22,7 @@ gumroad_product_ids = ["FP8NisFw09uY8HWTvVMzvg==", "OBIdo8o1YTJm3lNvgpQJMQ=="] #
 gumroad_api_base = "https://api.gumroad.com"
 gumroad_sales_api = "/v2/sales"
 gumroad_date_format = '%Y-%m-%dT%H:%M:%SZ' # T means nothing, Z means UTC+0 | The date strings that the gumroad sales api returns have this format
+name_blacklist = ['mail', 'paypal', 'banking', 'it-beratung', 'macmousefix'] # When gumroad doesn't provide a name we use part of the email as the display name. We use the part of the email before @, unless it contains one of these substrings, in which case we use the part of the email after @ but with the `.com`, `.de` etc. removed
 
 #
 # Main
@@ -57,7 +58,7 @@ def main():
             if response.status_code != 200:
                 print('HTTP request failed with code: {}'.format(response.status_code))
                 if response.status_code == 401:
-                    print('(The request failed because it is unauthorized (status 401). This might be because you are not providing a correct Access Token using the `--api_key` command line argument. You can retrieve an Access Token in the Gumroad Settings under Advanced.')
+                    print('(The request failed because it is unauthorized (status 401). This might be because you are not providing a correct Access Token using the `--api_key` command line argument. You can retrieve an Access Token in the GitHub Secrets or in the Gumroad Settings under Advanced.')
                 sys.exit(1)
 
             response_dict = response.json()
@@ -172,9 +173,11 @@ def display_name(sale):
     
     name = ''
     
+    # Get full_name field
     if 'full_name' in sale:
         name = sale['full_name']
     
+    # Fallback to email-based heuristic
     if name == '':
         email = ''
         if 'email' in sale:
@@ -183,10 +186,28 @@ def display_name(sale):
             email = sale['purchase_email']
         else:
             sys.exit(1)
-        name = email.partition('@')[0]
+        
+        n1, _, n2 = email.partition('@')
+        
+        use_n1 = True
+        for non_name in name_blacklist:
+            if non_name in n1:
+                use_n1 = False
+                break
+        
+        if use_n1:
+            name = n1
+        else:
+            name = n2.partition('.')[0] # In a case like gm.ail.com, we want gm.ail, but this will just return gm. But should be good enough.
 
-    name = name.title().replace('.', ' ')
+    # Replace weird separators with spaces
+    for char in '._-+':
+        name = name.replace(char, ' ')
 
+    # Capitalize
+    name = name.title()
+    
+    # Prepend flag
     flag = emoji_flag(sale)
     if flag != '':
         name = flag + ' ' + name

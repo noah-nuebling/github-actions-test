@@ -29,7 +29,7 @@ __July 2023__
 
 __June 2023__
 
-- 🇩🇪 Factory_Steals 0N
+- 🇩🇪 Factory Steals 0N
 - 🇹🇷 Daniil Petrov
 - 🇺🇸 Joe
 
@@ -84,7 +84,7 @@ __September 2022__
 
 These people **paid more** for Mac Mouse Fix than the base price. Thanks for your _support_!
 
-🇺🇸 Maxjustus | 🇺🇸 Jj | 🇨🇭 Jeremie Peronnet | 🇺🇸 Trevor Dawn | 🇺🇸 Nathan Sprenkle | 🇷🇴 Alex S360 | 🇪🇸 Cgrs | 🇳🇱 Mail | 🇮🇩 Andreas Purwanto | 🇨🇦 Derek Coulter | 🇩🇰 Josefine Jensen | 🇩🇪 Muhammad Shasho | 🇩🇪 Alexsun82 | 🇬🇧 Mozbutler | 🇺🇸 Inwon Kang04 | 🇩🇪 E Schrader | 🇰🇷 Obgor1229 | 🇺🇸 Sam Park | 🇺🇸 Phippspower Riyadh | 🇩🇪 Mario Saternus | 🇩🇰 Schack | 🇰🇷 Plumberrycustom | 🇩🇪 Paypal | 🇩🇪 Philipp Rintz | 🇧🇾 Ermak Egor | 🇦🇺 Liam Murphy | 🇺🇸 Way24H | 🇬🇧 James Marsh | 🇺🇸 Greg | 🇫🇮 Markku Rantasila | 🇩🇪 It-Beratung | 🇳🇱 Andreea 14 Ioana | 🇬🇧 Daylegc | 🇳🇱 Ss_Jimmy | 🇨🇭 Heinekentom | 🇺🇸 Rirye811 | 🇩🇪 Diimaan | 🇸🇰 Iam | 🇩🇪 Antoine Cotten | 🇳🇴 Matias | 🇨🇦 Kevin Ip | 🇫🇷 Ybastide | 🇺🇸 Corbinduncan | 🇪🇸 Manugarciarodriguez | 🇵🇱 Adriano100417 | 🇺🇸 Nikolaos Efthymiou | 🇺🇸 Ixen | 🇬🇧 Alexandros Doukas | 🇺🇸 Banking | 🇺🇸 Macmousefix | 🇯🇵 Dyxushuai | 🇺🇸 Kbrown | 🇩🇪 Mhaeuser | 🇺🇸 Benjamin W Haas | 🇺🇸 Wangdingwen32 | 🇿🇦 Boschrick | 🇺🇸 Manishgant | 🇺🇸 Adam Lurie | 🇺🇸 Bradattaway | 🇧🇷 Yves Quadros
+🇺🇸 Maxjustus | 🇺🇸 Jj | 🇨🇭 Jeremie Peronnet | 🇺🇸 Trevor Dawn | 🇺🇸 Nathan Sprenkle | 🇷🇴 Alex S360 | 🇪🇸 Cgrs | 🇳🇱 Joppearnold | 🇮🇩 Andreas Purwanto | 🇨🇦 Derek Coulter | 🇩🇰 Josefine Jensen | 🇩🇪 Muhammad Shasho | 🇩🇪 Alexsun82 | 🇬🇧 Mozbutler | 🇺🇸 Inwon Kang04 | 🇩🇪 E Schrader | 🇰🇷 Obgor1229 | 🇺🇸 Sam Park | 🇺🇸 Phippspower Riyadh | 🇩🇪 Mario Saternus | 🇩🇰 Schack | 🇰🇷 Plumberrycustom | 🇩🇪 Maltejk | 🇩🇪 Philipp Rintz | 🇧🇾 Ermak Egor | 🇦🇺 Liam Murphy | 🇺🇸 Way24H | 🇬🇧 James Marsh | 🇺🇸 Greg | 🇫🇮 Markku Rantasila | 🇩🇪 Ihling | 🇳🇱 Andreea 14 Ioana | 🇬🇧 Daylegc | 🇳🇱 Ss Jimmy | 🇨🇭 Heinekentom | 🇺🇸 Rirye811 | 🇩🇪 Diimaan | 🇸🇰 Iam | 🇩🇪 Antoine Cotten | 🇳🇴 Matias | 🇨🇦 Kevin Ip | 🇫🇷 Ybastide | 🇺🇸 Corbinduncan | 🇪🇸 Manugarciarodriguez | 🇵🇱 Adriano100417 | 🇺🇸 Nikolaos Efthymiou | 🇺🇸 Ixen | 🇬🇧 Alexandros Doukas | 🇺🇸 Fanjiang | 🇺🇸 Gablebrown | 🇯🇵 Dyxushuai | 🇺🇸 Kbrown | 🇩🇪 Mhaeuser | 🇺🇸 Benjamin W Haas | 🇺🇸 Wangdingwen32 | 🇿🇦 Boschrick | 🇺🇸 Manishgant | 🇺🇸 Adam Lurie | 🇺🇸 Bradattaway | 🇧🇷 Yves Quadros
 
 ### Other
 

@@ -286,6 +286,9 @@ def display_name(sale):
     if flag != '':
         name = flag + ' ' + name
     
+    # Replace all spaces with non-breaking spaces
+    name = name.replace(' ', '\xa0')
+    
     return name
  
 def emoji_flag(sale):

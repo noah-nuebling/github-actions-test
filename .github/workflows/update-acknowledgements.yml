@@ -36,6 +36,7 @@ jobs:
       run: |
         source ./MarkdownStuff/markdown_env/bin/activate
         echo "VIRTUAL ENV:" $VIRTUAL_ENV
+        python -c "import requests"
         python ./MarkdownStuff/acknowledgements_generator.py --api_key {{ secrets.GUMROAD_API_KEY }}
     
     - name: Commit and push changes

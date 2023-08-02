@@ -88,7 +88,7 @@ These people **paid more** for Mac Mouse Fix than the base price. Thanks for you
 
 ### Other
 
-Thanks also to everyone else who bought me a milkshake and to all 754 people who bought Mac Mouse Fix! Ya'll are the bomb. Thanks to you I can spend lots of time on sth I love doing.
+Thanks also to everyone else who bought me a milkshake and to all 755 people who bought Mac Mouse Fix! Ya'll are the bomb. Thanks to you I can spend lots of time on sth I love doing.
 
 ## Other software 👾
 

@@ -31,12 +31,17 @@ jobs:
       with:
         python-version: '3.10'
         # cache: 'pip' # caching pip dependencies. This is from the official example. Not sure what we're doing here.
+
+    - name: Install python dependencies
+    - run: |
+      python -m venv gh_env
+      source ./gh_env/bin/activate
+      python -m 'pip install -r ./MarkdownStuff/python_requirements.txt'
     
-    - name: Activate python env and run script
+    - name: Run script
       run: |
-        source ./MarkdownStuff/markdown_env/bin/activate
-        echo "VIRTUAL ENV:" $VIRTUAL_ENV
-        python -c "import requests"
+        # source ./MarkdownStuff/markdown_env/bin/activate # venvs aren't portable
+        source ./gh_env/bin/activate
         python ./MarkdownStuff/acknowledgements_generator.py --api_key {{ secrets.GUMROAD_API_KEY }}
     
     - name: Commit and push changes

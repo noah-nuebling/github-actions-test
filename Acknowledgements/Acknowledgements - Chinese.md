@@ -28,72 +28,72 @@ These people bought me an **Incredible Milkshake**. Thanks for the _sugar rush_!
 
 __八月 2023__
 
-- 🇩🇪 Gero
+- 🇩🇪&nbsp;Gero
 
 __七月 2023__
 
-- 🇫🇮 Sami Syvertsen
-- 🇨🇦 Koby Jaroni
-- 🇫🇷 Bodysplash
+- 🇫🇮&nbsp;Sami&nbsp;Syvertsen
+- 🇨🇦&nbsp;Koby&nbsp;Jaroni
+- 🇫🇷&nbsp;Bodysplash
 
 __六月 2023__
 
-- 🇩🇪 Factory Steals 0N
-- 🇹🇷 Daniil Petrov
-- 🇺🇸 Joe
+- 🇩🇪&nbsp;Factory&nbsp;Steals&nbsp;0N
+- 🇹🇷&nbsp;Daniil&nbsp;Petrov
+- 🇺🇸&nbsp;Joe
 
 __五月 2023__
 
-- 🇨🇭 S Vonallmen
-- 🇺🇸 Develand
-- 🇦🇷 Fgilio
-- 🇭🇰 Johnlk0828
+- 🇨🇭&nbsp;S&nbsp;Vonallmen
+- 🇺🇸&nbsp;Develand
+- 🇦🇷&nbsp;Fgilio
+- 🇭🇰&nbsp;Johnlk0828
 
 __四月 2023__
 
-- 🇺🇸 Gavinbrown911
-- 🇺🇸 Mjsagert
-- 🇮🇹 Roccobot
+- 🇺🇸&nbsp;Gavinbrown911
+- 🇺🇸&nbsp;Mjsagert
+- 🇮🇹&nbsp;Roccobot
 
 __三月 2023__
 
-- 🇺🇸 Rmateu
+- 🇺🇸&nbsp;Rmateu
 
 __二月 2023__
 
-- 🇩🇪 Peter Gumball
-- 🇦🇺 Ljstary
+- 🇩🇪&nbsp;Peter&nbsp;Gumball
+- 🇦🇺&nbsp;Ljstary
 
 __十二月 2022__
 
-- 🇦🇺 S Edwards3214
-- 🇺🇸 David
+- 🇦🇺&nbsp;S&nbsp;Edwards3214
+- 🇺🇸&nbsp;David
 
 __十一月 2022__
 
-- 🇺🇸 Gcshaw
-- 🇺🇸 Johnnydangerously
+- 🇺🇸&nbsp;Gcshaw
+- 🇺🇸&nbsp;Johnnydangerously
 
 __十月 2022__
 
-- 🇦🇹 Frame
-- 🇫🇷 Damien Rajon
-- 🇨🇭 Ludovic Balogh
-- 🇳🇿 Zacnoo
-- 🇺🇸 Migueldominguez
-- 🇳🇱 Emrecebi03
+- 🇦🇹&nbsp;Frame
+- 🇫🇷&nbsp;Damien&nbsp;Rajon
+- 🇨🇭&nbsp;Ludovic&nbsp;Balogh
+- 🇳🇿&nbsp;Zacnoo
+- 🇺🇸&nbsp;Migueldominguez
+- 🇳🇱&nbsp;Emrecebi03
 
 __九月 2022__
 
-- 🇮🇱 Rawad Aboud
-- 🇷🇴 Marian Melinte
-- 🇬🇧 Niania52
+- 🇮🇱&nbsp;Rawad&nbsp;Aboud
+- 🇷🇴&nbsp;Marian&nbsp;Melinte
+- 🇬🇧&nbsp;Niania52
 
 ### Generous Contributors ⭐️
 
 These people **paid more** for Mac Mouse Fix than the base price. Thanks for your _support_!
 
-🇺🇸 Maxjustus | 🇺🇸 Jj | 🇨🇭 Jeremie Peronnet | 🇺🇸 Trevor Dawn | 🇺🇸 Nathan Sprenkle | 🇷🇴 Alex S360 | 🇪🇸 Cgrs | 🇳🇱 Joppearnold | 🇮🇩 Andreas Purwanto | 🇨🇦 Derek Coulter | 🇩🇰 Josefine Jensen | 🇩🇪 Muhammad Shasho | 🇩🇪 Alexsun82 | 🇬🇧 Mozbutler | 🇺🇸 Inwon Kang04 | 🇩🇪 E Schrader | 🇰🇷 Obgor1229 | 🇺🇸 Sam Park | 🇺🇸 Phippspower Riyadh | 🇩🇪 Mario Saternus | 🇩🇰 Schack | 🇰🇷 Plumberrycustom | 🇩🇪 Maltejk | 🇩🇪 Philipp Rintz | 🇧🇾 Ermak Egor | 🇦🇺 Liam Murphy | 🇺🇸 Way24H | 🇬🇧 James Marsh | 🇺🇸 Greg | 🇫🇮 Markku Rantasila | 🇩🇪 Ihling | 🇳🇱 Andreea 14 Ioana | 🇬🇧 Daylegc | 🇳🇱 Ss Jimmy | 🇨🇭 Heinekentom | 🇺🇸 Rirye811 | 🇩🇪 Diimaan | 🇸🇰 Iam | 🇩🇪 Antoine Cotten | 🇳🇴 Matias | 🇨🇦 Kevin Ip | 🇫🇷 Ybastide | 🇺🇸 Corbinduncan | 🇪🇸 Manugarciarodriguez | 🇵🇱 Adriano100417 | 🇺🇸 Nikolaos Efthymiou | 🇺🇸 Ixen | 🇬🇧 Alexandros Doukas | 🇺🇸 Fanjiang | 🇺🇸 Gablebrown | 🇯🇵 Dyxushuai | 🇺🇸 Kbrown | 🇩🇪 Mhaeuser | 🇺🇸 Benjamin W Haas | 🇺🇸 Wangdingwen32 | 🇿🇦 Boschrick | 🇺🇸 Manishgant | 🇺🇸 Adam Lurie | 🇺🇸 Bradattaway | 🇧🇷 Yves Quadros
+🇺🇸&nbsp;Maxjustus | 🇺🇸&nbsp;Jj | 🇨🇭&nbsp;Jeremie&nbsp;Peronnet | 🇺🇸&nbsp;Trevor&nbsp;Dawn | 🇺🇸&nbsp;Nathan&nbsp;Sprenkle | 🇷🇴&nbsp;Alex&nbsp;S360 | 🇪🇸&nbsp;Cgrs | 🇳🇱&nbsp;Joppearnold | 🇮🇩&nbsp;Andreas&nbsp;Purwanto | 🇨🇦&nbsp;Derek&nbsp;Coulter | 🇩🇰&nbsp;Josefine&nbsp;Jensen | 🇩🇪&nbsp;Muhammad&nbsp;Shasho | 🇩🇪&nbsp;Alexsun82 | 🇬🇧&nbsp;Mozbutler | 🇺🇸&nbsp;Inwon&nbsp;Kang04 | 🇩🇪&nbsp;E&nbsp;Schrader | 🇰🇷&nbsp;Obgor1229 | 🇺🇸&nbsp;Sam&nbsp;Park | 🇺🇸&nbsp;Phippspower&nbsp;Riyadh | 🇩🇪&nbsp;Mario&nbsp;Saternus | 🇩🇰&nbsp;Schack | 🇰🇷&nbsp;Plumberrycustom | 🇩🇪&nbsp;Maltejk | 🇩🇪&nbsp;Philipp&nbsp;Rintz | 🇧🇾&nbsp;Ermak&nbsp;Egor | 🇦🇺&nbsp;Liam&nbsp;Murphy | 🇺🇸&nbsp;Way24H | 🇬🇧&nbsp;James&nbsp;Marsh | 🇺🇸&nbsp;Greg | 🇫🇮&nbsp;Markku&nbsp;Rantasila | 🇩🇪&nbsp;Ihling | 🇳🇱&nbsp;Andreea&nbsp;14&nbsp;Ioana | 🇬🇧&nbsp;Daylegc | 🇳🇱&nbsp;Ss&nbsp;Jimmy | 🇨🇭&nbsp;Heinekentom | 🇺🇸&nbsp;Rirye811 | 🇩🇪&nbsp;Diimaan | 🇸🇰&nbsp;Iam | 🇩🇪&nbsp;Antoine&nbsp;Cotten | 🇳🇴&nbsp;Matias | 🇨🇦&nbsp;Kevin&nbsp;Ip | 🇫🇷&nbsp;Ybastide | 🇺🇸&nbsp;Corbinduncan | 🇪🇸&nbsp;Manugarciarodriguez | 🇵🇱&nbsp;Adriano100417 | 🇺🇸&nbsp;Nikolaos&nbsp;Efthymiou | 🇺🇸&nbsp;Ixen | 🇬🇧&nbsp;Alexandros&nbsp;Doukas | 🇺🇸&nbsp;Fanjiang | 🇺🇸&nbsp;Gablebrown | 🇯🇵&nbsp;Dyxushuai | 🇺🇸&nbsp;Kbrown | 🇩🇪&nbsp;Mhaeuser | 🇺🇸&nbsp;Benjamin&nbsp;W&nbsp;Haas | 🇺🇸&nbsp;Wangdingwen32 | 🇿🇦&nbsp;Boschrick | 🇺🇸&nbsp;Manishgant | 🇺🇸&nbsp;Adam&nbsp;Lurie | 🇺🇸&nbsp;Bradattaway | 🇧🇷&nbsp;Yves&nbsp;Quadros
 
 ### Other
 

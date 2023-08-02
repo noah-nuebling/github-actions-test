@@ -34,8 +34,8 @@ jobs:
     
     - name: Activate python env and run script
       run: |
-        . ./MarkdownStuff/markdown_env/bin/activate
-        python3 MarkdownStuff/acknowledgements_generator.py --api_key {{ secrets.GUMROAD_API_KEY }}
+        source ./MarkdownStuff/markdown_env/bin/activate
+        python3 ./MarkdownStuff/acknowledgements_generator.py --api_key {{ secrets.GUMROAD_API_KEY }}
     
     - name: Commit and push changes
       run: |

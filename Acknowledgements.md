@@ -17,6 +17,49 @@ Thanks for bringing Mac Mouse Fix ppl **around the globe**!
 
 These people bought me an **Incredible Milkshake**. Thanks for the _sugar rush_! 
 
+__August 2023__
+
+- 🇩🇪 Gero
+
+__July 2023__
+
+- 🇫🇮 Sami Syvertsen
+- 🇨🇦 Koby Jaroni
+- 🇫🇷 Bodysplash
+
+__June 2023__
+
+- 🇩🇪 Factory_Steals 0N
+- 🇹🇷 Daniil Petrov
+- 🇺🇸 Joe
+
+__May 2023__
+
+- 🇨🇭 S Vonallmen
+- 🇺🇸 Develand
+- 🇦🇷 Fgilio
+- 🇭🇰 Johnlk0828
+
+__April 2023__
+
+- 🇺🇸 Gavinbrown911
+- 🇺🇸 Mjsagert
+- 🇮🇹 Roccobot
+
+__March 2023__
+
+- 🇺🇸 Rmateu
+
+__February 2023__
+
+- 🇩🇪 Peter Gumball
+- 🇦🇺 Ljstary
+
+__December 2022__
+
+- 🇦🇺 S Edwards3214
+- 🇺🇸 David
+
 __November 2022__
 
 - 🇺🇸 Gcshaw
@@ -41,11 +84,11 @@ __September 2022__
 
 These people **paid more** for Mac Mouse Fix than the base price. Thanks for your _support_!
 
-🇸🇰 Iam | 🇩🇪 Antoine Cotten | 🇳🇴 Matias | 🇨🇦 Kevin Ip | 🇫🇷 Ybastide | 🇺🇸 Corbinduncan | 🇪🇸 Manugarciarodriguez | 🇵🇱 Adriano100417 | 🇺🇸 Nikolaos Efthymiou | 🇺🇸 Ixen | 🇬🇧 Alexandros Doukas | 🇺🇸 Banking | 🇺🇸 Macmousefix | 🇯🇵 Dyxushuai | 🇺🇸 Kbrown | 🇩🇪 Mhaeuser | 🇺🇸 Benjamin W Haas | 🇺🇸 Wangdingwen32 | 🇿🇦 Boschrick | 🇺🇸 Manishgant | 🇺🇸 Adam Lurie | 🇺🇸 Bradattaway | 🇧🇷 Yves Quadros
+🇺🇸 Maxjustus | 🇺🇸 Jj | 🇨🇭 Jeremie Peronnet | 🇺🇸 Trevor Dawn | 🇺🇸 Nathan Sprenkle | 🇷🇴 Alex S360 | 🇪🇸 Cgrs | 🇳🇱 Mail | 🇮🇩 Andreas Purwanto | 🇨🇦 Derek Coulter | 🇩🇰 Josefine Jensen | 🇩🇪 Muhammad Shasho | 🇩🇪 Alexsun82 | 🇬🇧 Mozbutler | 🇺🇸 Inwon Kang04 | 🇩🇪 E Schrader | 🇰🇷 Obgor1229 | 🇺🇸 Sam Park | 🇺🇸 Phippspower Riyadh | 🇩🇪 Mario Saternus | 🇩🇰 Schack | 🇰🇷 Plumberrycustom | 🇩🇪 Paypal | 🇩🇪 Philipp Rintz | 🇧🇾 Ermak Egor | 🇦🇺 Liam Murphy | 🇺🇸 Way24H | 🇬🇧 James Marsh | 🇺🇸 Greg | 🇫🇮 Markku Rantasila | 🇩🇪 It-Beratung | 🇳🇱 Andreea 14 Ioana | 🇬🇧 Daylegc | 🇳🇱 Ss_Jimmy | 🇨🇭 Heinekentom | 🇺🇸 Rirye811 | 🇩🇪 Diimaan | 🇸🇰 Iam | 🇩🇪 Antoine Cotten | 🇳🇴 Matias | 🇨🇦 Kevin Ip | 🇫🇷 Ybastide | 🇺🇸 Corbinduncan | 🇪🇸 Manugarciarodriguez | 🇵🇱 Adriano100417 | 🇺🇸 Nikolaos Efthymiou | 🇺🇸 Ixen | 🇬🇧 Alexandros Doukas | 🇺🇸 Banking | 🇺🇸 Macmousefix | 🇯🇵 Dyxushuai | 🇺🇸 Kbrown | 🇩🇪 Mhaeuser | 🇺🇸 Benjamin W Haas | 🇺🇸 Wangdingwen32 | 🇿🇦 Boschrick | 🇺🇸 Manishgant | 🇺🇸 Adam Lurie | 🇺🇸 Bradattaway | 🇧🇷 Yves Quadros
 
 ### Other
 
-Thanks also to everyone else who bought me a milkshake and to all 163 people who bought Mac Mouse Fix! Ya'll are the bomb. Thanks to you I can spend lots of time on sth I love doing.
+Thanks also to everyone else who bought me a milkshake and to all 753 people who bought Mac Mouse Fix! Ya'll are the bomb. Thanks to you I can spend lots of time on sth I love doing.
 
 ## Other software 👾
 

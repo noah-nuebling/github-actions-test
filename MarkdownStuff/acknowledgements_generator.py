@@ -21,6 +21,7 @@ destination_path = "Acknowledgements.md"
 gumroad_product_ids = ["FP8NisFw09uY8HWTvVMzvg==", "OBIdo8o1YTJm3lNvgpQJMQ=="] # 2nd product is mmfinappusd
 gumroad_api_base = "https://api.gumroad.com"
 gumroad_sales_api = "/v2/sales"
+gumroad_date_format = '%Y-%m-%dT%H:%M:%SZ' # T means nothing, Z means UTC+0 | The date strings that the gumroad sales api returns have this format
 
 #
 # Main
@@ -79,7 +80,7 @@ def main():
     
     # Log
     
-    print('Filtering sales...')
+    print('Sorting and filtering sales...')
     # print(json.dumps(sales, indent=2))
     
     # Filter people who don't want to be displayed
@@ -87,6 +88,9 @@ def main():
     print('')
     sales = list(filter(wants_display, sales))
     print('')
+    
+    # Sort sales by date
+    sales.sort(key=(lambda sale: datetime.datetime.strptime(sale['created_at'], gumroad_date_format)), reverse=True)
     
     # Filter generous and very generous
     
@@ -116,7 +120,7 @@ def main():
     
     for sale in very_generous_sales:
         date_string = sale['created_at']
-        date = datetime.datetime.strptime(date_string, '%Y-%m-%dT%H:%M:%SZ') # T means nothing, Z means UTC+0
+        date = datetime.datetime.strptime(date_string, gumroad_date_format)
         if date == None:
             print('Couldnt extract date from string {}'.format(date_string))
             exit(1)
@@ -226,7 +230,7 @@ def is_very_generous(sale):
 def wants_display(sale):
     if sale['has_custom_fields']: # !! Update this if you change UI string on Gumroad !!
         if sale['custom_fields'].get("Don't publicly display me as a 'Generous Contributor' under 'Acknowledgements'", False) == True:
-            print("{} payed {} but does not want to be displayed".format(display_name(sale), sale['formatted_display_price']))
+            print("{} payed {} and does not want to be displayed".format(display_name(sale), sale['formatted_display_price']))
             return False
     return True
 

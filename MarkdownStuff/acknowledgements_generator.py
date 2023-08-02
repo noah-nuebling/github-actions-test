@@ -9,6 +9,7 @@ import pycountry
 import datetime
 import babel.dates
 import pathlib
+import urllib.parse
 
 #
 # Constants
@@ -181,7 +182,9 @@ def main():
         current_lang_tag = loc['language_tag']
         
         lang_list = ''
-        for loc2 in locations:
+        for i, loc2 in enumerate(locations):
+            
+            is_last = i == len(locations) - 1
             
             lang = loc2['language_name']
             
@@ -189,12 +192,19 @@ def main():
             current_path = loc['destination_path']
             path = loc2['destination_path']
             current_parent_count = len(pathlib.Path(current_path).parents)
-            relative_path = ('**/' * current_parent_count) + path 
+            relative_path = ('../' * (current_parent_count-1)) + path 
+            link = urllib.parse.quote(relative_path) # This percent encodes spaces and others chars which is necessary
+            
+            lang_list += '  '
             
             if current_lang == lang:
-                lang_list += f'  **{lang}**\\\n'
+                lang_list += f'**{lang}**'
             else:
-                lang_list += f'  [{lang}]({relative_path})\\\n'
+                lang_list += f'[{lang}]({link})'
+            
+            lang_list += '\\'
+            if not is_last: 
+                lang_list += '\n'
         
         language_lists[current_lang_tag] = lang_list
     

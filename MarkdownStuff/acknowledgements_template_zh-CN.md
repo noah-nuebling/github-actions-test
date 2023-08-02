@@ -2,7 +2,7 @@
   <summary>󠁧󠁿{current_language}</summary>
   
 {language_list}
-  [?????](Google.com)
+  [?????](https://google.com)
 </details>
 
 # Danksagungen

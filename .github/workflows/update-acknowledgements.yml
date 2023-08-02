@@ -43,7 +43,7 @@ jobs:
     
     - name: Commit and push changes
       run: |
-          if [[ $(git diff --stat) != '' ]]; then
+          if [[ -n $(git status -s) ]]; then
             
             # We do if statement here, otherwise the GitHub Actions exits with an error which we don't want, since this is normal.
           

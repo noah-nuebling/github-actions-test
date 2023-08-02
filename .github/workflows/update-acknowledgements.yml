@@ -5,7 +5,7 @@ name: Update Acknowledgements
 # Controls when the action will run
 on:
   # Action is triggered manually
-  # workflow_dispatch:
+  workflow_dispatch:
 
   # Action runs periodically
   schedule:  

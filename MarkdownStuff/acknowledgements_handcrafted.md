@@ -1,3 +1,5 @@
+(This was used to get a feel for the design of this markdown page refer to acknowledgements_template.md and acknowledgements_generator.py for the up-to-date version)
+
 # Acknowledgements
 
 Big thanks to any one using Mac Mouse Fix / and giving feedback! Y'all are what makes this fun / what keeps me going!

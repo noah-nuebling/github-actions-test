@@ -1,4 +1,25 @@
-### Reference
+# MetaReadme
+
+This repo github-actions-test is a playground for changes we want to make to the mac-mouse-fix repo for the MMF 3 release. Specifically, it deals with user changing updates. Currently it contains a new Readme.md file and a new Acknowledgements.md file as well as a template plus python script to generate Acknowledgements.md. 
+
+This repo also contains some experiements on using GitHub Actions. IIRC we planned to use GH Actions to run the Acknowledgements generation script every time a new copy of MMF was purchased. But we found it impossible for a Gumroad purchase to trigger a GitHub action, so we decided to just run the update script once a day or something like that.
+
+# Python env
+
+To run the python script which generates Acknowledgements.md, activate `markdown_env` with the command: (In fish shell)
+
+```
+source MarkdownStuff/markdown_env/bin/activate.fish
+```
+
+And deactivate with 
+
+```
+deactivate
+```
+
+# GitHub Actions Reference
+
 - Basic concepts: https://dev.to/github/whats-the-difference-between-a-github-action-and-a-workflow-2gba
 - Python sript: https://github.com/GuillaumeFalourd/poc-github-actions/blob/main/.github/workflows/03-python-script-workflow.yml
 - HTTPs triggers: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch

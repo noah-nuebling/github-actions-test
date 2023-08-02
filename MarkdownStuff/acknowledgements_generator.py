@@ -14,8 +14,10 @@ import datetime
 #
 # Constants
 #
-template_path = "acknowledgements_template.md"
-destination_path = "acknowledgements_generated.md"
+# (We expect this script to be run from the root directory of the repo)
+
+template_path = "MarkdownStuff/acknowledgements_template.md"
+destination_path = "Acknowledgements.md"
 gumroad_product_ids = ["FP8NisFw09uY8HWTvVMzvg==", "OBIdo8o1YTJm3lNvgpQJMQ=="] # 2nd product is mmfinappusd
 gumroad_api_base = "https://api.gumroad.com"
 gumroad_sales_api = "/v2/sales"

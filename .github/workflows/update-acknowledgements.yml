@@ -34,9 +34,9 @@ jobs:
 
     - name: Install python dependencies
     - run: |
-      python -m venv gh_env
-      source ./gh_env/bin/activate
-      python -m 'pip install -r ./MarkdownStuff/python_requirements.txt'
+        python -m 'venv gh_env'
+        source ./gh_env/bin/activate
+        python -m 'pip install -r ./MarkdownStuff/python_requirements.txt'
     
     - name: Run script
       run: |

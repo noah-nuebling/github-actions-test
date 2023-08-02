@@ -33,19 +33,13 @@ jobs:
         cache: 'pip' # caching pip dependencies. This is from the official example. Not totally sure what we're doing here.
         cache-dependency-path: './MarkdownStuff/python_requirements.txt'
 
-    - name: Install python dependencies into temp_env
+    - name: Install python dependencies
       run: |
-        # python -m venv temp_env
-        # source ./temp_env/bin/activate
         python -m pip install -r ./MarkdownStuff/python_requirements.txt
     
     - name: Run script
       run: |
-        # source ./temp_env/bin/activate
         python ./MarkdownStuff/acknowledgements_generator.py --api_key ${{ secrets.GUMROAD_API_KEY }}
-    
-    # - name: Cleanup temp_env
-      # run: rm -R temp_env
     
     - name: Commit and push changes
       run: |

@@ -33,7 +33,7 @@ jobs:
         # cache: 'pip' # caching pip dependencies. This is from the official example. Not sure what we're doing here.
 
     - name: Install python dependencies
-    - run: |
+      run: |
         python -m venv gh_env
         source ./gh_env/bin/activate
         python -m pip install -r ./MarkdownStuff/python_requirements.txt

@@ -1,13 +1,13 @@
 <details>
-  <summary>󠁧󠁿🇬🇧 English</summary>
+  <summary>󠁧󠁿🇩🇪 Deutsch</summary>
   
-  **🇬🇧 English**\
-  [🇩🇪 Deutsch](../Acknowledgements/Danksagungen.md)\
+  [🇬🇧 English](../Acknowledgements/Acknowledgements.md)\
+  **🇩🇪 Deutsch**\
   [🇨🇳 한국어](../Acknowledgements/Acknowledgements%20-%20Chinese.md)\
-  [Help translate Mac Mouse Fix to different languages!](https://google.com)
+  [Hilf Mac Mouse Fix in verschiedene Sprachen zu übersetzen!](https://google.com)
 </details>
 
-# Acknowledgements
+# Danksagungen
 
 Big thanks to any one using Mac Mouse Fix / and giving feedback! Y'all are what makes this fun / what keeps me going!
 
@@ -30,19 +30,19 @@ __August 2023__
 
 - 🇩🇪 Gero
 
-__July 2023__
+__Juli 2023__
 
 - 🇫🇮 Sami Syvertsen
 - 🇨🇦 Koby Jaroni
 - 🇫🇷 Bodysplash
 
-__June 2023__
+__Juni 2023__
 
 - 🇩🇪 Factory Steals 0N
 - 🇹🇷 Daniil Petrov
 - 🇺🇸 Joe
 
-__May 2023__
+__Mai 2023__
 
 - 🇨🇭 S Vonallmen
 - 🇺🇸 Develand
@@ -55,16 +55,16 @@ __April 2023__
 - 🇺🇸 Mjsagert
 - 🇮🇹 Roccobot
 
-__March 2023__
+__März 2023__
 
 - 🇺🇸 Rmateu
 
-__February 2023__
+__Februar 2023__
 
 - 🇩🇪 Peter Gumball
 - 🇦🇺 Ljstary
 
-__December 2022__
+__Dezember 2022__
 
 - 🇦🇺 S Edwards3214
 - 🇺🇸 David
@@ -74,7 +74,7 @@ __November 2022__
 - 🇺🇸 Gcshaw
 - 🇺🇸 Johnnydangerously
 
-__October 2022__
+__Oktober 2022__
 
 - 🇦🇹 Frame
 - 🇫🇷 Damien Rajon

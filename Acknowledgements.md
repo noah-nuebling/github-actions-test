@@ -1,7 +1,5 @@
 # Acknowledgements
 
-Big thanks to any one using Mac Mouse Fix / and giving feedback! Y'all are what makes this fun / what keeps me going!
-
 I want to especially thank these people:
 
 ## Translations 🌏

@@ -43,9 +43,9 @@ jobs:
     
     - name: Commit and push changes
       run: |
-          if [[ -n $(git status -s) ]]; then
+          if [[ -n $(git status --short) ]]; then
             
-            # We do if statement here, otherwise the GitHub Actions exits with an error which we don't want, since this is normal.
+            # We do if statement here, otherwise the GitHub Actions exits with an error if there are no changes which we don't want since it's normal to have no changes. Src for the if condition: https://remarkablemark.org/blog/2017/10/12/check-git-dirty/
           
             git config user.name github-actions
             git config user.email github-actions@github.com

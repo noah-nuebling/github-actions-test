@@ -1,8 +1,8 @@
 <details>
   <summary>󠁧󠁿🇨🇳 한국어</summary>
   
-  [🇬🇧 English](**/Acknowledgements/Acknowledgements.md)\
-  [🇩🇪 Deutsch](**/Acknowledgements/Danksagungen.md)\
+  [🇬🇧 English](**/**/Acknowledgements/Acknowledgements.md)\
+  [🇩🇪 Deutsch](**/**/Acknowledgements/Danksagungen.md)\
   **🇨🇳 한국어**\
 
   [?????](Google.com)

@@ -3,7 +3,7 @@
   
   [🇬🇧 English](**/**/Acknowledgements/Acknowledgements.md)\
   **🇩🇪 Deutsch**\
-  [🇨🇳 한국어](../Acknowledgements/Acknowledgements - Chinese.md)\
+  [🇨🇳 한국어](../Acknowledgements/Acknowledgements%20-%20Chinese.md)\
 
   [Hilf Mac Mouse Fix in verschiedene Sprachen zu übersetzen!](Google.com)
 </details>

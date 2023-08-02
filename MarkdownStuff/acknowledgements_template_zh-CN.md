@@ -1,6 +1,7 @@
 <details>
   <summary>󠁧󠁿{current_language}</summary>
-  {language_list}
+  
+{language_list}
   [?????](Google.com)
 </details>
 

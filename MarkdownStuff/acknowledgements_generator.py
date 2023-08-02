@@ -8,6 +8,7 @@ import json
 import pycountry
 import datetime
 import babel.dates
+import pathlib
 
 #
 # Constants
@@ -181,12 +182,19 @@ def main():
         
         lang_list = ''
         for loc2 in locations:
+            
             lang = loc2['language_name']
-            link = loc2['destination_path']
+            
+            # Create relative path from the location of the `current_lang` document to the `lang` document. This relative path works as a link. See https://github.blog/2013-01-31-relative-links-in-markup-files/
+            current_path = loc['destination_path']
+            path = loc2['destination_path']
+            current_parent_count = len(pathlib.Path(current_path).parents)
+            relative_path = ('**/' * current_parent_count) + path 
+            
             if current_lang == lang:
                 lang_list += f'  **{lang}**\\\n'
             else:
-                lang_list += f'  [{lang}]({link})\\\n'
+                lang_list += f'  [{lang}]({relative_path})\\\n'
         
         language_lists[current_lang_tag] = lang_list
     

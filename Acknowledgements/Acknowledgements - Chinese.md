@@ -28,7 +28,7 @@ These people bought me an **Incredible Milkshake**. Thanks for the _sugar rush_!
 
 __八月 2023__
 
-- 🇩🇪&nbsp;Noah&nbsp;Nuebling
+- 🇩🇪&nbsp;Noah&nbsp;Nuebling - *"I MIGHT be biased but I think the app is pretty cool :)"*
 - 🇩🇪&nbsp;Gero
 
 __七月 2023__

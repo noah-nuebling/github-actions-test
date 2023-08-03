@@ -41,8 +41,11 @@ gumroad_product_ids = ["FP8NisFw09uY8HWTvVMzvg==", "OBIdo8o1YTJm3lNvgpQJMQ=="] #
 gumroad_api_base = "https://api.gumroad.com"
 gumroad_sales_api = "/v2/sales"
 gumroad_date_format = '%Y-%m-%dT%H:%M:%SZ' # T means nothing, Z means UTC+0 | The date strings that the gumroad sales api returns have this format
+gumroad_dont_display_label = "Don't publicly display me as a 'Generous Contributor' under 'Acknowledgements'" # !! Update this if you change UI string on Gumroad !!
+gumroad_custom_message_label = "Your message (Will be displayed next to your name in the Acknowledgements if you purchase the 3. Option)" # !! Update this if you change UI string on Gumroad !!
 name_blacklist = ['mail', 'paypal', 'banking', 'it-beratung', 'macmousefix'] # When gumroad doesn't provide a name we use part of the email as the display name. We use the part of the email before @, unless it contains one of these substrings, in which case we use the part of the email after @ but with the `.com`, `.de` etc. removed
 nbsp = '&nbsp;'  # Non-breaking space. &nbsp; doesn't seem to work on GitHub. See https://github.com/github/cmark-gfm/issues/346
+
 
 #
 # Main
@@ -163,7 +166,13 @@ def main():
                 
                 very_generous_string += '__{}__\n'.format(babel.dates.format_datetime(datetime=date, format='LLLL yyyy', locale=language_tag.replace('-', '_'))) # See https://babel.pocoo.org/en/latest/dates.html and https://babel.pocoo.org/en/latest/api/dates.html#babel.dates.format_datetime. For some reason, babel wants _ instead of - in the language tags, not sure why.
             
-            very_generous_string += '\n- ' + display_name(sale)
+            name = display_name(sale)
+            message = user_message(sale)
+            
+            if len(message) > 0:
+                very_generous_string += '\n- ' + display_name(sale) + f' - *"{message}"*'
+            else:
+                very_generous_string += '\n- ' + display_name(sale)
         
         very_generous_strings[language_tag] = very_generous_string
         
@@ -345,11 +354,22 @@ def is_very_generous(sale):
     return False
         
 def wants_display(sale):
-    if sale['has_custom_fields']: # !! Update this if you change UI string on Gumroad !!
-        if sale['custom_fields'].get("Don't publicly display me as a 'Generous Contributor' under 'Acknowledgements'", False) == True:
+    if sale['has_custom_fields']:
+        if sale['custom_fields'].get(gumroad_dont_display_label, False) == True:
             print("{} payed {} and does not want to be displayed".format(display_name(sale), sale['formatted_display_price']))
             return False
     return True
+
+def user_message(sale):
+    
+    message = ''
+    if sale['has_custom_fields']:
+        message = sale['custom_fields'].get(gumroad_custom_message_label, '')
+
+    if len(message) > 0:
+        print("{} payed {} and left message: {}".format(display_name(sale), sale['formatted_display_price'], message))
+    
+    return message
 
 #
 # Call main

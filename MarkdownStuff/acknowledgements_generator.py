@@ -37,7 +37,7 @@ languages = [
     },
 ]
 
-gumroad_product_ids = ["FP8NisFw09uY8HWTvVMzvg==", "OBIdo8o1YTJm3lNvgpQJMQ=="] # 2nd product is mmfinappusd
+gumroad_product_ids = ["FP8NisFw09uY8HWTvVMzvg==", "OBIdo8o1YTJm3lNvgpQJMQ=="] # 1st is is the € based product (Which we used in the earlier MMF 3 Betas, but which isn't used anymore), 2nd id is $ based product (mmfinappusd)
 gumroad_api_base = "https://api.gumroad.com"
 gumroad_sales_api = "/v2/sales"
 gumroad_date_format = '%Y-%m-%dT%H:%M:%SZ' # T means nothing, Z means UTC+0 | The date strings that the gumroad sales api returns have this format
@@ -307,23 +307,41 @@ def emoji_flag(sale):
     return result
  
 def is_generous(sale):
-    if sale['variants_and_quantity'] == '(2. Option)':
-        return True
-    if sale['formatted_display_price'] == '€5':
-        return True
-    if sale['formatted_display_price'] == '$5':
-        return True
+    
+    sale_pid = sale['product_id']
+    euro_pid = gumroad_product_ids[0]
+    dollar_pid = gumroad_product_ids[1]
+    
+    if sale_pid == euro_pid:
+        if sale['variants_and_quantity'] == '(2. Option)': 
+            return True
+        if sale['formatted_display_price'] == '€5': # Commenting this out doesn't change the results. Not sure why we wrote this - maybe the "variants_and_quantity" value used to be different from (2. Option) for a period?
+            return True
+    elif sale_pid == dollar_pid:
+        if sale['variants_and_quantity'] == '(2. Option)':
+            return True
+    else:
+        assert False
     
     return False
  
 def is_very_generous(sale):
-    if sale['variants_and_quantity'] == '(3. Option)':
-        return True
-    if sale['formatted_display_price'] == '€10':
-        return True
-    if sale['formatted_display_price'] == '$10':
-        return True
     
+    sale_pid = sale['product_id']
+    euro_pid = gumroad_product_ids[0]
+    dollar_pid = gumroad_product_ids[1]
+    
+    if sale_pid == euro_pid:
+        if sale['variants_and_quantity'] == '(3. Option)':
+            return True
+        if sale['formatted_display_price'] == '€10': # Commenting this out doesn't change the results
+            return True
+    elif sale_pid == dollar_pid:
+        if sale['variants_and_quantity'] == '(3. Option)':
+            return True
+    else:
+        assert False
+        
     return False
         
 def wants_display(sale):

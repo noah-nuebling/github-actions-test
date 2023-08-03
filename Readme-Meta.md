@@ -37,6 +37,14 @@ https://rhysd.github.io/actionlint/
 
 https://www.techonthenet.com/js/language_tags.php
 
+# Gumroad API
+
+To test the Gumroad sales API (which we use for acknowledgements_generator.py) from the command line:
+
+```
+curl --request GET --header "Content-Type: application/x-www-form-urlencoded" --data 'access_token=SECRET&product_id=FP8NisFw09uY8HWTvVMzvg==' https://api.gumroad.com/v2/sales | json_pp
+```
+
 # GitHub Actions Reference
 
 - Basic concepts: https://dev.to/github/whats-the-difference-between-a-github-action-and-a-workflow-2gba

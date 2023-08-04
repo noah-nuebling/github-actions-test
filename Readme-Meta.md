@@ -50,6 +50,10 @@ To test the Gumroad sales API (which we use for acknowledgements_generator.py) f
 curl --request GET --header "Content-Type: application/x-www-form-urlencoded" --data 'access_token=SECRET&product_id=FP8NisFw09uY8HWTvVMzvg==' https://api.gumroad.com/v2/sales | json_pp
 ```
 
+# Wrap links in markdown which contain spaces with < and > to make them work
+
+See https://superuser.com/a/1517072/1095998
+
 # GitHub Actions Reference
 
 - Basic concepts: https://dev.to/github/whats-the-difference-between-a-github-action-and-a-workflow-2gba

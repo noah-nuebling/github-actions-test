@@ -10,6 +10,7 @@ import datetime
 import babel.dates
 import pathlib
 import urllib.parse
+import string
 
 #
 # Constants
@@ -71,7 +72,7 @@ gumroad_api_base = "https://api.gumroad.com"
 gumroad_sales_api = "/v2/sales"
 gumroad_date_format = '%Y-%m-%dT%H:%M:%SZ' # T means nothing, Z means UTC+0 | The date strings that the gumroad sales api returns have this format
 name_blacklist = ['mail', 'paypal', 'banking', 'it-beratung', 'macmousefix'] # When gumroad doesn't provide a name we use part of the email as the display name. We use the part of the email before @, unless it contains one of these substrings, in which case we use the part of the email after @ but with the `.com`, `.de` etc. removed
-nbsp = '&nbsp;'  # Non-breaking space. &nbsp; doesn't seem to work on GitHub. Tried '\xa0', too See https://github.com/github/cmark-gfm/issues/346
+nbsp = '&nbsp;'  # Non-breaking space. &nbsp; doesn't seem to work on GitHub. Tried '\xa0', too. See https://github.com/github/cmark-gfm/issues/346
 
 
 #
@@ -118,12 +119,22 @@ def main():
         
         # Insert into template
         if document_tag == "readme":
+            template = insert_root_paths(template, language_dict)
             template = insert_language_picker(template, language_dict, language_dicts)
         elif document_tag == "acknowledgements":
+            template = insert_root_paths(template, language_dict) # This is not currently necessary here since we don't use the {root_path} placeholder in the acknowledgements templates
             template = insert_language_picker(template, language_dict, language_dicts)
             template = insert_acknowledgements(template, language_dict, gumroad_api_key)
         else:
             assert False # Should never happen because we check document_tag for validity above.
+        
+        # Validate that template is completely filled out
+        template_parse_result = list(string.Formatter().parse(template))
+        template_fields = [tup[1] for tup in template_parse_result if tup[1] is not None]
+        is_fully_formatted = len(template_fields) == 0
+        if not is_fully_formatted:
+            print(f"Something went wrong. Template at '{template_path}' still has format field(s) after inserting: {template_fields}")
+            sys.exit(1)
         
         # Write template
         with open(destination_path, mode="w") as f:
@@ -311,8 +322,8 @@ def insert_language_picker(template, language_dict, language_dicts):
         # Create relative path from the location of the `language_dict` document to the `language_dict2` document. This relative path works as a link. See https://github.blog/2013-01-31-relative-links-in-markup-files/
         path = language_dict['destination_path']
         path2 = language_dict2['destination_path']
-        parent_count = len(pathlib.Path(path).parents)
-        relative_path = ('../' * (parent_count-1)) + path2
+        root_path = path_to_root(path)
+        relative_path = root_path + path2
         link = urllib.parse.quote(relative_path) # This percent encodes spaces and others chars which is necessary
         
         ui_language_list += '  '
@@ -336,10 +347,24 @@ def insert_language_picker(template, language_dict, language_dicts):
     
     # Return
     return template
+
+def insert_root_paths(template, language_dict):
+        
+    # Extract info from language_dict
+        
+    path = language_dict['destination_path']
+    template = template.replace('{repo_root}', path_to_root(path))
     
+    return template
+
 # 
 # Particle generators
 #
+ 
+def path_to_root(path):
+    parent_count = len(pathlib.Path(path).parents)
+    root_path = ('../' * (parent_count-1))
+    return root_path
  
 def display_name(sale):
     

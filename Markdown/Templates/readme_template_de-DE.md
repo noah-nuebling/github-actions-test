@@ -16,7 +16,7 @@
 
 <div align="center">
 	<a href="https://noah-nuebling.github.io/mac-mouse-fix-website">
-		<img src="Markdown/Media/AppIconRound3.png" width="200" height="auto">
+		<img src="{repo_root}/Markdown/Media/AppIconRound3.png" width="200" height="auto">
 	</a>
 	<h1>Mac Mouse Fix</h1>  
     <p>Make Your $10 Mouse Better Than an Apple Trackpad!</p>
@@ -66,7 +66,7 @@ My goal is to make Mac Mouse Fix the best mouse driver of all time. Currently it
 - Acknowledgements
 
 
-<!-- <div align="center"><img src="Markdown/Media/MMF-Buttons-Screenshot.png" width="600" height="auto"></div> -->
+<!-- <div align="center"><img src="{repo_root}/Markdown/Media/MMF-Buttons-Screenshot.png" width="600" height="auto"></div> -->
 
 <!-- <h3 align="center">
 <a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a> |
@@ -116,7 +116,7 @@ Action Table gives infinte options in extremely fast and easy UI
 
 ? Let people see this from other vids/screenshots, don't explicitly say this ?
 
-<img src="Markdown/Media/MMF-UI-Loop-4.gif" width="450">
+<img src="{repo_root}/Markdown/Media/MMF-UI-Loop-4.gif" width="450">
 
 ### Details
 
@@ -221,7 +221,7 @@ Even keys only found on Apple keyboards like 'Increase Brightness', 'Decrease Vo
 
 If you don't have Apple Keyboard at hand, hold Option (⌥) to reveal the Apple-Keyboard exclusive keys in a dropdown menu!
 
-<img src="Markdown/Media/Apple-Keys-Demo.gif" width="450">
+<img src="{repo_root}/Markdown/Media/Apple-Keys-Demo.gif" width="450">
 
 You can also use keyboard shorcuts to do anything from your mouse by hooking into other stuff like Apple Shortcuts!
 
@@ -264,7 +264,7 @@ Get Mac Mouse Fix [2.2.0](https://github.com/noah-nuebling/mac-mouse-fix/release
 
 ## Supported languages
 
-Mac Mouse Fix is available in English, German and the languages listed on the [[Acknowledgements Page]]
+Mac Mouse Fix is available in English, German and the languages listed in the [Acknowledgements]({repo_root}/Markdown/LocalizedDocuments/Acknowledgements - 🇩🇪 Deutsch.md)
 
 ## How you can help
 
@@ -321,7 +321,7 @@ More info in the [LICENSE](https://github.com/noah-nuebling/mac-mouse-fix/blob/m
 
 ## Acknowledgements
 
-Mac Mouse Fix wouldn't be the same without these [awesome contributions](acknowledgements_generated.md)
+Mac Mouse Fix wouldn't be the same without these [awesome contributions]({repo_root}/Markdown/LocalizedDocuments/Acknowledgements - 🇩🇪 Deutsch.md)
 
 ---
 
@@ -331,35 +331,3 @@ Mac Mouse Fix wouldn't be the same without these [awesome contributions](acknowl
 - https://github.com/exelban/stats
 - sindresorhus/Gifski
 - sindresorhus/caprine
-
-
-
-<!-- 
-
-<div align="center">
-	<img src="Markdown/Media/AppIconRound.png" width="200" height="200">
-	<h1>Mac Mouse Fix</h1>
-	<p>
-		<b>Make Your $10 Mouse Better Than an Apple Trackpad!</b>
-	</p>
-	<br>
-	<br>
-	<br>
-</div>
-
-
---
-
-![gh-header-v2](https://user-images.githubusercontent.com/40808343/112161606-9814af80-8beb-11eb-9d2e-3105b4486bab.png)
-<div align="center">
-	<hr>
-    <p>
-		<b>Make Your $10 Mouse Better Than an Apple Trackpad!</b>
-	</p>
-	<br>
-	<br>
-	<br>
-</div>
- 
-
--->

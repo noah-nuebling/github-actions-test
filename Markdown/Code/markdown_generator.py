@@ -4,7 +4,7 @@
 import sys
 import argparse
 import requests
-import json
+# import json
 import pycountry
 import datetime
 import babel.dates
@@ -85,9 +85,11 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--document")
     parser.add_argument("--api_key")
+    parser.add_argument("--no_api")
     args = parser.parse_args()
     gumroad_api_key = args.api_key
     document_tag = args.document
+    no_api = args.no_api is not None
     
     # Validate
     document_tag_was_provided = isinstance(document_tag, str) and document_tag != ''
@@ -124,7 +126,7 @@ def main():
         elif document_tag == "acknowledgements":
             template = insert_root_paths(template, language_dict) # This is not currently necessary here since we don't use the {root_path} placeholder in the acknowledgements templates
             template = insert_language_picker(template, language_dict, language_dicts)
-            template = insert_acknowledgements(template, language_dict, gumroad_api_key)
+            template = insert_acknowledgements(template, language_dict, gumroad_api_key, no_api)
         else:
             assert False # Should never happen because we check document_tag for validity above.
         
@@ -153,7 +155,11 @@ def main():
 
 sales_data_cache = None
 
-def insert_acknowledgements(template, language_dict, gumroad_api_key):
+def insert_acknowledgements(template, language_dict, gumroad_api_key, no_api):
+    
+    if no_api:
+        template = template.replace('{very_generous}', 'NO_API').replace('{generous}', 'NO_API').replace('{sales_count}', 'NO_API')
+        return template
     
     global sales_data_cache
     

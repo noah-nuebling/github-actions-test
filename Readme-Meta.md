@@ -4,7 +4,7 @@ This repo github-actions-test is a playground for changes we want to make to the
 
 This repo also contains experiements on using GitHub Actions. IIRC we planned to use GH Actions to run the Acknowledgements generation script every time a new copy of MMF was purchased. But we found it impossible for a Gumroad purchase to trigger a GitHub action, so we decided to just run the update script periodically.
 
-# Python env
+# Install dependencies into python env
 
 To run the python script which generates Acknowledgements.md, activate `markdown_env` with the command: (In fish shell)
 
@@ -34,6 +34,43 @@ python3 -m venv env
 source env/bin/activate.fish
 python3 -m pip install -r Markdown/Code/python_requirements.txt
 ``````
+
+# Using markdown_generator.py
+
+To generate the **acknowledgements** document in different languages based on templates
+```
+python3 Markdown/Code/markdown_generator.py --document acknowledgements --api_key ***
+```
+
+If you don't have the api key:
+```
+python3 Markdown/Code/markdown_generator.py --document acknowledgements --no_api -
+```
+
+To generate the **readme** document in different languages based on templates
+```
+python3 Markdown/Code/markdown_generator.py --document readme
+```
+
+# Previewing generated markdown files locally
+
+I use VSCode with the plugin: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles
+
+# Editing a template
+
+1. Install python, create and activate a venv, then install the requirements from Markdown/Code/python_requirements.txt into your venv (see above) (in order to run the markdown_generator.py script)
+2. Edit the template under Markdown/Templates/
+3. Run the markdown_generator.py script which creates an output file based on the template. To see which templates generate which output files see the 'documents' dictionary at the top of the markdown_generator.py script
+4. If the output file looks good, create a pull request
+
+# Add a new template to add a new language for a document
+
+1. Install python, create and activate a venv, then install the requirements from Markdown/Code/python_requirements.txt into your venv (see above) (in order to run the markdown_generator.py script)
+2. Create a new template under Markdown/Templates/
+3. Add a new entry for your new template to the 'documents' dictionary at the top of the markdown_generator.py script
+4. Run the markdown_generator.py script, which creates an output file based on your new template.
+5. If the output file looks good, create a commit and a pull request and stuff
+
 # Online GitHub Actions linting
 
 https://rhysd.github.io/actionlint/

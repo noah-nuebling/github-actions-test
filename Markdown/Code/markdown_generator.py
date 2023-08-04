@@ -88,6 +88,16 @@ def main():
     gumroad_api_key = args.api_key
     document_tag = args.document
     
+    # Validate
+    document_tag_was_provided = isinstance(document_tag, str) and document_tag != ''
+    if not document_tag_was_provided:
+        print("No document tag provided. Provide one using the '--document' command line argument.")
+        sys.exit(1)
+    document_tag_is_valid = document_tag in documents.keys()
+    if not document_tag_is_valid:
+        print(f"Unknown document tag '{document_tag}'. Valid document tags: {list(documents.keys())}")
+        sys.exit(1)
+    
     # Iterate language dicts
 
     language_dicts = documents[document_tag]
@@ -113,7 +123,7 @@ def main():
             template = insert_language_picker(template, language_dict, language_dicts)
             template = insert_acknowledgements(template, language_dict, gumroad_api_key)
         else:
-            assert False
+            assert False # Should never happen because we check document_tag for validity above.
         
         # Write template
         with open(destination_path, mode="w") as f:
@@ -130,6 +140,8 @@ def main():
 sales_data_cache = None
 
 def insert_acknowledgements(template, language_dict, gumroad_api_key):
+    
+    global sales_data_cache
     
     all_sales_count = None
     generous_sales = None
@@ -210,8 +222,9 @@ def insert_acknowledgements(template, language_dict, gumroad_api_key):
         # Filter generous and very generous
         generous_sales = list(filter(is_generous, sales))
         very_generous_sales = list(filter(is_very_generous, sales))
-        
-        # Store in cache
+    
+        # Create cache and store in cache
+        sales_data_cache = dict()
         sales_data_cache['all_sales_count'] = all_sales_count
         sales_data_cache['generous_sales'] = generous_sales
         sales_data_cache['very_generous_sales'] = very_generous_sales
@@ -269,8 +282,13 @@ def insert_acknowledgements(template, language_dict, gumroad_api_key):
     print('\nGenerous string:\n\n{}\n'.format(generous_string))
     print('Very Generous string:\n\n{}\n'.format(very_generous_string))
     
+    print('Inserting into template:\n\n{}\n'.format(template))
+    
     # Insert into template
-    template = template.format(very_generous=very_generous_string, generous=generous_string, sales_count=all_sales_count)
+    # str.format forces us to replace all the template placeholders at once, which we don't want, so we use str.replace
+    
+    # template = template.format(very_generous=very_generous_string, generous=generous_string, sales_count=all_sales_count)
+    template = template.replace('{very_generous}', very_generous_string).replace('{generous}', generous_string).replace('{sales_count}', str(all_sales_count))
     
     # Return
     return template
@@ -300,9 +318,9 @@ def insert_language_picker(template, language_dict, language_dicts):
         ui_language_list += '  '
         
         if language_name == language_name2:
-            ui_language_list += f'**{language_name}**'
+            ui_language_list += f'**{language_name2}**'
         else:
-            ui_language_list += f'[{language_name}]({link})'
+            ui_language_list += f'[{language_name2}]({link})'
         
         ui_language_list += '\\'
         if not is_last: 
@@ -310,9 +328,11 @@ def insert_language_picker(template, language_dict, language_dicts):
         
     # Log    
     print(f'\nLanguage picker language list generated for language "{language_name}":\n{ui_language_list}\n')
+    # print('Inserting into template:\n\n{}\n'.format(template))
     
     # Insert generated strings into template
-    template = template.format(current_language = language_name, language_list = ui_language_list)
+    # template = template.format(current_language=language_name, language_list=ui_language_list)
+    template = template.replace('{current_language}', language_name).replace('{language_list}', ui_language_list)
     
     # Return
     return template

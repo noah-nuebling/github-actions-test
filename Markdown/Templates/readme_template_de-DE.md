@@ -1,11 +1,11 @@
 <!-- This README is greatly inspired by / stolen from sindresorhus/Gifski and sindresorhus/caprine -->
 
 <details>
-	<summary>󠁧󠁿{current_language}</summary>
+  <summary>󠁧󠁿{current_language}</summary>
 	
-  {language_list}
-	[Help translate Mac Mouse Fix to different languages!](https://google.com)
-  </details>
+{language_list}
+  [Help translate Mac Mouse Fix to different languages!](https://google.com)
+</details>
 
 <table align="center">
 	<tr>

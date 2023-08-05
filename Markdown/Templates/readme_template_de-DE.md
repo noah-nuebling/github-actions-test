@@ -4,7 +4,7 @@
   <summary>󠁧󠁿{current_language}</summary>
 	
 {language_list}
-  [Help translate Mac Mouse Fix to different languages!](https://google.com)
+  [Helfe Mac Mouse Fix in verschiedene Sprachen zu übersetzen!](https://google.com)
 </details>
 
 <table align="center">

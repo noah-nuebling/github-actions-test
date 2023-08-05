@@ -32,12 +32,6 @@ documents = {
             "template_path": "Markdown/Templates/readme_template_de-DE.md",
             "destination_path": "Markdown/LocalizedDocuments/Readme - 🇩🇪 Deutsch.md"
         },
-        {
-            "language_name": "🇨🇳 한국어",
-            "language_tag": "zh-CN",
-            "template_path": "Markdown/Templates/readme_template_zh-CN.md",
-            "destination_path": "Markdown/LocalizedDocuments/Readme - 🇨🇳 한국어.md"
-        },
     ],
     "acknowledgements": [
         {
@@ -51,12 +45,6 @@ documents = {
             "language_tag": "de-DE",
             "template_path": "Markdown/Templates/acknowledgements_template_de-DE.md",
             "destination_path": "Markdown/LocalizedDocuments/Acknowledgements - 🇩🇪 Deutsch.md"
-        },
-        {
-            "language_name": "🇨🇳 한국어",
-            "language_tag": "zh-CN",
-            "template_path": "Markdown/Templates/acknowledgements_template_zh-CN.md",
-            "destination_path": "Markdown/LocalizedDocuments/Acknowledgements - 🇨🇳 한국어.md"
         },
     ]
 }

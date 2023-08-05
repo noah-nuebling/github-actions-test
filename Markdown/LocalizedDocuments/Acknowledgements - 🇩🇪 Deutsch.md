@@ -4,7 +4,6 @@
   
   [🇬🇧 English](../../Acknowledgements.md)\
   **🇩🇪 Deutsch**\
-  [🇨🇳 한국어](../../Markdown/LocalizedDocuments/Acknowledgements%20-%20%F0%9F%87%A8%F0%9F%87%B3%20%ED%95%9C%EA%B5%AD%EC%96%B4.md)\
   [Hilf Mac Mouse Fix in verschiedene Sprachen zu übersetzen!](https://google.com)
 </details>
 

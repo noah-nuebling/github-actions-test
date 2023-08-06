@@ -103,31 +103,48 @@ __September 2022__
 - 🇷🇴&nbsp;Marian&nbsp;Melinte
 - 🇬🇧&nbsp;Niania52
 
-## 👾 Other Software
-
-__Apps__ that inspired Mac Mouse Fix:
-
-- [SteerMouse](https://plentycom.jp/en/steermouse/index.html) - The OG mouse software for Mac. Inspiration for many features. I often thought "this is is probably not possible" but then I saw "oh SteerMouse does it" and then 3 years later I figured out how to do it, too.
-- [Calftrail Touch](https://github.com/calftrail/Touch) - Basis for "reverse engineering" work powering MMFs best-in-class and first-of-a-kind touch simulation!
-- [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons) - Basis for early implementation of Back and Forward feature. Made me find Calftrail Touch?
-- [SmoothMouse](https://smoothmouse.com/) - It's creator [Dae](https://dae.me/) answered some important questions for me about Pointer Speed 
-- [Gifski by sindresorhus](https://github.com/sindresorhus/Gifski) - Greatly inspired the Mac Mouse Fix README.md
-- MOS - Inertial Scrolling feel, App-Specific Settings Implementation and more were inspired by the MOS
-
-__People__ that inspired Mac Mouse Fix:
-
-- @DrJume for teaching me about debouncing and inspiring the UI for entering and displaying keyboard modifiers on the scroll tab
-- German guy for inspiring the tab-based layout in MMF 3
-- Guy who helped tune the fast scrolling in that pull request
-- So many others I can't think of right now. Thanks to everybody else who shared their thoughts!
+## 👾 Software
 
 Mac Mouse Fix was built with the help of these **great libraries**:
 
-- [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift) - Streams of values over time. Tailored for Swift.
+- [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift) - Streams of values over time tailored for Swift
 - [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) - Fast & simple, yet powerful & flexible logging
 - [Swift Markdown](https://github.com/apple/swift-markdown) - Parse, build, edit, and analyze Markdown documents
-- [BartyCrouch](https://github.com/FlineDev/BartyCrouch) - Keep translation files in sync with Source Code and Interface Builder files
+- [BartyCrouch](https://github.com/FlineDev/BartyCrouch) - Keep translation files in sync with source code and Interface Builder files
 - [Sparkle](https://github.com/sparkle-project/Sparkle) - A software update framework for macOS
-- [SnapKit](https://github.com/SnapKit/SnapKit) - Making Auto Layout easy on both iOS and OS X
-- [MASShortcut](https://github.com/shpakovski/MASShortcut) - API and user interface for recording, storing and using system-wide keyboard shortcuts -> Using this to display keyboard keys in the UI.
-- [CGSInternal](https://github.com/NUIKit/CGSInternal) - A collection of private CoreGraphics routines -> used for all sorts of stuff Mac Mouse Fix does.
+- [SnapKit](https://github.com/SnapKit/SnapKit) - Making Auto Layout easy on both iOS and macOS
+- [MASShortcut](https://github.com/shpakovski/MASShortcut) - API and user interface for recording, storing & using system-wide keyboard shortcuts
+- [CGSInternal](https://github.com/NUIKit/CGSInternal) - A collection of private CoreGraphics routines
+
+**Apps** that inspired Mac Mouse Fix:
+
+- [SteerMouse](https://plentycom.jp/en/steermouse/index.html) - Pioneering mouse software for Mac, inspiring many features. There were moments when I thought "this is probably not possible", but then I saw "oh, SteerMouse does it", and three years later, I figured out how to implement it, too.
+- [Calftrail Touch](https://github.com/calftrail/Touch) - The foundation for the "reverse engineering" work which powers Mac Mouse Fix's best-in-class and first-of-a-kind trackpad simulation!
+- [MOS](https://mos.caldis.me/) - Mac Mouse Fix's "High Scroll-Smoothness" option, the "App-Specific Settings" implementation, and more were inspired by MOS.
+- [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons) - I copied its code for an early implementation of the "Go back/forward one page in Safari and other apps" feature, and also led me to discover the Calftrail Touch project.
+
+
+<!--
+
+  vvv Unused stuff and notes vvv.
+
+  NOTE: The software section doesn't include the tech stack and inspirations of the Feedback Assistant or Website, or other GitHub content like update-feed and Readme.md. Maybe I should list those somewhere else or include them here at some point?
+          Here's a bullet point for the inspiration section regarding the Readme: - [Gifski](https://github.com/sindresorhus/Gifski) - Greatly inspired the Mac Mouse Fix Readme.md, shaping its design and content.
+  NOTE: Should I add my personal developments tools I used to the software section? - Xcode, VSCode, GitHub, iTerm2, fish shell, z clt, maybe more...
+  NOTE: We're not including the "outstandingly helpful feedback" section. It's kinda weird and there is no concrete thing that they did which is now part of MMF. 
+        If ppl make pull requests with significant contributions, then we should mention them somewhere.
+
+
+  ## ☺️ Outstandingly Helpful Feedback
+  
+  __People__ that inspired Mac Mouse Fix:
+  
+  - @DrJume for teaching me about debouncing and inspiring the UI for entering and displaying keyboard modifiers on the scroll tab
+  - German guy for inspiring the tab-based layout in MMF 3
+  - Guy who made an alternative app icon
+  - Guy who helped tune the fast scrolling in that pull request
+  - [SmoothMouse](https://smoothmouse.com/) - It's creator [Dae](https://dae.me/) answered some important questions for me about Pointer Speed in macOS.
+  
+  - So many others I can't think of right now. Thanks to everybody else who shared their thoughts!
+  
+  -->

@@ -5,38 +5,41 @@
   [Help translate Mac Mouse Fix to different languages!](https://google.com)
 </details>
 
-# Acknowledgements
+# 🙌 Acknowledgements
 
-Big thanks to any one using Mac Mouse Fix / and giving feedback! Y'all are what makes this fun / what keeps me going!
+Big thanks to everyone using Mac Mouse Fix and providing feedback. It's awesome and highly motivating to see so many people enjoy and engage with something I created.
 
-I want to especially thank these people:
+I want to especially thank the people and projects named in this document.
 
-## Translations 🌏
+## 🌏 Translations
 
-Thanks for bringing Mac Mouse Fix ppl **around the globe**!
+Thanks for bringing Mac Mouse Fix to people around the globe!
 
-- 🇨🇳 Chinese translation: [@groverlynn](https://github.com/groverlynn)
+- 🇨🇳 Chinese translations by [@groverlynn](https://github.com/groverlynn)
+- 🇰🇷 Korean translations by [@jeongtae](https://github.com/jeongtae)
 
-## Money 💰
+## 💰 Money
 
+<!-- Thanks so much to everyone who bought me a milkshake and to all {sales_count} people who bought Mac Mouse Fix! Ya'll are the bomb. Thanks to you I can spend lots of time on sth I love doing. -->
 
-### Very Generous Contributors 🚀
+Thanks so much to everyone who treated me to a milkshake and to all {sales_count} people who bought Mac Mouse Fix.
+Thanks to you, I can spend lots of time on something I love doing. <!-- You make me me feel like there are many generous people out there who appreciate the app and want to support it, and thanks to you, I can spend more time on something I love doing. -->
 
-These people bought me an **Incredible Milkshake**. Thanks for the _sugar rush_! 
+People who supported me by spending more than the standard price on Mac Mouse Fix are getting a special mention here:
 
-{very_generous}
+### ⭐️ Generous Contributors
 
-### Generous Contributors ⭐️
-
-These people **paid more** for Mac Mouse Fix than the base price. Thanks for your _support_!
+Thanks for your support! :)
 
 {generous}
 
-### Other
+### 🚀 Very Generous Contributors
 
-Thanks also to everyone else who bought me a milkshake and to all {sales_count} people who bought Mac Mouse Fix! Ya'll are the bomb. Thanks to you I can spend lots of time on sth I love doing.
+These people spent a lot more than the standard price and treated me to an **Incredible Milkshake**. (Some even left a message) Thanks for the _sugar rush_!
 
-## Other software 👾
+{very_generous}
+
+## 👾 Other Software
 
 __Apps__ that inspired Mac Mouse Fix:
 
@@ -64,14 +67,3 @@ Mac Mouse Fix was built with the help of these **great libraries**:
 - [SnapKit](https://github.com/SnapKit/SnapKit) - Making Auto Layout easy on both iOS and OS X
 - [MASShortcut](https://github.com/shpakovski/MASShortcut) - API and user interface for recording, storing and using system-wide keyboard shortcuts -> Using this to display keyboard keys in the UI.
 - [CGSInternal](https://github.com/NUIKit/CGSInternal) - A collection of private CoreGraphics routines -> used for all sorts of stuff Mac Mouse Fix does.
-
----
-
-# To build this
-
-- Dynamic readme: 
-  - https://github.com/marketplace/actions/dynamic-readme
-  - https://github.com/bitflight-devops/github-action-readme-generator
-  - https://github.com/marketplace/actions/generate-update-markdown-content
-  - https://github.com/marketplace/actions/github-readme-generator
-  - > F this I'll just write a simple pythin script that takes a template as format string and then generates this. Maybe run it periodically using github actions

@@ -44,7 +44,7 @@ python3 Markdown/Code/markdown_generator.py --document acknowledgements --api_ke
 
 If you don't have the api key:
 ```
-python3 Markdown/Code/markdown_generator.py --document acknowledgements --no_api -
+python3 Markdown/Code/markdown_generator.py --document acknowledgements --no_api
 ```
 
 To generate the **readme** document in different languages based on templates
@@ -124,3 +124,13 @@ See https://superuser.com/a/1517072/1095998
 - TCP (Transfer Control Protocol)
   - Ports seem to be pretty unnecessary. I think ports were originally made to allow for simultaneous connection sessions, but there can be several connection sessions on a single TCP port. Port numbers are conventionally used for specific higher level protocols (e.g. port 80 for HTTP). But I feel like everything would work fine if ports didn't exist.
 - UDP (user datagram protocol) is a protocol at around the same level of abstraction as TCP. UDP doesn't do all the correctness checks and is faster. Commonly used for videogames or VoIP.
+
+
+# Dynamic readmes
+
+- Dynamic readme: 
+  - https://github.com/marketplace/actions/dynamic-readme
+  - https://github.com/bitflight-devops/github-action-readme-generator
+  - https://github.com/marketplace/actions/generate-update-markdown-content
+  - https://github.com/marketplace/actions/github-readme-generator
+  - > F this I'll just write a simple pythin script that takes a template as format string and then generates this. Maybe run it periodically using github actions

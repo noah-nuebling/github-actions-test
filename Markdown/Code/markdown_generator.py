@@ -73,11 +73,11 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--document")
     parser.add_argument("--api_key")
-    parser.add_argument("--no_api")
+    parser.add_argument("--no_api", action='store_true')
     args = parser.parse_args()
     gumroad_api_key = args.api_key
     document_tag = args.document
-    no_api = args.no_api is not None
+    no_api = args.no_api
     
     # Validate
     document_tag_was_provided = isinstance(document_tag, str) and document_tag != ''

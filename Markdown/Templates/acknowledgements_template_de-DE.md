@@ -37,31 +37,23 @@ Diese Leute haben viel mehr als den Standardpreis ausgegeben und mir einen **ung
 
 {very_generous}
 
-## 👾 Andere Software
+## 👾 Software
 
-__Apps__ that inspired Mac Mouse Fix:
+Mac Mouse Fix wurde mithilfe dieser **hervorragenden Softwarebibliotheken** erstellt:
 
-- [SteerMouse](https://plentycom.jp/en/steermouse/index.html) - The OG mouse software for Mac. Inspiration for many features. I often thought "this is is probably not possible" but then I saw "oh SteerMouse does it" and then 3 years later I figured out how to do it, too.
-- [Calftrail Touch](https://github.com/calftrail/Touch) - Basis for "reverse engineering" work powering MMFs best-in-class and first-of-a-kind touch simulation!
-- [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons) - Basis for early implementation of Back and Forward feature. Made me find Calftrail Touch?
-- [SmoothMouse](https://smoothmouse.com/) - It's creator [Dae](https://dae.me/) answered some important questions for me about Pointer Speed 
-- [Gifski by sindresorhus](https://github.com/sindresorhus/Gifski) - Greatly inspired the Mac Mouse Fix README.md
-- MOS - Inertial Scrolling feel, App-Specific Settings Implementation and more were inspired by the MOS
+- [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift) - Ströme von Werten im Laufe der Zeit. Maßgeschneidert für Swift.
+- [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) - Schnelles und einfaches, aber leistungsstarkes und flexibles Logging-System.
+- [Swift Markdown](https://github.com/apple/swift-markdown) - Analysiere, erstelle, bearbeite und analysiere Markdown-Dokumente.
+- [BartyCrouch](https://github.com/FlineDev/BartyCrouch) - Hält Übersetzungsdateien mit Source Code und Interface Builder Dateien synchronisiert.
+- [Sparkle](https://github.com/sparkle-project/Sparkle) - Ein Software-Update-Framework für macOS.
+- [SnapKit](https://github.com/SnapKit/SnapKit) - Macht Auto Layout sowohl auf iOS als auch auf OS X einfach.
+- [MASShortcut](https://github.com/shpakovski/MASShortcut) - API und Benutzeroberfläche zum Aufzeichnen, Speichern und Verwenden systemweiter Tastenkürzel
+- [CGSInternal](https://github.com/NUIKit/CGSInternal) - Eine Sammlung privater CoreGraphics-Routinen
 
-__People__ that inspired Mac Mouse Fix:
+**Apps**, die Mac Mouse Fix inspiriert haben:
 
-- @DrJume for teaching me about debouncing and inspiring the UI for entering and displaying keyboard modifiers on the scroll tab
-- German guy for inspiring the tab-based layout in MMF 3
-- Guy who helped tune the fast scrolling in that pull request
-- So many others I can't think of right now. Thanks to everybody else who shared their thoughts!
-
-Mac Mouse Fix was built with the help of these **great libraries**:
-
-- [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift) - Streams of values over time. Tailored for Swift.
-- [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) - Fast & simple, yet powerful & flexible logging
-- [Swift Markdown](https://github.com/apple/swift-markdown) - Parse, build, edit, and analyze Markdown documents
-- [BartyCrouch](https://github.com/FlineDev/BartyCrouch) - Keep translation files in sync with Source Code and Interface Builder files
-- [Sparkle](https://github.com/sparkle-project/Sparkle) - A software update framework for macOS
-- [SnapKit](https://github.com/SnapKit/SnapKit) - Making Auto Layout easy on both iOS and OS X
-- [MASShortcut](https://github.com/shpakovski/MASShortcut) - API and user interface for recording, storing and using system-wide keyboard shortcuts -> Using this to display keyboard keys in the UI.
-- [CGSInternal](https://github.com/NUIKit/CGSInternal) - A collection of private CoreGraphics routines -> used for all sorts of stuff Mac Mouse Fix does.
+- [SteerMouse](https://plentycom.jp/en/steermouse/index.html) - Wegweisende Maus-Software für Mac, die viele Funktionen inspiriert hat. Es gab Momente, in denen ich dachte: "Das ist wahrscheinlich unmöglich", aber dann hab ich gesehen "oh, SteerMouse macht es", und drei Jahre später habe ich herausgefunden, wie ich es auch umsetzen kann.
+- [Calftrail Touch](https://github.com/calftrail/Touch) - Die Grundlage für die "Reverse Engineering"-Arbeit, die Mac Mouse Fix's erstklassige und einzigartige Trackpad-Simulation ermöglicht!
+- [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons) - Ich habe den Code für eine frühe Implementierung der Funktion "Gehe eine Seite vor/zurück in Safari und anderen Apps" von SensibleSideButtons kopiert und bin dadurch auch auf das Calftrail Touch-Projekt gestoßen.
+- [MOS](https://mos.caldis.me/) - Viele Funktionen von Mac Mouse Fix, wie die Option "Hohe Scroll-Flüssigkeit" und die Implementierung des "App-spezifische Einstellungen" features, wurden von MOS inspiriert.
+<!-- - [Gifski](https://github.com/sindresorhus/Gifski) - Hat das Readme.md von Mac Mouse Fix stark inspiriert und das Design und den Inhalt geprägt. -->

@@ -276,13 +276,13 @@ def insert_acknowledgements(template, language_dict, gumroad_api_key, no_api):
                 very_generous_string += '\n\n'
             first_iteration = False
             
-            very_generous_string += '__{}__\n'.format(babel.dates.format_datetime(datetime=date, format='LLLL yyyy', locale=language_tag.replace('-', '_'))) # See https://babel.pocoo.org/en/latest/dates.html and https://babel.pocoo.org/en/latest/api/dates.html#babel.dates.format_datetime. For some reason, babel wants _ instead of - in the language tags, not sure why.
+            very_generous_string += '**{}**\n'.format(babel.dates.format_datetime(datetime=date, format='LLLL yyyy', locale=language_tag.replace('-', '_'))) # See https://babel.pocoo.org/en/latest/dates.html and https://babel.pocoo.org/en/latest/api/dates.html#babel.dates.format_datetime. For some reason, babel wants _ instead of - in the language tags, not sure why.
         
         name = display_name(sale)
         message = user_message(sale)
         
         if len(message) > 0:
-            very_generous_string += '\n- ' + name + f' - *"{message}"*'
+            very_generous_string += '\n- ' + name + f' - "{message}"'
         else:
             very_generous_string += '\n- ' + name
     

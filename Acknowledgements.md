@@ -24,7 +24,7 @@ Thanks for bringing Mac Mouse Fix to people around the globe!
 
 <!-- Thanks so much to everyone who bought me a milkshake and to all 763 people who bought Mac Mouse Fix! Ya'll are the bomb. Thanks to you I can spend lots of time on sth I love doing. -->
 
-Thanks so much to everyone who treated me to a milkshake and to all 763 people who bought Mac Mouse Fix.
+Thanks so much to everyone who treated me to a milkshake and to all **763** people who bought Mac Mouse Fix.
 Thanks to you, I can spend lots of time on something I love doing. <!-- You make me me feel like there are many generous people out there who appreciate the app and want to support it, and thanks to you, I can spend more time on something I love doing. -->
 
 People who supported me by spending more than the standard price on Mac Mouse Fix are getting a special mention here:
@@ -39,56 +39,56 @@ Thanks for your support! :)
 
 These people spent a lot more than the standard price and treated me to an **Incredible Milkshake**. (Some even left a message) Thanks for the _sugar rush_!
 
-__August 2023__
+**August 2023**
 
-- 🇩🇪&nbsp;Noah&nbsp;Nuebling - *"I MIGHT be biased but I think the app is pretty cool :)"*
+- 🇩🇪&nbsp;Noah&nbsp;Nuebling - "I MIGHT be biased but I think the app is pretty cool :)"
 - 🇩🇪&nbsp;Gero
 
-__July 2023__
+**July 2023**
 
 - 🇫🇮&nbsp;Sami&nbsp;Syvertsen
 - 🇨🇦&nbsp;Koby&nbsp;Jaroni
 - 🇫🇷&nbsp;Bodysplash
 
-__June 2023__
+**June 2023**
 
 - 🇩🇪&nbsp;Factory&nbsp;Steals&nbsp;0N
 - 🇹🇷&nbsp;Daniil&nbsp;Petrov
 - 🇺🇸&nbsp;Joe
 
-__May 2023__
+**May 2023**
 
 - 🇨🇭&nbsp;S&nbsp;Vonallmen
 - 🇺🇸&nbsp;Develand
 - 🇦🇷&nbsp;Fgilio
 - 🇭🇰&nbsp;Johnlk0828
 
-__April 2023__
+**April 2023**
 
 - 🇺🇸&nbsp;Gavinbrown911
 - 🇺🇸&nbsp;Mjsagert
 - 🇮🇹&nbsp;Roccobot
 
-__March 2023__
+**March 2023**
 
 - 🇺🇸&nbsp;Rmateu
 
-__February 2023__
+**February 2023**
 
 - 🇩🇪&nbsp;Peter&nbsp;Gumball
 - 🇦🇺&nbsp;Ljstary
 
-__December 2022__
+**December 2022**
 
 - 🇦🇺&nbsp;S&nbsp;Edwards3214
 - 🇺🇸&nbsp;David
 
-__November 2022__
+**November 2022**
 
 - 🇺🇸&nbsp;Gcshaw
 - 🇺🇸&nbsp;Johnnydangerously
 
-__October 2022__
+**October 2022**
 
 - 🇦🇹&nbsp;Frame
 - 🇫🇷&nbsp;Damien&nbsp;Rajon
@@ -97,13 +97,21 @@ __October 2022__
 - 🇺🇸&nbsp;Migueldominguez
 - 🇳🇱&nbsp;Emrecebi03
 
-__September 2022__
+**September 2022**
 
 - 🇮🇱&nbsp;Rawad&nbsp;Aboud
 - 🇷🇴&nbsp;Marian&nbsp;Melinte
 - 🇬🇧&nbsp;Niania52
 
-## 👾 Software
+## 👾 Other Software
+
+
+**Apps** that inspired Mac Mouse Fix:
+
+- [SteerMouse](https://plentycom.jp/en/steermouse/index.html) - Pioneering mouse software for Mac, inspiring many features. There were moments when I thought "this is probably not possible", but then I saw "oh, SteerMouse does it", and three years later, I figured out how to implement it, too.
+- [Calftrail Touch](https://github.com/calftrail/Touch) - The foundation for the "reverse engineering" work which powers Mac Mouse Fix's best-in-class and first-of-a-kind trackpad simulation!
+- [MOS](https://mos.caldis.me/) - Mac Mouse Fix's "High Scroll-Smoothness" option, the "App-Specific Settings" implementation, and more were inspired by MOS.
+- [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons) - I copied its code for an early implementation of the "Go back/forward one page in Safari and other apps" feature, and also led me to discover the Calftrail Touch project.
 
 Mac Mouse Fix was built with the help of these **great libraries**:
 
@@ -116,19 +124,12 @@ Mac Mouse Fix was built with the help of these **great libraries**:
 - [MASShortcut](https://github.com/shpakovski/MASShortcut) - API and user interface for recording, storing & using system-wide keyboard shortcuts
 - [CGSInternal](https://github.com/NUIKit/CGSInternal) - A collection of private CoreGraphics routines
 
-**Apps** that inspired Mac Mouse Fix:
-
-- [SteerMouse](https://plentycom.jp/en/steermouse/index.html) - Pioneering mouse software for Mac, inspiring many features. There were moments when I thought "this is probably not possible", but then I saw "oh, SteerMouse does it", and three years later, I figured out how to implement it, too.
-- [Calftrail Touch](https://github.com/calftrail/Touch) - The foundation for the "reverse engineering" work which powers Mac Mouse Fix's best-in-class and first-of-a-kind trackpad simulation!
-- [MOS](https://mos.caldis.me/) - Mac Mouse Fix's "High Scroll-Smoothness" option, the "App-Specific Settings" implementation, and more were inspired by MOS.
-- [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons) - I copied its code for an early implementation of the "Go back/forward one page in Safari and other apps" feature, and also led me to discover the Calftrail Touch project.
-
 
 <!--
 
   vvv Unused stuff and notes vvv.
 
-  NOTE: The software section doesn't include the tech stack and inspirations of the Feedback Assistant or Website, or other GitHub content like update-feed and Readme.md. Maybe I should list those somewhere else or include them here at some point?
+  NOTE: The software section doesn't include the tech stack and inspirations of the Feedback Assistant or Website, or other GitHub content like update-feed and Readme.md. Maybe I should list those somewhere else or include them here at some point? But it's going to be so much on the tech stack side with all the python dependencies and the Vue stuff and CSS preprocessor for Feedback Assistant. Should I name pastebin too? And Gumroad API? On the inspiration side it's just Vue Isse Tracker, Gifski for the readme and maybe once we overhaul the website, some other websites. But Listing all the python dependencies for the automation scripts seems sooo tedious and kinda boring. Maybe if I condense them into one bullet point?
           Here's a bullet point for the inspiration section regarding the Readme: - [Gifski](https://github.com/sindresorhus/Gifski) - Greatly inspired the Mac Mouse Fix Readme.md, shaping its design and content.
   NOTE: Should I add my personal developments tools I used to the software section? - Xcode, VSCode, GitHub, iTerm2, fish shell, z clt, maybe more...
   NOTE: We're not including the "outstandingly helpful feedback" section. It's kinda weird and there is no concrete thing that they did which is now part of MMF. 

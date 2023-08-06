@@ -39,7 +39,7 @@ Diese Leute haben viel mehr als den Standardpreis ausgegeben und mir einen **ung
 
 ## 👾 Andere Software
 
-**Apps**, die Mac Mouse Fix inspiriert haben:
+**Sowftare**, die Mac Mouse Fix inspiriert hat:
 
 - [SteerMouse](https://plentycom.jp/en/steermouse/index.html) - Wegweisende Maus-Software für Mac, die viele Funktionen inspiriert hat. Es gab Momente, in denen ich dachte: "Das ist wahrscheinlich unmöglich", aber dann hab ich gesehen "oh, SteerMouse macht es", und drei Jahre später habe ich herausgefunden, wie ich es auch umsetzen kann.
 - [Calftrail Touch](https://github.com/calftrail/Touch) - Die Grundlage für die "Reverse Engineering"-Arbeit, die Mac Mouse Fix's erstklassige und einzigartige Trackpad-Simulation ermöglicht!

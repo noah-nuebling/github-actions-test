@@ -124,14 +124,17 @@ Mac Mouse Fix was built with the help of these **great libraries**:
 - [SnapKit](https://github.com/SnapKit/SnapKit) - Making Auto Layout easy on both iOS and macOS
 - [MASShortcut](https://github.com/shpakovski/MASShortcut) - API and user interface for recording, storing & using system-wide keyboard shortcuts
 - [CGSInternal](https://github.com/NUIKit/CGSInternal) - A collection of private CoreGraphics routines
+- Dependencies of Mac Mouse Fix's Python scripts: [Update and statistics scripts](https://github.com/noah-nuebling/mac-mouse-fix/blob/update-feed/requirements.txt) | [Markdown generator script](Markdown/Code/python_requirements.txt)
+- Dependencies of the [Mac Mouse Fix Feedback Assistant](https://noah-nuebling.github.io/mac-mouse-fix-feedback-assistant/) web app [here](https://github.com/noah-nuebling/mac-mouse-fix-feedback-assistant/blob/master/package.json)
+
 
 
 <!--
 
   vvv Unused stuff and notes vvv.
 
-  NOTE: ... on the tech stack side with all the **python dependencies** and the Vue stuff and CSS preprocessor for Feedback Assistant. Should I name pastebin too? And Gumroad API? 
-  NOTE: Maybe once we overhaul the website, add inspirations inspirations section.
+  TODO: Once we overhaul the website: add inspirations and libraries of the website here
+  NOTE: Should I name pastebin too? And Gumroad API? - ANSWER: No, APIs don't really fit here I think. No good reason why. Maybe just lazyness.
 
   NOTE: Should I add my personal developments tools I used to the software section? - Xcode, VSCode, GitHub, iTerm2, fish shell, z clt, maybe more...
   NOTE: We're not including the "outstandingly helpful feedback" section. It's kinda weird and there is no concrete thing that they did which is now part of MMF. 

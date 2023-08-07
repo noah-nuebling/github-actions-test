@@ -48,18 +48,21 @@ documents = {
         },
     ]
 }
-    
 
-# !! Amend these if you change the UI strings on Gumroad !!
-gumroad_user_name_labels = ["Your Name – Will be displayed in the Acknowledgements if you purchase the 2. or 3. Option"]
-gumroad_custom_message_labels = ["Your message (Will be displayed next to your name in the Acknowledgements if you purchase the 3. Option)", "Your message – Will be displayed next to your name in the Acknowledgements if you purchase the 3. Option"]
-gumroad_dont_display_labels = ["Don't publicly display me as a 'Generous Contributor' under 'Acknowledgements'"]
+# !! Amend custom_field_labels if you change the UI strings on Gumroad !!
+gumroad_custom_field_labels_name = ["Your Name – Will be displayed in the Acknowledgements if you purchase the 2. or 3. Option"]
+gumroad_custom_field_labels_message = ["Your message (Will be displayed next to your name in the Acknowledgements if you purchase the 3. Option)", "Your message – Will be displayed next to your name in the Acknowledgements if you purchase the 3. Option"]
+gumroad_custom_field_labels_dont_display = ["Don't publicly display me as a 'Generous Contributor' under 'Acknowledgements'"]
 
-gumroad_product_ids = ["FP8NisFw09uY8HWTvVMzvg==", "OBIdo8o1YTJm3lNvgpQJMQ=="] # 1st is is the € based product (Which we used in the earlier MMF 3 Betas, but which isn't used anymore), 2nd id is $ based product (mmfinappusd)
+gumroad_product_id_euro = "FP8NisFw09uY8HWTvVMzvg=="
+gumroad_product_id_dollar = "OBIdo8o1YTJm3lNvgpQJMQ=="
+gumroad_product_ids = [gumroad_product_id_euro, gumroad_product_id_dollar] # 1st is is the € based product (Which we used in the earlier MMF 3 Betas, but which isn't used anymore), 2nd id is $ based product (mmfinappusd)
+
 gumroad_api_base = "https://api.gumroad.com"
 gumroad_sales_api = "/v2/sales"
 gumroad_date_format = '%Y-%m-%dT%H:%M:%SZ' # T means nothing, Z means UTC+0 | The date strings that the gumroad sales api returns have this format
-name_blacklist = ['mail', 'paypal', 'banking', 'it-beratung', 'macmousefix'] # When gumroad doesn't provide a name we use part of the email as the display name. We use the part of the email before @, unless it contains one of these substrings, in which case we use the part of the email after @ but with the `.com`, `.de` etc. removed
+
+name_blacklist = ['mail', 'paypal', 'banking', 'beratung', 'macmousefix'] # TODO: Add Iam | When gumroad doesn't provide a name we use part of the email as the display name. We use the part of the email before @, unless it contains one of these substrings, in which case we use the part of the email after @ but with the `.com`, `.de` etc. removed
 nbsp = '&nbsp;'  # Non-breaking space. &nbsp; doesn't seem to work on GitHub. Tried '\xa0', too. See https://github.com/github/cmark-gfm/issues/346
 
 
@@ -360,7 +363,7 @@ def insert_root_paths(template, language_dict):
  
 def path_to_root(path):
     parent_count = len(pathlib.Path(path).parents)
-    root_path = ('../' * (parent_count-1))
+    root_path = '../' * (parent_count-1)
     return root_path
  
 def display_name(sale):
@@ -369,11 +372,9 @@ def display_name(sale):
     
     # Get user-provided name field
     #   We haven't tested this so far due to laziness
-    if sale['has_custom_fields']:
-        for label in gumroad_user_name_labels:
-            name = sale['custom_fields'].get(label, '')
-            if name != '':
-                break
+    
+    name = gumroad_custom_field_content(sale, gumroad_custom_field_labels_name)
+    if name == None: name = ''
     
     # Get full_name field
     if name == '':
@@ -407,7 +408,8 @@ def display_name(sale):
     for char in '._-–—+':
         name = name.replace(char, ' ')
 
-    # Capitalize
+    # Correct case
+    #   The full_name field is sometimes in all caps and the email based heuristic returns all lower-case
     name = name.title()
     
     # Prepend flag
@@ -423,7 +425,7 @@ def display_name(sale):
 def emoji_flag(sale):
     
     country_code = sale.get('country_iso2', '')
-    if country_code == '':
+    if country_code == '': # Does this ever happend?
         country_code = pycountry.countries.get(name=sale.get('country', '')).alpha_2
     
     if country_code == '':
@@ -437,15 +439,13 @@ def emoji_flag(sale):
 def is_generous(sale):
     
     sale_pid = sale['product_id']
-    euro_pid = gumroad_product_ids[0]
-    dollar_pid = gumroad_product_ids[1]
     
-    if sale_pid == euro_pid:
+    if sale_pid == gumroad_product_id_euro:
         if sale['variants_and_quantity'] == '(2. Option)': 
             return True
         if sale['formatted_display_price'] == '€5': # Commenting this out doesn't change the results. Not sure why we wrote this - maybe the "variants_and_quantity" value used to be different from (2. Option) for a period?
             return True
-    elif sale_pid == dollar_pid:
+    elif sale_pid == gumroad_product_id_dollar:
         if sale['variants_and_quantity'] == '(2. Option)':
             return True
     else:
@@ -456,15 +456,13 @@ def is_generous(sale):
 def is_very_generous(sale):
     
     sale_pid = sale['product_id']
-    euro_pid = gumroad_product_ids[0]
-    dollar_pid = gumroad_product_ids[1]
     
-    if sale_pid == euro_pid:
+    if sale_pid == gumroad_product_id_euro:
         if sale['variants_and_quantity'] == '(3. Option)':
             return True
         if sale['formatted_display_price'] == '€10': # Commenting this out doesn't change the results
             return True
-    elif sale_pid == dollar_pid:
+    elif sale_pid == gumroad_product_id_dollar:
         if sale['variants_and_quantity'] == '(3. Option)':
             return True
     else:
@@ -473,27 +471,37 @@ def is_very_generous(sale):
     return False
         
 def wants_display(sale):
-    if sale['has_custom_fields']:
-        for label in gumroad_dont_display_labels:
-            if sale['custom_fields'].get(label, False) == True:
-                print("{} payed {} and does not want to be displayed".format(display_name(sale), sale['formatted_display_price']))
-                return False
-    return True
+    
+    dont_display = gumroad_custom_field_content(sale, gumroad_custom_field_labels_dont_display)
+    if dont_display == None: dont_display = False
+    
+    result = not dont_display
+    
+    if result == False:
+        print("{} payed {} and does not want to be displayed".format(display_name(sale), sale['formatted_display_price']))
+    
+    return result
 
 def user_message(sale):
     
-    message = ''
-    if sale['has_custom_fields']:
-        
-        for label in gumroad_custom_message_labels:
-            message = sale['custom_fields'].get(label, '')
-            if len(message) > 0:
-                break
+    message = gumroad_custom_field_content(sale, gumroad_custom_field_labels_message)
+    if message == None: message = ''
 
     if len(message) > 0:
         print("{} payed {} and left message: {}".format(display_name(sale), sale['formatted_display_price'], message))
     
     return message
+
+def gumroad_custom_field_content(sale, custom_field_labels):
+    
+    content = None
+    if sale['has_custom_fields']:
+        for label in custom_field_labels:
+            content = sale['custom_fields'].get(label, None)
+            if content != None:
+                break
+
+    return content
 
 #
 # Call main

@@ -111,6 +111,8 @@ These people spent a lot more than the standard price and treated me to an **Inc
 - [Calftrail Touch](https://github.com/calftrail/Touch) - The foundation for the "reverse engineering" work which powers Mac Mouse Fix's best-in-class and first-of-a-kind trackpad simulation!
 - [MOS](https://mos.caldis.me/) - Mac Mouse Fix's "High Scroll-Smoothness" option, the "App-Specific Settings" implementation, and more were inspired by MOS.
 - [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons) - I copied its code for an early implementation of the "Go back/forward one page in Safari and other apps" feature, and also led me to discover the Calftrail Touch project.
+- [Gifski](https://github.com/sindresorhus/Gifski) - Greatly inspired the design and content of the [Readme.md](Readme.md) for Mac Mouse Fix.
+- [Vue Issue Helper](https://new-issue.vuejs.org/) - Foundation for the design and technical implementation of [Mac Mouse Fix Feedback Assistant](https://noah-nuebling.github.io/mac-mouse-fix-feedback-assistant/).
 
 Mac Mouse Fix was built with the help of these **great libraries**:
 
@@ -128,8 +130,9 @@ Mac Mouse Fix was built with the help of these **great libraries**:
 
   vvv Unused stuff and notes vvv.
 
-  NOTE: The software section doesn't include the tech stack and inspirations of the Feedback Assistant or Website, or other GitHub content like update-feed and Readme.md. Maybe I should list those somewhere else or include them here at some point? But it's going to be so much on the tech stack side with all the python dependencies and the Vue stuff and CSS preprocessor for Feedback Assistant. Should I name pastebin too? And Gumroad API? On the inspiration side it's just Vue Isse Tracker, Gifski for the readme and maybe once we overhaul the website, some other websites. But Listing all the python dependencies for the automation scripts seems sooo tedious and kinda boring. Maybe if I condense them into one bullet point?
-          Here's a bullet point for the inspiration section regarding the Readme: - [Gifski](https://github.com/sindresorhus/Gifski) - Greatly inspired the Mac Mouse Fix Readme.md, shaping its design and content.
+  NOTE: ... on the tech stack side with all the **python dependencies** and the Vue stuff and CSS preprocessor for Feedback Assistant. Should I name pastebin too? And Gumroad API? 
+  NOTE: Maybe once we overhaul the website, add inspirations inspirations section.
+
   NOTE: Should I add my personal developments tools I used to the software section? - Xcode, VSCode, GitHub, iTerm2, fish shell, z clt, maybe more...
   NOTE: We're not including the "outstandingly helpful feedback" section. It's kinda weird and there is no concrete thing that they did which is now part of MMF. 
         If ppl make pull requests with significant contributions, then we should mention them somewhere.

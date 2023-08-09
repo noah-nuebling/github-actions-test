@@ -35,7 +35,7 @@ Thanks for your support! :)
 
 ### 🚀 Very Generous Contributors
 
-These people spent a lot more than the standard price and treated me to an **Incredible Milkshake**. (Some even left a message) Thanks for the _sugar rush_!
+These people spent a lot more than the standard price and treated me to an **Incredible Milkshake**. (And some even left a message) Thanks for the _sugar rush_!
 
 {very_generous}
 

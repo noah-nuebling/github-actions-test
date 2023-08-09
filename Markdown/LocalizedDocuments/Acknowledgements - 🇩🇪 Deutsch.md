@@ -35,7 +35,7 @@ Danke für euren Beitrag! :)
 
 ### 🚀 Sehr Großzügige Unterstützer
 
-Diese Leute haben viel mehr als den Standardpreis ausgegeben und mir einen **unglaublichen Milchshake** spendiert. (Manche haben sogar eine Nachricht hinterlassen) Danke für den _Zucker-Kick_!
+Diese Leute haben viel mehr als den Standardpreis ausgegeben und mir einen **unglaublichen Milchshake** spendiert. (Und manche haben sogar eine Nachricht hinterlassen) Danke für den _Zucker-Kick_!
 
 **August 2023**
 

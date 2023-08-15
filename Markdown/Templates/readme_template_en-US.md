@@ -1,5 +1,35 @@
 <!-- This README is greatly inspired by / stolen from sindresorhus/Gifski and sindresorhus/caprine -->
 
+<!-- ||| Ideas / Unused / Comments ||| -->
+
+<!-- 
+
+Section ideas: 
+- 
+
+Steal from these READMEs:
+- https://github.com/exelban/stats
+- sindresorhus/Gifski
+- sindresorhus/caprine
+
+Centered screenshot:
+````
+<div align="center"><img src="Markdown/Media/MMF-Buttons-Screenshot.png" width="600" height="auto"></div>
+````
+
+Link section with pipe-symbols instead of html table:
+```
+<h3 align="center">
+<a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a> |
+<a href=https://github.com/noah-nuebling/mac-mouse-fix/releases>Releases</a> |
+<a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Help &  Feedback</a>
+</h3>
+```
+
+-->
+
+<!-- ||| Language picker ||| -->
+
 <details>
   <summary>󠁧󠁿{current_language}</summary>
 	
@@ -7,11 +37,14 @@
   [Help translate Mac Mouse Fix to different languages!](https://google.com)
 </details>
 
+<!-- ||| Head Section ||| -->
+
 <table align="center">
 	<tr>
 	    <td align="center">You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></td>
 	</tr>
 </table>
+
 <br>
 
 <div align="center">
@@ -36,8 +69,10 @@
 </div>
 
 <br>
-<!--Use this second br when theres text above the first header -->
+<!--Use this second br when theres text above the first header (Edit: I think by "first header" I meant the h1 saying "Mac Mouse Fix", but not sure) -->
 <br>
+
+<!-- ||| Intro Text ||| -->
 
 Make Mouse Fix is the most powerful, streamlined, optimized ...
 
@@ -64,24 +99,6 @@ My goal is to make Mac Mouse Fix the best mouse driver of all time. Currently it
 - How you can help
 - License
 - Acknowledgements
-
-
-<!-- <div align="center"><img src="{repo_root}Markdown/Media/MMF-Buttons-Screenshot.png" width="600" height="auto"></div> -->
-
-<!-- <h3 align="center">
-<a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a> |
-<a href=https://github.com/noah-nuebling/mac-mouse-fix/releases>Releases</a> |
-<a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Help &  Feedback</a>
-</h3> -->
-
-
-<!-- This is a macOS app for the [`gifski` encoder](https://gif.ski), which converts videos to GIF animations using [`pngquant`](https://pngquant.org)'s fancy features for efficient cross-frame palettes and temporal dithering. It produces animated GIFs that use thousands of colors per frame and up to 50 FPS (useful for showing off design work on Dribbble).
-
-You can also produce smaller lower quality GIFs when needed with the “Quality” slider, thanks to [`gifsicle`](https://github.com/kohler/gifsicle).
-
-Gifski supports all the video formats that macOS supports (`.mp4` or `.mov` with H264, HEVC, ProRes, etc). The [QuickTime Animation format](https://en.wikipedia.org/wiki/QuickTime_Animation) is not supported. Use [ProRes 4444 XQ](https://en.wikipedia.org/wiki/Apple_ProRes) instead. It's more efficient, more widely supported, and like QuickTime Animation, it also supports alpha channel.
-
-Gifski has a bunch of settings like changing dimensions, speed, frame rate, quality, looping, and more. -->
 
 ## Features
 
@@ -322,12 +339,3 @@ More info in the [LICENSE](https://github.com/noah-nuebling/mac-mouse-fix/blob/m
 ## Acknowledgements
 
 Mac Mouse Fix wouldn't be the same without these [awesome contributions]({repo_root}Acknowledgements.md)
-
----
-
-
-# Steal from these READMEs
-
-- https://github.com/exelban/stats
-- sindresorhus/Gifski
-- sindresorhus/caprine

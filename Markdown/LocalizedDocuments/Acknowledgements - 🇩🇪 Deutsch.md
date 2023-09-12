@@ -22,7 +22,7 @@ Danke, dass ihr Mac Mouse Fix zu Menschen auf der ganzen Welt gebracht habt.
 
 ## 💰 Geld
 
-Vielen Dank an alle, die mir einen Milchshake spendiert haben, und an alle **878** Personen, die Mac Mouse Fix gekauft haben.
+Vielen Dank an alle, die mir einen Milchshake spendiert haben, und an alle **879** Personen, die Mac Mouse Fix gekauft haben.
 Dank euch kann ich viel Zeit mit etwas verbringen, das ich sehr gerne mache. <!-- Ihr lasst mich spüren, dass es viele Menschen da draußen gibt, die die App schätzen und unterstützen möchten, und dank euch kann ich mehr Zeit in etwas investieren, das ich sehr gerne mache. -->
 
 Menschen, die mich durch den Kauf von Mac Mouse Fix zu einem höheren Preis als dem Standardpreis unterstützt haben, erhalten hier eine besondere Erwähnung:
@@ -39,6 +39,7 @@ Diese Leute haben viel mehr als den Standardpreis ausgegeben und mir einen **ung
 
 **September 2023**
 
+- 🇺🇸&nbsp;Tj - "Thank you for this simple all-in-one app. It's just what I needed."
 - 🇫🇷&nbsp;Patrick&nbsp;L - "Completely changed my mouse experience, thanks ! + = +"
 - 🇺🇸&nbsp;Brandon&nbsp;Sneed - "Thanks for the mouse fixing! "
 - 🇫🇷&nbsp;Sodel&nbsp;Sas - "ZI Nicouleau"

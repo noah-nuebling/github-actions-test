@@ -484,12 +484,18 @@ def wants_display(sale):
 
 def user_message(sale):
     
+    # Get raw message from sale data
     message = gumroad_custom_field_content(sale, gumroad_custom_field_labels_message)
     if message == None: message = ''
 
+    # Remove leading / trailing whitespace
+    message = message.strip()
+    
+    # Debug
     if len(message) > 0:
         print("{} payed {} and left message: {}".format(display_name(sale), sale['formatted_display_price'], message))
     
+    # Return
     return message
 
 def gumroad_custom_field_content(sale, custom_field_labels):

@@ -22,9 +22,9 @@ Thanks for bringing Mac Mouse Fix to people around the globe!
 
 ## 💰 Money
 
-<!-- Thanks so much to everyone who bought me a milkshake and to all 901 people who bought Mac Mouse Fix! Ya'll are the bomb. Thanks to you I can spend lots of time on sth I love doing. -->
+<!-- Thanks so much to everyone who bought me a milkshake and to all 902 people who bought Mac Mouse Fix! Ya'll are the bomb. Thanks to you I can spend lots of time on sth I love doing. -->
 
-Thanks so much to everyone who treated me to a milkshake and to all **901** people who bought Mac Mouse Fix.
+Thanks so much to everyone who treated me to a milkshake and to all **902** people who bought Mac Mouse Fix.
 Thanks to you, I can spend lots of time doing something I love. <!-- You make me me feel like there are many generous people out there who appreciate the app and want to support it, and thanks to you, I can spend more time on something I love doing. -->
 
 People who supported me by spending more than the standard price on Mac Mouse Fix receive a special mention here:
@@ -41,6 +41,7 @@ These people spent a lot more than the standard price and treated me to an **Inc
 
 **September 2023**
 
+- 🇺🇸&nbsp;Chris&nbsp;Thomas - "I absolutely love the app. Simple and straightforward compared to the competition. 10/10"
 - 🇻🇳&nbsp;Nguyen&nbsp;Tran&nbsp;Duy&nbsp;Cuong
 - 🇺🇸&nbsp;Tj - "Thank you for this simple all-in-one app. It's just what I needed."
 - 🇫🇷&nbsp;Patrick&nbsp;L - "Completely changed my mouse experience, thanks ! + = +"

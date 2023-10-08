@@ -30,9 +30,9 @@ pip freeze > MarkdownStuff/python_requirements.txt
 You can create a new venv and install the python_requirements.txt file like this:
 
 ``````
-python3 -m venv env
-source env/bin/activate.fish
-python3 -m pip install -r Markdown/Code/python_requirements.txt
+python3 -m venv env;\
+source env/bin/activate.fish;\
+python3 -m pip install -r Markdown/Code/python_requirements.txt;
 ``````
 
 # Using markdown_generator.py

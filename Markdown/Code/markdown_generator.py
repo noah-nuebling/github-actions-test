@@ -250,7 +250,7 @@ def insert_acknowledgements(template, language_dict, gumroad_api_key, no_api):
     for sale in generous_sales:
         
         if not first_iteration:
-            generous_string += nbsp + '| '
+            generous_string += nbsp + ' ' # nbsp + '| '
         first_iteration = False
         
         generous_string += display_name(sale)

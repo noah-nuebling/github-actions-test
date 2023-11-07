@@ -41,11 +41,9 @@ Link section with pipe-symbols instead of html table:
 
 <!-- ||| Head Section ||| -->
 
-<table align="center">
-	<tr>
-	    <td align="center">You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a></td>
-	</tr>
-</table>
+<table align="center"><td>
+You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/releases/">Mac Mouse Fix 3 Beta!</a>
+</td></table>
 
 <br>
 
@@ -62,17 +60,35 @@ Link section with pipe-symbols instead of html table:
 
 <div align="center">
 	<table>
-        <th><a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a></th>
-        <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/releases>Releases</a></td>
-        <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Help</a></td>
-        <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Feedback</a></td>
-    </table>
+	    <th><a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a></th>
+		<td><a href=https://github.com/noah-nuebling/mac-mouse-fix/releases>Releases</a></td>
+		<td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Help</a></td>
+		<td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Feedback</a></td>
+<!-- 		<td><a href=https://github.com/noah-nuebling/mac-mouse-fix/abcdefg>Acknowledgements</a></td> -->
+	</table>
 	<img src="https://img.shields.io/github/downloads/noah-nuebling/mac-mouse-fix/total.svg">
 </div>
 
 <br>
 <!--Use this second br when theres text above the first header (Edit: I think by "first header" I meant the h1 saying "Mac Mouse Fix", but not sure) -->
 <br>
+
+<!-- Learn more links -->
+
+<br><br><br><br><hr>
+
+<div align="center">
+<!-- <table align="center"><td> -->
+Learn More about Mac Mouse Fix on the <a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Website</a> and in the <a href=https://noah-nuebling.github.io/mac-mouse-fix-website>More Info</a> document.
+<!-- </td></table> -->
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!-- <table>
+	<td><a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Website (Feature Overview)</a></td>
+	<td><a href=https://github.com/noah-nuebling/mac-mouse-fix/releases>More Info</a></td>
+</table></div> -->
 
 <!-- ||| Intro Text ||| -->
 

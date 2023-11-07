@@ -61,9 +61,12 @@ Link section with pipe-symbols instead of html table:
 <div align="center">
 	<table>
         <th><a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Download</a></th>
+	<td><a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Feature Overview</a></td>
+	<td><a href=https://github.com/noah-nuebling/mac-mouse-fix/releases>More Info</a></td>
         <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/releases>Releases</a></td>
         <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Help</a></td>
         <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Feedback</a></td>
+	<td><a href=https://github.com/noah-nuebling/mac-mouse-fix/abcdefg>Acknowledgements</a></td>
     </table>
 	<img src="https://img.shields.io/github/downloads/noah-nuebling/mac-mouse-fix/total.svg">
 </div>

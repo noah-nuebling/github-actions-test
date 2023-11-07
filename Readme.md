@@ -78,9 +78,10 @@ You can now test the <a href="https://github.com/noah-nuebling/mac-mouse-fix/rel
 <br><br><br><br><hr>
 
 <div align="center">
-<!-- <table align="center"><td> -->
-Learn More about Mac Mouse Fix on the <a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Website</a> and in the <a href=https://noah-nuebling.github.io/mac-mouse-fix-website>More Info</a> document.
-<!-- </td></table> -->
+
+<!-- Learn More about Mac Mouse Fix on the <a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Website</a> and in the <a href=https://noah-nuebling.github.io/mac-mouse-fix-website>More Info</a> document. -->
+
+For an Introduction and Feature Overview of Mac Mouse Fix (including Video Demos) visit the <a href=https://noah-nuebling.github.io/mac-mouse-fix-website>Website</a>.
 </div>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br>

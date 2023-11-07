@@ -66,10 +66,13 @@ Link section with pipe-symbols instead of html table:
 		<td><a href=https://github.com/noah-nuebling/mac-mouse-fix/releases>More Info</a></td>
 		</tr>
 		<tr>
-	        <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/releases>Releases</a></td>
-	        <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Help</a></td>
+		</tr>
+		<!-- Empty row so bg is white in next row -->
+		<tr>
+		<td><a href=https://github.com/noah-nuebling/mac-mouse-fix/releases>Releases</a></td>
+		<td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Help</a></td>
 	        <td><a href=https://github.com/noah-nuebling/mac-mouse-fix/discussions>Feedback</a></td>
-		<td><a href=https://github.com/noah-nuebling/mac-mouse-fix/abcdefg>Acknowledgements</a></td>
+<!-- 		<td><a href=https://github.com/noah-nuebling/mac-mouse-fix/abcdefg>Acknowledgements</a></td> -->
 		</tr>
 	</table>
 	<img src="https://img.shields.io/github/downloads/noah-nuebling/mac-mouse-fix/total.svg">

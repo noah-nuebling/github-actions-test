@@ -1,3 +1,6 @@
+*This stuff has now moved to the main `mac-mouse-fix` repo.*
+
+
 # MetaReadme
 
 This repo github-actions-test is a playground for changes we want to make to the mac-mouse-fix repo for the MMF 3 release. Specifically, it deals with user changing updates. Currently it contains a new Readme.md file and a new Acknowledgements.md file as well as a template plus python script to generate Acknowledgements.md. 
